@@ -68,6 +68,14 @@ rss_feeds:
   - name: "The Verge – Entertainment"
     url: "https://www.theverge.com/rss/entertainment/index.xml"
 
+  # ── Fashion ──────────────────────────────
+  - name: "Vogue"
+    url: "https://www.vogue.com/feed/rss"
+  - name: "Business of Fashion"
+    url: "https://www.businessoffashion.com/feed/"
+  - name: "Hypebeast"
+    url: "https://hypebeast.com/feed"
+
   # ── Sports ─────────────────────────────────
   - name: "BBC Sport"
     url: "https://feeds.bbci.co.uk/sport/rss.xml"

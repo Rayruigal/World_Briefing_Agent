@@ -375,20 +375,8 @@
     let currentDate = null;
     let searchTimeout = null;
 
-    // ── Group definitions ─────────────────────────
+    // ── Group definitions (display order) ──────────
     const GROUPS = [
-      {
-        name: "World & Politics",
-        icon: "🌍",
-        color: "#6c8dfa",
-        categories: ["Geopolitics & Diplomacy", "Armed Conflict & Security", "Society & Human Rights"],
-      },
-      {
-        name: "Economy",
-        icon: "📈",
-        color: "#5ec98f",
-        categories: ["Economy & Markets"],
-      },
       {
         name: "Science & Innovation",
         icon: "🔬",
@@ -402,16 +390,28 @@
         categories: ["Health & Pandemic", "Longevity & Anti-Aging"],
       },
       {
+        name: "Culture & Entertainment",
+        icon: "🎭",
+        color: "#f472b6",
+        categories: ["Art & Culture", "Entertainment", "Sports"],
+      },
+      {
         name: "Environment & Planet",
         icon: "🌱",
         color: "#34d399",
         categories: ["Climate & Environment"],
       },
       {
-        name: "Culture & Entertainment",
-        icon: "🎭",
-        color: "#f472b6",
-        categories: ["Art & Culture", "Entertainment", "Sports"],
+        name: "Economy",
+        icon: "📈",
+        color: "#5ec98f",
+        categories: ["Economy & Markets"],
+      },
+      {
+        name: "World & Politics",
+        icon: "🌍",
+        color: "#6c8dfa",
+        categories: ["Geopolitics & Diplomacy", "Armed Conflict & Security", "Society & Human Rights"],
       },
     ];
 
