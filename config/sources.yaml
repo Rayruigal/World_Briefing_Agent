@@ -2,19 +2,25 @@
 # world_brief – source configuration
 # ─────────────────────────────────────────────
 # Add / remove feeds freely; the pipeline is resilient to individual failures.
+# max_items_per_source (optional): cap per feed to prevent any single source
+# from dominating the briefing.  Default: 10.
+
+max_items_per_source: 10
 
 rss_feeds:
   # ── General / World News ────────────────────
   - name: "Reuters – World"
-    url: "https://www.reutersagency.com/feed/?taxonomy=best-sectors&post_type=best"
+    url: "https://feeds.reuters.com/reuters/worldNews"
   - name: "BBC – World"
     url: "https://feeds.bbci.co.uk/news/world/rss.xml"
   - name: "Al Jazeera – News"
     url: "https://www.aljazeera.com/xml/rss/all.xml"
   - name: "AP News – Top Stories"
-    url: "https://rsshub.app/apnews/topics/apf-topnews"
+    url: "https://feedx.net/rss/ap.xml"
   - name: "NPR – World"
     url: "https://feeds.npr.org/1004/rss.xml"
+  - name: "The Guardian – World"
+    url: "https://www.theguardian.com/world/rss"
 
   # ── AI & Technology ─────────────────────────
   - name: "MIT Technology Review"
@@ -25,6 +31,12 @@ rss_feeds:
     url: "https://www.theverge.com/rss/tech/index.xml"
   - name: "Ars Technica"
     url: "https://feeds.arstechnica.com/arstechnica/index"
+  - name: "TechCrunch – AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+  - name: "VentureBeat – AI"
+    url: "https://venturebeat.com/category/ai/feed/"
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
 
   # ── Science & Environment ───────────────────
   - name: "Nature News"
@@ -33,16 +45,34 @@ rss_feeds:
     url: "https://www.newscientist.com/feed/home/"
   - name: "The Verge – Science"
     url: "https://www.theverge.com/rss/science/index.xml"
+  - name: "NASA – Breaking News"
+    url: "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+
+  # ── Climate & Environment ───────────────────
+  - name: "Carbon Brief"
+    url: "https://www.carbonbrief.org/feed/"
+  - name: "The Guardian – Environment"
+    url: "https://www.theguardian.com/environment/rss"
+  - name: "Climate Home News"
+    url: "https://www.climatechangenews.com/feed/"
 
   # ── Sports ─────────────────────────────────
   - name: "BBC Sport"
     url: "https://feeds.bbci.co.uk/sport/rss.xml"
+  - name: "ESPN – Top Headlines"
+    url: "https://www.espn.com/espn/rss/news"
 
   # ── Longevity & Anti-Aging ──────────────────
   - name: "Fight Aging!"
     url: "https://www.fightaging.org/feed/"
   - name: "Lifespan.io"
     url: "https://www.lifespan.io/feed/"
+
+  # ── Economy & Markets ───────────────────────
+  - name: "Financial Times – World"
+    url: "https://www.ft.com/rss/home"
+  - name: "Bloomberg – Markets"
+    url: "https://feeds.bloomberg.com/markets/news.rss"
 
 youtube_channels:
   # Channel IDs (not handles). Find via https://www.youtube.com/account_advanced

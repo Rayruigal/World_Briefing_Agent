@@ -98,8 +98,13 @@ def ingest_feed(
 def ingest_all_feeds(
     feeds: list[dict[str, str]],
     since: datetime | None = None,
+    max_per_source: int = 10,
 ) -> list[NormalizedItem]:
-    """Ingest all configured RSS feeds.  *feeds* is a list of {name, url} dicts."""
+    """Ingest all configured RSS feeds.  *feeds* is a list of {name, url} dicts.
+
+    *max_per_source* caps items per feed so no single source dominates.
+    Items are sorted by publication date (newest first) before capping.
+    """
     if since is None:
         since = datetime.now(timezone.utc) - timedelta(hours=24)
 
@@ -109,6 +114,14 @@ def ingest_all_feeds(
         url = feed_cfg["url"]
         try:
             items = ingest_feed(url, name, since)
+            if len(items) > max_per_source:
+                # Keep the newest items
+                items.sort(key=lambda i: i.published_at, reverse=True)
+                log.info(
+                    "Capping %s from %d → %d items",
+                    name, len(items), max_per_source,
+                )
+                items = items[:max_per_source]
             all_items.extend(items)
         except Exception:
             log.exception("Unhandled error for feed %s – skipping", name)

@@ -63,11 +63,22 @@ def load_sources() -> dict:
         return yaml.safe_load(f)
 
 
-def load_categories() -> list[str]:
+def load_category_config() -> dict:
+    """Load the full hierarchical category config (taxonomy + disambiguation)."""
     path = CONFIG_DIR / "categories.yaml"
     with open(path, encoding="utf-8") as f:
-        data = yaml.safe_load(f)
-    return data.get("categories", [])
+        return yaml.safe_load(f)
+
+
+def load_categories() -> list[str]:
+    """Return a flat list of leaf category names (for validation / grouping)."""
+    data = load_category_config()
+    taxonomy = data.get("taxonomy", {})
+    cats: list[str] = []
+    for group_items in taxonomy.values():
+        for entry in group_items:
+            cats.append(entry["name"])
+    return cats
 
 
 # ── Output persistence ────────────────────────────────────────────────
@@ -175,6 +186,7 @@ def run_pipeline() -> None:
 
     # 1) Load config
     sources = load_sources()
+    cat_config = load_category_config()
     categories = load_categories()
     log.info(
         "Config loaded: %d RSS feeds, %d YouTube channels, %d categories",
@@ -192,7 +204,10 @@ def run_pipeline() -> None:
     init_db()
 
     # 4) Ingest
-    rss_items = ingest_all_feeds(sources.get("rss_feeds", []), since=since)
+    max_per_source = sources.get("max_items_per_source", 10)
+    rss_items = ingest_all_feeds(
+        sources.get("rss_feeds", []), since=since, max_per_source=max_per_source,
+    )
     yt_items = ingest_all_channels(sources.get("youtube_channels", []), since=since)
     all_items = rss_items + yt_items
     log.info("Ingested %d total items (RSS=%d, YouTube=%d)", len(all_items), len(rss_items), len(yt_items))
@@ -213,7 +228,7 @@ def run_pipeline() -> None:
     save_items(unique_items, run_date)
 
     # 7) Classify
-    classified = classify_items(unique_items, categories)
+    classified = classify_items(unique_items, categories, cat_config)
 
     # 8) Update DB with classifications
     from storage.db import update_classification

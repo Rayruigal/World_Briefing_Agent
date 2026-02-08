@@ -1,18 +1,111 @@
 # ─────────────────────────────────────────────
-# world_brief – allowed categories
+# world_brief – hierarchical category taxonomy
 # ─────────────────────────────────────────────
-# The classifier MUST assign every item to exactly one of these.
+# The classifier MUST assign every item to exactly one LEAF category.
+# Groups are organisational only – they are NOT valid category values.
 
-categories:
-  - "Geopolitics & Diplomacy"
-  - "Armed Conflict & Security"
-  - "Economy & Markets"
-  - "Artificial Intelligence"
-  - "Science & Technology"
-  - "Sports"
-  - "Longevity & Anti-Aging"
-  - "Climate & Environment"
-  - "Health & Pandemic"
-  - "Society & Human Rights"
-  - "Art & Culture"
-  - "Other"
+taxonomy:
+
+  # ═══ 1. World & Politics ═══════════════════════
+  "World & Politics":
+    - name: "Geopolitics & Diplomacy"
+      scope: >-
+        Foreign policy, treaties, sanctions, summits, elections,
+        diplomatic negotiations, international organisations (UN, EU, ASEAN…)
+    - name: "Armed Conflict & Security"
+      scope: >-
+        Active warfare, military deployments, terrorist attacks,
+        defence policy, arms deals, cyber-warfare, peacekeeping operations
+
+  # ═══ 2. Economy ════════════════════════════════
+  "Economy":
+    - name: "Economy & Markets"
+      scope: >-
+        Finance, trade, GDP, inflation, central banks, stock markets,
+        corporate earnings, labour markets, crypto-currencies
+
+  # ═══ 3. Science & Innovation ═══════════════════
+  "Science & Innovation":
+    - name: "Artificial Intelligence"
+      scope: >-
+        AI research, large language models, machine learning breakthroughs,
+        AI companies & products, AI regulation & policy
+    - name: "Science & Technology"
+      scope: >-
+        Non-AI science & engineering — space, physics, quantum computing,
+        robotics, biotech, materials science, semiconductors
+    - name: "Longevity & Anti-Aging"
+      scope: >-
+        Aging biology, lifespan / health-span extension, senolytics,
+        biogerontology, age-reversal research, caloric-restriction studies
+
+  # ═══ 4. Planet & Health ════════════════════════
+  "Planet & Health":
+    - name: "Climate & Environment"
+      scope: >-
+        Climate change, renewable energy, biodiversity loss, pollution,
+        natural disasters, conservation, environmental policy
+    - name: "Health & Pandemic"
+      scope: >-
+        Disease outbreaks, public-health policy, pharmaceuticals,
+        healthcare systems, epidemiology (excluding aging-focused research)
+
+  # ═══ 5. Society & Culture ═════════════════════
+  "Society & Culture":
+    - name: "Society & Human Rights"
+      scope: >-
+        Social movements, civil rights, immigration, inequality,
+        protests, education policy, demographics
+    - name: "Art & Culture"
+      scope: >-
+        Fine arts, music, film, literature, cultural events,
+        entertainment industry, heritage & museums
+    - name: "Sports"
+      scope: >-
+        Athletic competitions, leagues, Olympics, player transfers,
+        major sporting events & results
+
+  # ═══ 6. Uncategorised ═════════════════════════
+  "Uncategorised":
+    - name: "Other"
+      scope: >-
+        Items that do not clearly fit any of the above categories
+
+# ─────────────────────────────────────────────
+# Disambiguation rules  (tie-breakers for the LLM)
+# ─────────────────────────────────────────────
+disambiguation:
+  - >-
+    Geopolitics vs Armed Conflict —
+    Active fighting, military operations, terrorist attacks, or defence procurement
+    → Armed Conflict & Security.
+    Negotiations, sanctions, treaties, diplomatic talks, or elections
+    → Geopolitics & Diplomacy.
+  - >-
+    AI vs Science & Technology —
+    If the PRIMARY subject IS artificial intelligence, LLMs, or ML research
+    → Artificial Intelligence.
+    If AI is merely a TOOL used in another field (e.g. "AI discovers new material")
+    → Science & Technology.
+  - >-
+    Longevity vs Health —
+    If the story specifically targets aging biology, lifespan extension,
+    or age-reversal → Longevity & Anti-Aging.
+    General disease treatments, outbreaks, or healthcare policy
+    → Health & Pandemic.
+  - >-
+    Climate vs Economy —
+    If the ecological / environmental impact is the focus → Climate & Environment.
+    If the financial / market impact is the focus (e.g. oil prices, carbon credits)
+    → Economy & Markets.
+  - >-
+    Society vs Geopolitics —
+    Domestic social issues, civil-rights movements, or grassroots protests
+    → Society & Human Rights.
+    International policy on human rights, sanctions for abuses
+    → Geopolitics & Diplomacy.
+  - >-
+    Sports vs Society —
+    Sporting events, results, and athlete performance → Sports.
+    Social or political issues arising from sports (e.g. discrimination scandals)
+    → Society & Human Rights.

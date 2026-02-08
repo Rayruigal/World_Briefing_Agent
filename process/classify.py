@@ -29,6 +29,33 @@ def _load_prompt() -> str:
     return _PROMPT_TEMPLATE
 
 
+# ── Format helpers ───────────────────────────────────────────────────
+
+def _format_taxonomy(cat_config: dict) -> str:
+    """Render the hierarchical taxonomy into a readable text block for the LLM."""
+    taxonomy = cat_config.get("taxonomy", {})
+    lines: list[str] = []
+    for group_name, entries in taxonomy.items():
+        lines.append(f"  [{group_name}]")
+        for entry in entries:
+            lines.append(f"    - {entry['name']}")
+            if entry.get("scope"):
+                lines.append(f"      Scope: {entry['scope']}")
+        lines.append("")  # blank line between groups
+    return "\n".join(lines)
+
+
+def _format_disambiguation(cat_config: dict) -> str:
+    """Render disambiguation rules into a readable text block for the LLM."""
+    rules = cat_config.get("disambiguation", [])
+    if not rules:
+        return ""
+    lines: list[str] = []
+    for i, rule in enumerate(rules, 1):
+        lines.append(f"  {i}. {rule}")
+    return "\n".join(lines)
+
+
 # ── JSON parsing with repair ────────────────────────────────────────
 def _extract_json(text: str) -> dict:
     """Extract the first JSON object from *text*, tolerating markdown fences."""
@@ -51,19 +78,33 @@ _MAX_RETRIES = 3
 def classify_item(
     item: NormalizedItem,
     categories: list[str],
+    cat_config: dict | None = None,
 ) -> dict[str, Any]:
     """Classify a single item.  Returns {"category", "confidence", "tags"}.
 
     Retries up to _MAX_RETRIES times on JSON-parse failures.
     Falls back to {"category": "Other", "confidence": 0.0, "tags": []} on total failure.
     """
-    prompt = _load_prompt().format(
-        categories="\n".join(f"- {c}" for c in categories),
-        title=item.title,
-        text=item.text[:1500],  # cap context size
-        source_name=item.source_name,
-        url=item.url,
-    )
+    # Build the prompt – use hierarchy if config available, else flat list
+    if cat_config:
+        prompt = _load_prompt().format(
+            category_hierarchy=_format_taxonomy(cat_config),
+            disambiguation=_format_disambiguation(cat_config),
+            title=item.title,
+            text=item.text[:1500],  # cap context size
+            source_name=item.source_name,
+            url=item.url,
+        )
+    else:
+        # Legacy fallback – flat list
+        prompt = _load_prompt().format(
+            category_hierarchy="\n".join(f"  - {c}" for c in categories),
+            disambiguation="(none)",
+            title=item.title,
+            text=item.text[:1500],
+            source_name=item.source_name,
+            url=item.url,
+        )
 
     client = get_client()
     model = get_model(task="classify")
@@ -106,12 +147,13 @@ def classify_item(
 def classify_items(
     items: Sequence[NormalizedItem],
     categories: list[str],
+    cat_config: dict | None = None,
 ) -> list[NormalizedItem]:
     """Classify every item in-place and return the list."""
     total = len(items)
     for idx, item in enumerate(items, 1):
         log.info("Classifying [%d/%d]: %s", idx, total, item.title[:80])
-        result = classify_item(item, categories)
+        result = classify_item(item, categories, cat_config)
         item.category = result["category"]
         item.confidence = result["confidence"]
         item.tags = result["tags"]

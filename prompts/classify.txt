@@ -1,12 +1,19 @@
-You are a news classifier. You will receive a news item and a list of allowed categories.
+You are a news classifier. You will receive a news item and must assign it to exactly ONE category from the taxonomy below.
 
-Your task:
-1. Assign the item to exactly ONE category from the allowed list.
-2. Provide a confidence score between 0.0 and 1.0.
-3. Provide 1-4 short tags (lowercase, no spaces – use hyphens).
+═══ CATEGORY TAXONOMY ═══
+Categories are organised into groups. You MUST choose one of the leaf categories (indented with "- "), NOT the group names in brackets.
 
-Allowed categories:
-{categories}
+{category_hierarchy}
+═══ DISAMBIGUATION RULES ═══
+When an item could fit multiple categories, apply these tie-breakers:
+
+{disambiguation}
+
+═══ YOUR TASK ═══
+1. Read the news item below.
+2. First determine which GROUP it falls into, then pick the single best LEAF category.
+3. Assign a confidence score between 0.0 and 1.0.
+4. Provide 1-4 short tags (lowercase, hyphens instead of spaces).
 
 News item:
 Title: {title}
@@ -15,4 +22,4 @@ Source: {source_name}
 URL: {url}
 
 Respond with ONLY valid JSON (no markdown, no commentary):
-{{"category": "<one of the allowed categories>", "confidence": <float 0-1>, "tags": ["tag1", "tag2"]}}
+{{"category": "<one of the leaf categories>", "confidence": <float 0-1>, "tags": ["tag1", "tag2"]}}
