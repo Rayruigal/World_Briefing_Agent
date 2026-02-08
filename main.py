@@ -107,6 +107,60 @@ def _save_briefing(run_date: str, brief_text: str, items: list) -> None:
     log.info("Briefing saved to %s (.txt + .json)", OUTPUT_DIR)
 
 
+# ── Auto-push to GitHub ──────────────────────────────────────────────
+
+
+def _git_push(run_date: str) -> None:
+    """Commit and push new briefing output to GitHub.
+
+    This triggers an auto-redeploy on Render so the public dashboard
+    is updated with today's briefing.  Requires git to be configured
+    with SSH access to the remote.
+    """
+    import subprocess
+
+    try:
+        # Stage output files
+        subprocess.run(
+            ["git", "add", "output/"],
+            cwd=str(PROJECT_ROOT),
+            check=True,
+            capture_output=True,
+        )
+
+        # Check if there are changes to commit
+        result = subprocess.run(
+            ["git", "diff", "--cached", "--quiet"],
+            cwd=str(PROJECT_ROOT),
+            capture_output=True,
+        )
+        if result.returncode == 0:
+            log.info("No new output to push – skipping git push")
+            return
+
+        # Commit
+        subprocess.run(
+            ["git", "commit", "-m", f"Briefing {run_date}"],
+            cwd=str(PROJECT_ROOT),
+            check=True,
+            capture_output=True,
+        )
+
+        # Push
+        subprocess.run(
+            ["git", "push"],
+            cwd=str(PROJECT_ROOT),
+            check=True,
+            capture_output=True,
+        )
+        log.info("Briefing pushed to GitHub → Render will auto-redeploy")
+
+    except subprocess.CalledProcessError as exc:
+        log.warning("Git push failed (non-fatal): %s", exc.stderr.decode().strip() if exc.stderr else exc)
+    except FileNotFoundError:
+        log.warning("git not found – skipping auto-push")
+
+
 # ── Main pipeline ────────────────────────────────────────────────────
 
 
@@ -177,6 +231,11 @@ def run_pipeline() -> None:
     # 11) Email
     subject = f"Daily World Brief — {run_date}"
     send_brief(subject, brief_text, dry_run=dry_run)
+
+    # 12) Auto-push to GitHub (updates Render dashboard)
+    auto_push = os.getenv("AUTO_PUSH", "").lower() in ("1", "true", "yes")
+    if auto_push:
+        _git_push(run_date)
 
     log.info("=== world_brief pipeline finished ===")
 
