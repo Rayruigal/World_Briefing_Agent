@@ -12,5 +12,8 @@ openai>=1.30
 fastapi>=0.110
 uvicorn>=0.29
 
+# Audio briefing (text-to-speech)
+edge-tts>=7.0
+
 # Optional: built-in scheduler (only needed for --schedule mode)
 apscheduler>=3.10

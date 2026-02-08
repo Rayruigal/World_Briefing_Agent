@@ -243,6 +243,12 @@ def run_pipeline() -> None:
     # 10) Save briefing to output/ for the web dashboard
     _save_briefing(run_date, brief_text, classified)
 
+    # 10b) Generate audio briefing (non-blocking; failure is non-fatal)
+    from process.tts import generate_audio_briefing
+
+    mp3_path = OUTPUT_DIR / f"{run_date}.mp3"
+    generate_audio_briefing(brief_text, mp3_path)
+
     # 11) Email
     subject = f"Daily World Brief — {run_date}"
     send_brief(subject, brief_text, dry_run=dry_run)

@@ -9,3 +9,10 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: "3.11.8"
+      # ── Chat bot (optional – set in Render dashboard for live chat) ──
+      # - key: AZURE_OPENAI_API_KEY
+      #   sync: false
+      # - key: AZURE_OPENAI_ENDPOINT
+      #   sync: false
+      # - key: AZURE_OPENAI_API_VERSION
+      #   sync: false

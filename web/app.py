@@ -8,6 +8,8 @@ Run:
 from __future__ import annotations
 
 import json
+import logging
+import os
 import re
 import sys
 from pathlib import Path
@@ -15,8 +17,11 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel
 
 from web.geo import extract_locations, extract_words
+
+log = logging.getLogger(__name__)
 
 # ── Paths ────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -284,6 +289,97 @@ async def search_briefings(q: str = ""):
             results.append({"date": data["date"], "snippet": snippet})
 
     return {"query": q, "results": results}
+
+
+# ── API: chat with the briefing ──────────────────────────────────────
+
+
+class ChatRequest(BaseModel):
+    message: str
+    date: str | None = None
+
+
+class ChatResponse(BaseModel):
+    reply: str
+    date: str
+
+
+@app.post("/api/chat")
+async def chat(req: ChatRequest):
+    """Chat about the briefing using gpt-4o-mini with the day's briefing as context."""
+    # Check if LLM is available
+    api_key = os.getenv("AZURE_OPENAI_API_KEY") or os.getenv("LLM_API_KEY")
+    if not api_key:
+        raise HTTPException(
+            status_code=503,
+            detail="Chat is not available — LLM credentials are not configured on this server.",
+        )
+
+    # Determine which date to use
+    date = req.date
+    if not date:
+        # Use the most recent briefing
+        if OUTPUT_DIR.exists():
+            dates = sorted([f.stem for f in OUTPUT_DIR.glob("*.json")], reverse=True)
+            date = dates[0] if dates else None
+    if not date:
+        raise HTTPException(status_code=404, detail="No briefings available")
+
+    json_path = OUTPUT_DIR / f"{date}.json"
+    if not json_path.exists():
+        raise HTTPException(status_code=404, detail=f"No briefing for {date}")
+
+    data = json.loads(json_path.read_text(encoding="utf-8"))
+    brief_text = data.get("brief_text", "")
+
+    if not brief_text:
+        raise HTTPException(status_code=404, detail="Briefing text is empty")
+
+    # Build LLM call
+    try:
+        from process.llm import chat_completion_kwargs, get_client, is_reasoning_model
+    except Exception:
+        raise HTTPException(status_code=503, detail="LLM module not available")
+
+    client = get_client()
+    model = "gpt-4o-mini"  # always use the cheap model for chat
+    sys_role = "developer" if is_reasoning_model(model) else "system"
+
+    try:
+        resp = client.chat.completions.create(
+            model=model,
+            messages=[
+                {
+                    "role": sys_role,
+                    "content": (
+                        f"You are a helpful assistant that answers questions about today's world news briefing.\n\n"
+                        f"Today's briefing ({date}):\n\n{brief_text}\n\n"
+                        f"Answer questions based on this briefing. Be concise and accurate. "
+                        f"If asked about something not in the briefing, say so."
+                    ),
+                },
+                {"role": "user", "content": req.message},
+            ],
+            **chat_completion_kwargs(model=model, temperature=0.3, max_tokens=500),
+        )
+        reply = resp.choices[0].message.content or "I couldn't generate a response."
+    except Exception as exc:
+        log.exception("Chat LLM call failed")
+        raise HTTPException(status_code=500, detail=f"LLM error: {exc}")
+
+    return ChatResponse(reply=reply.strip(), date=date)
+
+
+# ── API: audio briefing ─────────────────────────────────────────────
+
+
+@app.get("/api/briefings/{date}/audio")
+async def get_audio(date: str):
+    """Serve the audio briefing MP3 for a given date."""
+    mp3_path = OUTPUT_DIR / f"{date}.mp3"
+    if not mp3_path.exists():
+        raise HTTPException(status_code=404, detail=f"No audio briefing for {date}")
+    return FileResponse(mp3_path, media_type="audio/mpeg", filename=f"briefing-{date}.mp3")
 
 
 # ── Run directly ─────────────────────────────────────────────────────
