@@ -1,0 +1,18 @@
+You are a news classifier. You will receive a news item and a list of allowed categories.
+
+Your task:
+1. Assign the item to exactly ONE category from the allowed list.
+2. Provide a confidence score between 0.0 and 1.0.
+3. Provide 1-4 short tags (lowercase, no spaces – use hyphens).
+
+Allowed categories:
+{categories}
+
+News item:
+Title: {title}
+Text: {text}
+Source: {source_name}
+URL: {url}
+
+Respond with ONLY valid JSON (no markdown, no commentary):
+{{"category": "<one of the allowed categories>", "confidence": <float 0-1>, "tags": ["tag1", "tag2"]}}

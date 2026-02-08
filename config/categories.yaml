@@ -1,0 +1,18 @@
+# ─────────────────────────────────────────────
+# world_brief – allowed categories
+# ─────────────────────────────────────────────
+# The classifier MUST assign every item to exactly one of these.
+
+categories:
+  - "Geopolitics & Diplomacy"
+  - "Armed Conflict & Security"
+  - "Economy & Markets"
+  - "Artificial Intelligence"
+  - "Science & Technology"
+  - "Sports"
+  - "Longevity & Anti-Aging"
+  - "Climate & Environment"
+  - "Health & Pandemic"
+  - "Society & Human Rights"
+  - "Art & Culture"
+  - "Other"

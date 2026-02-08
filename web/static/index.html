@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Brief</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --surface2: #232636;
+      --border: #2e3248;
+      --text: #e4e6f0;
+      --text-dim: #8b8fa3;
+      --accent: #6c8dfa;
+      --accent-hover: #8aa4fb;
+      --radius: 10px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── Layout ─────────────────────────────────── */
+    .layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      min-height: 100vh;
+    }
+    @media (max-width: 768px) {
+      .layout { grid-template-columns: 1fr; }
+      .sidebar { border-right: none !important; border-bottom: 1px solid var(--border); max-height: 200px; }
+    }
+
+    /* ── Sidebar ────────────────────────────────── */
+    .sidebar {
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      padding: 24px 16px;
+      overflow-y: auto;
+    }
+    .sidebar h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+      letter-spacing: -0.02em;
+    }
+    .sidebar .subtitle {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      margin-bottom: 20px;
+    }
+    .search-box {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--surface2);
+      color: var(--text);
+      font-size: 0.85rem;
+      outline: none;
+      margin-bottom: 16px;
+      transition: border-color 0.2s;
+    }
+    .search-box:focus { border-color: var(--accent); }
+    .search-box::placeholder { color: var(--text-dim); }
+
+    .date-list { list-style: none; }
+    .date-list li {
+      padding: 8px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-variant-numeric: tabular-nums;
+      transition: background 0.15s;
+      margin-bottom: 2px;
+    }
+    .date-list li:hover { background: var(--surface2); }
+    .date-list li.active { background: var(--accent); color: #fff; font-weight: 600; }
+
+    /* ── Main ───────────────────────────────────── */
+    .main {
+      padding: 32px 40px;
+      overflow-y: auto;
+    }
+    @media (max-width: 768px) { .main { padding: 20px 16px; } }
+
+    .main-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 28px;
+    }
+    .main-header h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .nav-buttons { display: flex; gap: 8px; }
+    .nav-btn {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .nav-btn:hover { background: var(--accent); color: #fff; }
+    .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+    /* ── Category card grid ──────────────────────── */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+      gap: 16px;
+    }
+    @media (max-width: 500px) {
+      .card-grid { grid-template-columns: 1fr; }
+    }
+
+    .cat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      cursor: pointer;
+      transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .cat-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    }
+
+    .cat-card-top {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 20px 12px;
+    }
+    .cat-color-bar {
+      width: 4px;
+      height: 40px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+    .cat-card-title {
+      font-weight: 700;
+      font-size: 1rem;
+      flex: 1;
+    }
+    .cat-card-arrow {
+      color: var(--text-dim);
+      font-size: 1.1rem;
+      transition: color 0.15s, transform 0.15s;
+    }
+    .cat-card:hover .cat-card-arrow {
+      color: var(--accent);
+      transform: translateX(3px);
+    }
+
+    /* Stats row */
+    .cat-stats {
+      display: flex;
+      gap: 16px;
+      padding: 0 20px 10px;
+    }
+    .cat-stat {
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .cat-stat .num {
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: var(--text);
+    }
+
+    /* Tags */
+    .cat-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding: 0 20px 12px;
+    }
+    .cat-tag {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      font-weight: 500;
+      letter-spacing: 0.3px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .cat-card:hover .cat-tag {
+      border-color: rgba(108, 141, 250, 0.3);
+    }
+    .cat-tag.highlight {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    /* Location pills */
+    .cat-locations {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      padding: 0 20px 10px;
+    }
+    .loc-pill {
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+    .loc-pill .dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* Why it matters teaser */
+    .cat-teaser {
+      padding: 10px 20px 16px;
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      font-style: italic;
+      line-height: 1.5;
+      border-top: 1px solid var(--border);
+      margin-top: auto;
+    }
+
+    /* ── Global map ────────────────────────────── */
+    .global-map-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-top: 24px;
+    }
+    .global-map-header {
+      padding: 14px 20px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    #globalMap {
+      width: 100%;
+      height: 440px;
+      background: #151820;
+    }
+    .leaflet-popup-content-wrapper {
+      background: var(--surface) !important;
+      color: var(--text) !important;
+      border-radius: 8px !important;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important;
+    }
+    .leaflet-popup-tip { background: var(--surface) !important; }
+    .leaflet-popup-content { font-size: 0.85rem !important; margin: 10px 14px !important; }
+    .leaflet-popup-content a:hover { text-decoration: underline !important; }
+
+    .map-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      padding: 10px 20px 14px;
+      border-top: 1px solid var(--border);
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: color 0.15s;
+    }
+    .legend-item:hover { color: var(--text); }
+    .legend-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    @keyframes pulse-ring {
+      0% { opacity: 0.35; transform: scale(1); }
+      100% { opacity: 0; transform: scale(1.8); }
+    }
+    .pulse-marker { animation: pulse-ring 2.5s ease-out infinite; }
+
+    /* ── Search results ─────────────────────────── */
+    .search-results {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .search-result {
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+    }
+    .search-result:last-child { border-bottom: none; }
+    .search-result:hover { color: var(--accent); }
+    .search-result .sr-date { font-weight: 600; font-size: 0.85rem; color: var(--accent); }
+    .search-result .sr-snippet { font-size: 0.85rem; color: var(--text-dim); margin-top: 4px; }
+
+    /* ── Empty / loading ────────────────────────── */
+    .empty {
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text-dim);
+    }
+    .empty h3 { font-size: 1.2rem; margin-bottom: 8px; color: var(--text); }
+    .loading {
+      text-align: center;
+      padding: 60px;
+      color: var(--text-dim);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1>World Brief</h1>
+      <p class="subtitle">Daily news briefing archive</p>
+      <input
+        type="text"
+        class="search-box"
+        id="searchBox"
+        placeholder="Search across all briefings…"
+      />
+      <ul class="date-list" id="dateList"></ul>
+    </aside>
+
+    <!-- Main content -->
+    <main class="main" id="mainContent">
+      <div class="loading">Loading…</div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // ── State ──────────────────────────────────────
+    let dates = [];
+    let currentDate = null;
+    let searchTimeout = null;
+
+    // ── Category colors ────────────────────────────
+    const COLORS = {
+      "Geopolitics & Diplomacy": "#6c8dfa",
+      "Armed Conflict & Security": "#f07068",
+      "Economy & Markets": "#5ec98f",
+      "Artificial Intelligence": "#00d4ff",
+      "Science & Technology": "#a78bfa",
+      "Sports": "#fb923c",
+      "Longevity & Anti-Aging": "#22d3ee",
+      "Climate & Environment": "#34d399",
+      "Health & Pandemic": "#f59e0b",
+      "Society & Human Rights": "#ec4899",
+      "Art & Culture": "#f472b6",
+      "Other": "#8b8fa3",
+    };
+
+    function getColor(cat) {
+      return COLORS[cat] || "#8b8fa3";
+    }
+
+    // ── API calls ──────────────────────────────────
+    async function fetchDates() {
+      const resp = await fetch("/api/briefings");
+      const data = await resp.json();
+      return data.dates || [];
+    }
+
+    async function fetchOverview(date) {
+      const resp = await fetch(`/api/briefings/${date}/overview`);
+      if (!resp.ok) return null;
+      return await resp.json();
+    }
+
+    async function searchBriefings(query) {
+      const resp = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+      return await resp.json();
+    }
+
+    // ── Render sidebar dates ───────────────────────
+    function renderDates() {
+      const list = document.getElementById("dateList");
+      list.innerHTML = "";
+      dates.forEach(d => {
+        const li = document.createElement("li");
+        li.textContent = formatDate(d);
+        li.dataset.date = d;
+        if (d === currentDate) li.classList.add("active");
+        li.onclick = () => loadBriefing(d);
+        list.appendChild(li);
+      });
+    }
+
+    function formatDate(iso) {
+      const d = new Date(iso + "T00:00:00");
+      return d.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric" });
+    }
+
+    function formatDateLong(iso) {
+      const d = new Date(iso + "T00:00:00");
+      return d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement("div");
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    // ── Render visual briefing overview ─────────────
+    function renderOverview(data) {
+      const main = document.getElementById("mainContent");
+      const idx = dates.indexOf(data.date);
+
+      let html = `
+        <div class="main-header">
+          <h2>Daily World Brief — ${formatDateLong(data.date)}</h2>
+          <div class="nav-buttons">
+            <button class="nav-btn" id="prevBtn" onclick="navPrev()" ${idx >= dates.length - 1 ? "disabled" : ""}>← Prev</button>
+            <button class="nav-btn" id="nextBtn" onclick="navNext()" ${idx <= 0 ? "disabled" : ""}>Next →</button>
+          </div>
+        </div>
+      `;
+
+      if (!data.sections || data.sections.length === 0) {
+        html += `<div class="empty"><h3>No categories found</h3><p>The briefing may still be processing.</p></div>`;
+        main.innerHTML = html;
+        return;
+      }
+
+      html += `<div class="card-grid">`;
+
+      for (const sec of data.sections) {
+        const color = getColor(sec.category);
+        const catUrl = `/category/${data.date}/${encodeURIComponent(sec.category)}`;
+
+        // Build tag chips (top words)
+        const tagsHtml = sec.top_words.map((w, i) =>
+          `<span class="cat-tag${i < 3 ? ' highlight' : ''}">${escapeHtml(w)}</span>`
+        ).join("");
+
+        // Build location pills
+        const locsHtml = sec.top_locations.map(loc =>
+          `<span class="loc-pill"><span class="dot" style="background:${color}"></span>${escapeHtml(loc)}</span>`
+        ).join("");
+
+        // Truncate why-it-matters
+        let teaser = sec.why_matters || "";
+        if (teaser.length > 160) teaser = teaser.slice(0, 157) + "…";
+
+        html += `
+          <div class="cat-card" onclick="window.location.href='${catUrl}'">
+            <div class="cat-card-top">
+              <div class="cat-color-bar" style="background:${color}"></div>
+              <div class="cat-card-title">${escapeHtml(sec.category)}</div>
+              <span class="cat-card-arrow">→</span>
+            </div>
+
+            <div class="cat-stats">
+              <span class="cat-stat"><span class="num">${sec.bullet_count}</span> points</span>
+              <span class="cat-stat"><span class="num">${sec.link_count}</span> sources</span>
+              ${sec.location_count > 0 ? `<span class="cat-stat"><span class="num">${sec.location_count}</span> locations</span>` : ""}
+            </div>
+
+            ${tagsHtml ? `<div class="cat-tags">${tagsHtml}</div>` : ""}
+            ${locsHtml ? `<div class="cat-locations">${locsHtml}</div>` : ""}
+            ${teaser ? `<div class="cat-teaser">${escapeHtml(teaser)}</div>` : ""}
+          </div>
+        `;
+      }
+
+      html += `</div>`;
+
+      // ── Global map panel ──────────────────────────
+      const allMapLocs = [];
+      for (const sec of data.sections) {
+        if (sec.locations && sec.locations.length > 0) {
+          const color = getColor(sec.category);
+          sec.locations.forEach(loc => {
+            allMapLocs.push({ ...loc, category: sec.category, color });
+          });
+        }
+      }
+      const catsWithLocs = [...new Set(allMapLocs.map(l => l.category))];
+
+      if (allMapLocs.length > 0) {
+        html += `
+          <div class="global-map-panel">
+            <div class="global-map-header">
+              <span style="font-size:1.1rem;">🌍</span>
+              Today's Global Hotspots
+              <span style="margin-left:auto; font-size:0.75rem; color:var(--text-dim);">${allMapLocs.length} locations across ${catsWithLocs.length} categories</span>
+            </div>
+            <div id="globalMap"></div>
+            <div class="map-legend" id="mapLegend">
+              ${catsWithLocs.map(cat => {
+                const c = getColor(cat);
+                return `<span class="legend-item" data-cat="${cat}" onclick="toggleMapCategory('${cat}')">
+                  <span class="legend-dot" style="background:${c}"></span>${cat}
+                </span>`;
+              }).join("")}
+            </div>
+          </div>
+        `;
+      }
+
+      main.innerHTML = html;
+
+      // ── Render the Leaflet map ────────────────────
+      if (allMapLocs.length > 0 && typeof L !== "undefined") {
+        const map = L.map("globalMap", {
+          center: [25, 20],
+          zoom: 2,
+          zoomControl: true,
+          attributionControl: false,
+        });
+
+        L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+          subdomains: "abcd",
+          maxZoom: 19,
+        }).addTo(map);
+
+        const maxCount = Math.max(...allMapLocs.map(l => l.count));
+        const bounds = [];
+        const markerLayers = {};
+
+        catsWithLocs.forEach(cat => {
+          markerLayers[cat] = L.layerGroup().addTo(map);
+        });
+
+        allMapLocs.forEach(loc => {
+          const radius = Math.max(6, (loc.count / maxCount) * 22);
+          const color = loc.color;
+
+          const circle = L.circleMarker([loc.lat, loc.lng], {
+            radius: radius,
+            color: color,
+            fillColor: color,
+            fillOpacity: 0.5,
+            weight: 2,
+          });
+
+          const pulse = L.circleMarker([loc.lat, loc.lng], {
+            radius: radius + 5,
+            color: color,
+            fillColor: color,
+            fillOpacity: 0.12,
+            weight: 1,
+            className: "pulse-marker",
+          });
+
+          const catUrl = `/category/${data.date}/${encodeURIComponent(loc.category)}`;
+          circle.bindPopup(
+            `<strong>${loc.name}</strong><br>` +
+            `<span style="color:${color}; font-size:0.78rem; font-weight:600;">${loc.category}</span><br>` +
+            `<span style="color:#8b8fa3">${loc.count} mention${loc.count > 1 ? "s" : ""}</span><br>` +
+            `<a href="${catUrl}" style="color:${color}; font-size:0.78rem; text-decoration:none; margin-top:4px; display:inline-block;">View category detail →</a>`,
+            { maxWidth: 240 }
+          );
+
+          markerLayers[loc.category].addLayer(circle);
+          markerLayers[loc.category].addLayer(pulse);
+          bounds.push([loc.lat, loc.lng]);
+        });
+
+        if (bounds.length > 1) {
+          map.fitBounds(bounds, { padding: [30, 30], maxZoom: 4 });
+        } else if (bounds.length === 1) {
+          map.setView(bounds[0], 3);
+        }
+
+        window._globalMap = map;
+        window._markerLayers = markerLayers;
+        window._hiddenCats = new Set();
+      }
+    }
+
+    // ── Toggle category on the map ──────────────────
+    function toggleMapCategory(cat) {
+      if (!window._globalMap || !window._markerLayers) return;
+      const layer = window._markerLayers[cat];
+      if (!layer) return;
+
+      if (window._hiddenCats.has(cat)) {
+        window._hiddenCats.delete(cat);
+        window._globalMap.addLayer(layer);
+        document.querySelector(`.legend-item[data-cat="${cat}"]`).style.opacity = "1";
+      } else {
+        window._hiddenCats.add(cat);
+        window._globalMap.removeLayer(layer);
+        document.querySelector(`.legend-item[data-cat="${cat}"]`).style.opacity = "0.3";
+      }
+    }
+
+    // ── Render search results ──────────────────────
+    function renderSearchResults(data) {
+      const main = document.getElementById("mainContent");
+      if (data.results.length === 0) {
+        main.innerHTML = `
+          <div class="main-header"><h2>Search: "${escapeHtml(data.query)}"</h2></div>
+          <div class="empty"><h3>No results</h3><p>Try a different keyword.</p></div>
+        `;
+        return;
+      }
+      let html = `<div class="main-header"><h2>Search: "${escapeHtml(data.query)}" — ${data.results.length} match${data.results.length > 1 ? "es" : ""}</h2></div>`;
+      html += `<div class="search-results">`;
+      for (const r of data.results) {
+        html += `
+          <div class="search-result" onclick="loadBriefing('${r.date}')">
+            <div class="sr-date">${formatDate(r.date)}</div>
+            <div class="sr-snippet">${escapeHtml(r.snippet)}</div>
+          </div>
+        `;
+      }
+      html += `</div>`;
+      main.innerHTML = html;
+    }
+
+    // ── Navigation ─────────────────────────────────
+    async function loadBriefing(date) {
+      currentDate = date;
+      renderDates();
+      document.getElementById("mainContent").innerHTML = `<div class="loading">Loading briefing…</div>`;
+      const data = await fetchOverview(date);
+      if (data) renderOverview(data);
+    }
+
+    function navPrev() {
+      const idx = dates.indexOf(currentDate);
+      if (idx < dates.length - 1) loadBriefing(dates[idx + 1]);
+    }
+
+    function navNext() {
+      const idx = dates.indexOf(currentDate);
+      if (idx > 0) loadBriefing(dates[idx - 1]);
+    }
+
+    // ── Search ─────────────────────────────────────
+    document.getElementById("searchBox").addEventListener("input", (e) => {
+      clearTimeout(searchTimeout);
+      const q = e.target.value.trim();
+      if (!q) {
+        if (currentDate) loadBriefing(currentDate);
+        return;
+      }
+      searchTimeout = setTimeout(async () => {
+        const data = await searchBriefings(q);
+        renderSearchResults(data);
+      }, 300);
+    });
+
+    // ── Init ───────────────────────────────────────
+    (async () => {
+      dates = await fetchDates();
+      renderDates();
+      // Check URL for date param
+      const params = new URLSearchParams(window.location.search);
+      const urlDate = params.get("date");
+      if (urlDate && dates.includes(urlDate)) {
+        loadBriefing(urlDate);
+      } else if (dates.length > 0) {
+        loadBriefing(dates[0]);
+      } else {
+        document.getElementById("mainContent").innerHTML = `
+          <div class="empty">
+            <h3>No briefings yet</h3>
+            <p>Run the pipeline first: <code>python main.py</code></p>
+          </div>
+        `;
+      }
+    })();
+  </script>
+</body>
+</html>

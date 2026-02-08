@@ -1,0 +1,16 @@
+# world_brief – Python 3.11+
+# Core
+python-dotenv>=1.0
+pyyaml>=6.0
+feedparser>=6.0
+requests>=2.31
+python-dateutil>=2.9
+sqlalchemy>=2.0
+openai>=1.30
+
+# Web dashboard
+fastapi>=0.110
+uvicorn>=0.29
+
+# Optional: built-in scheduler (only needed for --schedule mode)
+apscheduler>=3.10

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Brief – Category Detail</title>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --surface2: #232636;
+      --border: #2e3248;
+      --text: #e4e6f0;
+      --text-dim: #8b8fa3;
+      --accent: #6c8dfa;
+      --radius: 10px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── Top bar ────────────────────────────────── */
+    .topbar {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 32px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+    .back-btn {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+      padding: 6px 16px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .back-btn:hover { background: var(--accent); color: #fff; }
+    .topbar h1 { font-size: 1.25rem; font-weight: 700; }
+    .topbar .date-label { color: var(--text-dim); font-size: 0.9rem; margin-left: auto; }
+
+    /* ── Content grid ───────────────────────────── */
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 24px 32px;
+      max-width: 1400px;
+    }
+    @media (max-width: 900px) {
+      .content { grid-template-columns: 1fr; }
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .panel-header {
+      padding: 12px 20px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .panel-header .icon { font-size: 1.1rem; }
+
+    /* ── Map ─────────────────────────────────────── */
+    #map {
+      width: 100%;
+      height: 380px;
+      background: #151820;
+    }
+    @keyframes pulse-ring {
+      0% { opacity: 0.4; transform: scale(1); }
+      100% { opacity: 0; transform: scale(1.8); }
+    }
+    .pulse-marker {
+      animation: pulse-ring 2s ease-out infinite;
+    }
+
+    .leaflet-popup-content-wrapper {
+      background: var(--surface) !important;
+      color: var(--text) !important;
+      border-radius: 8px !important;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important;
+    }
+    .leaflet-popup-tip { background: var(--surface) !important; }
+    .leaflet-popup-content { font-size: 0.85rem !important; margin: 10px 14px !important; }
+    .leaflet-popup-content a:hover { text-decoration: underline !important; }
+
+    /* ── Word cloud ──────────────────────────────── */
+    #wordcloud-container {
+      width: 100%;
+      height: 380px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    #wordcloud {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* ── Bullets panel ───────────────────────────── */
+    .full-width {
+      grid-column: 1 / -1;
+    }
+    .bullets-list { list-style: none; padding: 16px 20px; }
+    .bullets-list li {
+      position: relative;
+      padding: 10px 0 10px 20px;
+      font-size: 0.9rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .bullets-list li:last-child { border-bottom: none; }
+    .bullets-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .why-matters-box {
+      padding: 14px 20px;
+      font-style: italic;
+      color: var(--text-dim);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--border);
+      background: var(--surface2);
+    }
+    .source-links-bar {
+      padding: 12px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      border-top: 1px solid var(--border);
+    }
+    .source-link {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 4px 10px;
+      font-size: 0.78rem;
+      color: var(--accent);
+      text-decoration: none;
+      transition: background 0.15s;
+      max-width: 300px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .source-link:hover { background: var(--accent); color: #fff; }
+
+    /* ── Articles grid ────────────────────────── */
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+      padding: 16px 20px;
+    }
+    .article-card {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      text-decoration: none;
+      color: var(--text);
+      transition: border-color 0.15s, background 0.15s;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .article-card:hover {
+      border-color: var(--accent);
+      background: rgba(108, 141, 250, 0.06);
+    }
+    .article-source {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .article-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+    .article-time {
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      margin-top: auto;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 80px;
+      color: var(--text-dim);
+      grid-column: 1 / -1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <a class="back-btn" id="backBtn" href="/">← Back to briefing</a>
+    <h1 id="categoryTitle">Loading…</h1>
+    <span class="date-label" id="dateLabel"></span>
+  </div>
+
+  <div class="content" id="content">
+    <div class="loading">Loading category detail…</div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- WordCloud2 -->
+  <script src="https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.min.js"></script>
+
+  <script>
+    // ── Category colors ──────────────────────────
+    const COLORS = {
+      "Geopolitics & Diplomacy": "#6c8dfa",
+      "Armed Conflict & Security": "#f07068",
+      "Economy & Markets": "#5ec98f",
+      "Artificial Intelligence": "#00d4ff",
+      "Science & Technology": "#a78bfa",
+      "Sports": "#fb923c",
+      "Longevity & Anti-Aging": "#22d3ee",
+      "Climate & Environment": "#34d399",
+      "Health & Pandemic": "#f59e0b",
+      "Society & Human Rights": "#ec4899",
+      "Art & Culture": "#f472b6",
+      "Other": "#8b8fa3",
+    };
+
+    // ── Parse URL ────────────────────────────────
+    const parts = window.location.pathname.split("/");
+    const date = parts[2];
+    const category = decodeURIComponent(parts.slice(3).join("/"));
+    const color = COLORS[category] || "#6c8dfa";
+
+    document.getElementById("backBtn").href = `/?date=${date}`;
+
+    function extractDomain(url) {
+      try { return new URL(url).hostname.replace("www.", ""); }
+      catch { return url.slice(0, 30); }
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement("div");
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    // ── Load data ────────────────────────────────
+    (async () => {
+      const resp = await fetch(`/api/briefings/${date}/categories/${encodeURIComponent(category)}`);
+      if (!resp.ok) {
+        document.getElementById("content").innerHTML =
+          `<div class="loading">Category not found.</div>`;
+        return;
+      }
+      const data = await resp.json();
+
+      document.getElementById("categoryTitle").textContent = data.category;
+      document.getElementById("categoryTitle").style.color = color;
+      document.getElementById("dateLabel").textContent = new Date(date + "T00:00:00")
+        .toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+
+      // Build layout
+      const content = document.getElementById("content");
+      content.innerHTML = `
+        <!-- Map -->
+        <div class="panel">
+          <div class="panel-header"><span class="icon">🌍</span> Geographic Hotspots</div>
+          <div id="map"></div>
+        </div>
+
+        <!-- Word Cloud -->
+        <div class="panel">
+          <div class="panel-header"><span class="icon">💬</span> Key Terms</div>
+          <div id="wordcloud-container"><canvas id="wordcloud"></canvas></div>
+        </div>
+
+        <!-- Bullets -->
+        <div class="panel full-width">
+          <div class="panel-header" style="border-left: 4px solid ${color};">
+            <span class="icon">📋</span> Key Developments
+          </div>
+          <ul class="bullets-list">
+            ${data.bullets.map(b => `<li>${escapeHtml(b)}</li>`).join("")}
+          </ul>
+          ${data.why_matters ? `<div class="why-matters-box">Why it matters: ${escapeHtml(data.why_matters)}</div>` : ""}
+          <div class="source-links-bar">
+            ${data.links.map(l => `<a class="source-link" href="${escapeHtml(l)}" target="_blank" rel="noopener">${extractDomain(l)}</a>`).join("")}
+          </div>
+        </div>
+
+        ${data.source_items && data.source_items.length > 0 ? `
+        <!-- Source articles -->
+        <div class="panel full-width">
+          <div class="panel-header"><span class="icon">📰</span> Source Articles (${data.source_items.length})</div>
+          <div class="articles-grid">
+            ${data.source_items.map(item => `
+              <a class="article-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">
+                <div class="article-source">${escapeHtml(item.source_name)}</div>
+                <div class="article-title">${escapeHtml(item.title)}</div>
+                ${item.published_at ? `<div class="article-time">${new Date(item.published_at).toLocaleString("en-GB", {day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}</div>` : ""}
+              </a>
+            `).join("")}
+          </div>
+        </div>
+        ` : ""}
+      `;
+
+      // ── Render Map ──────────────────────────────
+      const map = L.map("map", {
+        center: [25, 20],
+        zoom: 2,
+        zoomControl: true,
+        attributionControl: false,
+      });
+
+      L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+        subdomains: "abcd",
+        maxZoom: 19,
+      }).addTo(map);
+
+      // Build a lookup: location name (lower) → matching article links
+      function findLinksForLocation(locName) {
+        const name = locName.toLowerCase();
+        const matches = [];
+        // Check bullets for location mentions
+        data.bullets.forEach((b, i) => {
+          if (b.toLowerCase().includes(name)) {
+            // Find the closest source link for this bullet
+            if (data.links[i]) matches.push(data.links[i]);
+            else if (data.links.length > 0) matches.push(data.links[0]);
+          }
+        });
+        // Check source items titles
+        if (data.source_items) {
+          data.source_items.forEach(item => {
+            if (item.title.toLowerCase().includes(name) || item.url.toLowerCase().includes(name)) {
+              matches.push(item.url);
+            }
+          });
+        }
+        // Dedupe and fallback to all links
+        const unique = [...new Set(matches)];
+        return unique.length > 0 ? unique : data.links.slice(0, 3);
+      }
+
+      if (data.locations.length > 0) {
+        const maxCount = Math.max(...data.locations.map(l => l.count));
+        const bounds = [];
+        data.locations.forEach(loc => {
+          const radius = Math.max(8, (loc.count / maxCount) * 28);
+          const circle = L.circleMarker([loc.lat, loc.lng], {
+            radius: radius,
+            color: color,
+            fillColor: color,
+            fillOpacity: 0.5,
+            weight: 2,
+          }).addTo(map);
+
+          // Pulsing animation
+          const pulse = L.circleMarker([loc.lat, loc.lng], {
+            radius: radius + 6,
+            color: color,
+            fillColor: color,
+            fillOpacity: 0.15,
+            weight: 1,
+            className: "pulse-marker",
+          }).addTo(map);
+
+          // Build popup with clickable source links
+          const locLinks = findLinksForLocation(loc.name);
+          let popupHtml = `<strong>${loc.name}</strong><br><span style="color:#8b8fa3">${loc.count} mention${loc.count > 1 ? "s" : ""}</span>`;
+          if (locLinks.length > 0) {
+            popupHtml += `<div style="margin-top:8px; display:flex; flex-direction:column; gap:4px;">`;
+            locLinks.slice(0, 3).forEach(url => {
+              const domain = extractDomain(url);
+              popupHtml += `<a href="${url}" target="_blank" rel="noopener" style="color:${color}; font-size:0.78rem; text-decoration:none; display:flex; align-items:center; gap:4px;">
+                <span style="font-size:0.7rem;">&#x2197;</span> ${domain}
+              </a>`;
+            });
+            popupHtml += `</div>`;
+          }
+          circle.bindPopup(popupHtml, { maxWidth: 260 });
+          bounds.push([loc.lat, loc.lng]);
+        });
+        if (bounds.length > 1) {
+          map.fitBounds(bounds, { padding: [40, 40], maxZoom: 5 });
+        } else if (bounds.length === 1) {
+          map.setView(bounds[0], 4);
+        }
+      } else {
+        // Show a "no geographic data" message
+        const noData = L.control({ position: "topleft" });
+        noData.onAdd = () => {
+          const div = L.DomUtil.create("div", "");
+          div.style.cssText = "background:rgba(26,29,39,0.9);color:#8b8fa3;padding:12px 20px;border-radius:8px;font-size:0.85rem;";
+          div.innerHTML = "No geographic locations detected in this category";
+          return div;
+        };
+        noData.addTo(map);
+      }
+
+      // ── Render Word Cloud ───────────────────────
+      const canvas = document.getElementById("wordcloud");
+      const container = document.getElementById("wordcloud-container");
+      canvas.width = container.clientWidth;
+      canvas.height = container.clientHeight;
+
+      if (data.words.length > 0 && typeof WordCloud !== "undefined") {
+        // Generate color variants around the category color
+        const colors = [color, "#e4e6f0", "#8b8fa3", color, "#a78bfa"];
+        WordCloud(canvas, {
+          list: data.words,
+          gridSize: 8,
+          weightFactor: (size) => Math.max(12, size * 0.45),
+          fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+          color: (word, weight) => {
+            if (weight > 70) return color;
+            if (weight > 40) return "#e4e6f0";
+            return "#8b8fa3";
+          },
+          backgroundColor: "transparent",
+          rotateRatio: 0.3,
+          minRotation: -0.3,
+          maxRotation: 0.3,
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
