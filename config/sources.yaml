@@ -9,8 +9,6 @@ max_items_per_source: 10
 
 rss_feeds:
   # ── General / World News ────────────────────
-  - name: "Reuters – World"
-    url: "https://feeds.reuters.com/reuters/worldNews"
   - name: "BBC – World"
     url: "https://feeds.bbci.co.uk/news/world/rss.xml"
   - name: "Al Jazeera – News"
@@ -55,6 +53,20 @@ rss_feeds:
     url: "https://www.theguardian.com/environment/rss"
   - name: "Climate Home News"
     url: "https://www.climatechangenews.com/feed/"
+
+  # ── Entertainment ──────────────────────────
+  - name: "Variety"
+    url: "https://variety.com/feed/"
+  - name: "The Hollywood Reporter"
+    url: "https://www.hollywoodreporter.com/feed/"
+  - name: "Pitchfork"
+    url: "https://pitchfork.com/feed/feed-news/rss"
+  - name: "Rolling Stone"
+    url: "https://www.rollingstone.com/feed/"
+  - name: "Billboard"
+    url: "https://www.billboard.com/feed/"
+  - name: "The Verge – Entertainment"
+    url: "https://www.theverge.com/rss/entertainment/index.xml"
 
   # ── Sports ─────────────────────────────────
   - name: "BBC Sport"

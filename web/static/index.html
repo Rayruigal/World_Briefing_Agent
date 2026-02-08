@@ -116,17 +116,17 @@
     .nav-btn:hover { background: var(--accent); color: #fff; }
     .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
 
-    /* ── Category card grid ──────────────────────── */
+    /* ── Group card grid ──────────────────────────── */
     .card-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
-      gap: 16px;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 18px;
     }
     @media (max-width: 500px) {
       .card-grid { grid-template-columns: 1fr; }
     }
 
-    .cat-card {
+    .group-card {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
@@ -136,108 +136,115 @@
       display: flex;
       flex-direction: column;
     }
-    .cat-card:hover {
-      border-color: var(--accent);
+    .group-card:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 30px rgba(0,0,0,0.3);
     }
 
-    .cat-card-top {
+    .group-card-top {
       display: flex;
       align-items: center;
-      gap: 12px;
-      padding: 16px 20px 12px;
+      gap: 14px;
+      padding: 18px 22px 14px;
     }
-    .cat-color-bar {
-      width: 4px;
-      height: 40px;
-      border-radius: 2px;
+    .group-icon {
+      font-size: 1.6rem;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
       flex-shrink: 0;
     }
-    .cat-card-title {
+    .group-card-title {
       font-weight: 700;
-      font-size: 1rem;
+      font-size: 1.08rem;
       flex: 1;
     }
-    .cat-card-arrow {
+    .group-card-arrow {
       color: var(--text-dim);
       font-size: 1.1rem;
       transition: color 0.15s, transform 0.15s;
     }
-    .cat-card:hover .cat-card-arrow {
-      color: var(--accent);
+    .group-card:hover .group-card-arrow {
       transform: translateX(3px);
     }
 
+    /* Sub-category pills inside card */
+    .subcat-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding: 0 22px 10px;
+    }
+    .subcat-pill {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      padding: 3px 10px;
+      font-size: 0.73rem;
+      color: var(--text-dim);
+      font-weight: 500;
+    }
+    .subcat-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .subcat-count {
+      font-weight: 700;
+      color: var(--text);
+      margin-left: 2px;
+    }
+
     /* Stats row */
-    .cat-stats {
+    .group-stats {
       display: flex;
       gap: 16px;
-      padding: 0 20px 10px;
+      padding: 0 22px 10px;
     }
-    .cat-stat {
+    .group-stat {
       font-size: 0.72rem;
       color: var(--text-dim);
       display: flex;
       align-items: center;
       gap: 4px;
     }
-    .cat-stat .num {
+    .group-stat .num {
       font-weight: 700;
       font-size: 0.85rem;
       color: var(--text);
     }
 
     /* Tags */
-    .cat-tags {
+    .group-tags {
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
-      padding: 0 20px 12px;
+      gap: 5px;
+      padding: 0 22px 12px;
     }
-    .cat-tag {
+    .group-tag {
       background: var(--surface2);
       border: 1px solid var(--border);
       border-radius: 4px;
-      padding: 2px 8px;
-      font-size: 0.72rem;
+      padding: 2px 7px;
+      font-size: 0.7rem;
       color: var(--text-dim);
       font-weight: 500;
-      letter-spacing: 0.3px;
-      transition: color 0.15s, border-color 0.15s;
     }
-    .cat-card:hover .cat-tag {
-      border-color: rgba(108, 141, 250, 0.3);
-    }
-    .cat-tag.highlight {
+    .group-tag.highlight {
       color: var(--text);
       font-weight: 600;
     }
 
-    /* Location pills */
-    .cat-locations {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 4px;
-      padding: 0 20px 10px;
-    }
-    .loc-pill {
-      font-size: 0.7rem;
-      color: var(--text-dim);
-      display: flex;
-      align-items: center;
-      gap: 3px;
-    }
-    .loc-pill .dot {
-      width: 5px;
-      height: 5px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-
-    /* Why it matters teaser */
-    .cat-teaser {
-      padding: 10px 20px 16px;
+    /* Teaser */
+    .group-teaser {
+      padding: 10px 22px 16px;
       font-size: 0.82rem;
       color: var(--text-dim);
       font-style: italic;
@@ -350,14 +357,14 @@
         type="text"
         class="search-box"
         id="searchBox"
-        placeholder="Search across all briefings…"
+        placeholder="Search across all briefings..."
       />
       <ul class="date-list" id="dateList"></ul>
     </aside>
 
     <!-- Main content -->
     <main class="main" id="mainContent">
-      <div class="loading">Loading…</div>
+      <div class="loading">Loading...</div>
     </main>
   </div>
 
@@ -368,25 +375,64 @@
     let currentDate = null;
     let searchTimeout = null;
 
-    // ── Category colors ────────────────────────────
-    const COLORS = {
+    // ── Group definitions ─────────────────────────
+    const GROUPS = [
+      {
+        name: "World & Politics",
+        icon: "🌍",
+        color: "#6c8dfa",
+        categories: ["Geopolitics & Diplomacy", "Armed Conflict & Security", "Society & Human Rights"],
+      },
+      {
+        name: "Economy",
+        icon: "📈",
+        color: "#5ec98f",
+        categories: ["Economy & Markets"],
+      },
+      {
+        name: "Science & Innovation",
+        icon: "🔬",
+        color: "#a78bfa",
+        categories: ["Artificial Intelligence", "Science & Technology"],
+      },
+      {
+        name: "Health & Longevity",
+        icon: "🧬",
+        color: "#f59e0b",
+        categories: ["Health & Pandemic", "Longevity & Anti-Aging"],
+      },
+      {
+        name: "Environment & Planet",
+        icon: "🌱",
+        color: "#34d399",
+        categories: ["Climate & Environment"],
+      },
+      {
+        name: "Culture & Entertainment",
+        icon: "🎭",
+        color: "#f472b6",
+        categories: ["Art & Culture", "Entertainment", "Sports"],
+      },
+    ];
+
+    // Per-category colors (for map markers and sub-cat dots)
+    const CAT_COLORS = {
       "Geopolitics & Diplomacy": "#6c8dfa",
       "Armed Conflict & Security": "#f07068",
+      "Society & Human Rights": "#ec4899",
       "Economy & Markets": "#5ec98f",
       "Artificial Intelligence": "#00d4ff",
       "Science & Technology": "#a78bfa",
-      "Sports": "#fb923c",
+      "Health & Pandemic": "#f59e0b",
       "Longevity & Anti-Aging": "#22d3ee",
       "Climate & Environment": "#34d399",
-      "Health & Pandemic": "#f59e0b",
-      "Society & Human Rights": "#ec4899",
       "Art & Culture": "#f472b6",
+      "Entertainment": "#e879f9",
+      "Sports": "#fb923c",
       "Other": "#8b8fa3",
     };
 
-    function getColor(cat) {
-      return COLORS[cat] || "#8b8fa3";
-    }
+    function getCatColor(cat) { return CAT_COLORS[cat] || "#8b8fa3"; }
 
     // ── API calls ──────────────────────────────────
     async function fetchDates() {
@@ -436,6 +482,51 @@
       return div.innerHTML;
     }
 
+    // ── Aggregate sections into groups ──────────────
+    function aggregateGroups(sections) {
+      const sectionMap = {};
+      sections.forEach(s => { sectionMap[s.category] = s; });
+
+      return GROUPS.map(group => {
+        const matchedSections = group.categories
+          .map(cat => sectionMap[cat])
+          .filter(Boolean);
+
+        if (matchedSections.length === 0) return null;
+
+        // Aggregate stats
+        const totalItems = matchedSections.reduce((s, sec) => s + sec.item_count, 0);
+        const totalBullets = matchedSections.reduce((s, sec) => s + sec.bullet_count, 0);
+        const totalLinks = matchedSections.reduce((s, sec) => s + (sec.link_count || 0), 0);
+        const allLocations = matchedSections.flatMap(sec => sec.locations || []);
+        const allWords = matchedSections.flatMap(sec => sec.top_words || []);
+        // Deduplicate words
+        const wordSet = [...new Set(allWords)].slice(0, 8);
+        // Combine "why it matters"
+        const whyMatters = matchedSections
+          .map(sec => sec.why_matters)
+          .filter(Boolean)
+          .join(" ");
+        // Sub-category info
+        const subcats = matchedSections.map(sec => ({
+          name: sec.category,
+          items: sec.item_count,
+          color: getCatColor(sec.category),
+        }));
+
+        return {
+          ...group,
+          subcats,
+          totalItems,
+          totalBullets,
+          totalLinks,
+          locations: allLocations,
+          topWords: wordSet,
+          whyMatters,
+        };
+      }).filter(Boolean);
+    }
+
     // ── Render visual briefing overview ─────────────
     function renderOverview(data) {
       const main = document.getElementById("mainContent");
@@ -443,10 +534,10 @@
 
       let html = `
         <div class="main-header">
-          <h2>Daily World Brief — ${formatDateLong(data.date)}</h2>
+          <h2>Daily World Brief &mdash; ${formatDateLong(data.date)}</h2>
           <div class="nav-buttons">
-            <button class="nav-btn" id="prevBtn" onclick="navPrev()" ${idx >= dates.length - 1 ? "disabled" : ""}>← Prev</button>
-            <button class="nav-btn" id="nextBtn" onclick="navNext()" ${idx <= 0 ? "disabled" : ""}>Next →</button>
+            <button class="nav-btn" onclick="navPrev()" ${idx >= dates.length - 1 ? "disabled" : ""}>&larr; Prev</button>
+            <button class="nav-btn" onclick="navNext()" ${idx <= 0 ? "disabled" : ""}>Next &rarr;</button>
           </div>
         </div>
       `;
@@ -457,43 +548,46 @@
         return;
       }
 
+      const groups = aggregateGroups(data.sections);
+
       html += `<div class="card-grid">`;
 
-      for (const sec of data.sections) {
-        const color = getColor(sec.category);
-        const catUrl = `/category/${data.date}/${encodeURIComponent(sec.category)}`;
+      for (const g of groups) {
+        const groupUrl = `/group/${data.date}/${encodeURIComponent(g.name)}`;
 
-        // Build tag chips (top words)
-        const tagsHtml = sec.top_words.map((w, i) =>
-          `<span class="cat-tag${i < 3 ? ' highlight' : ''}">${escapeHtml(w)}</span>`
+        // Sub-category pills
+        const subcatHtml = g.subcats.map(sc =>
+          `<span class="subcat-pill">
+            <span class="subcat-dot" style="background:${sc.color}"></span>
+            ${escapeHtml(sc.name)} <span class="subcat-count">${sc.items}</span>
+          </span>`
         ).join("");
 
-        // Build location pills
-        const locsHtml = sec.top_locations.map(loc =>
-          `<span class="loc-pill"><span class="dot" style="background:${color}"></span>${escapeHtml(loc)}</span>`
+        // Top words
+        const tagsHtml = g.topWords.map((w, i) =>
+          `<span class="group-tag${i < 3 ? ' highlight' : ''}">${escapeHtml(w)}</span>`
         ).join("");
 
-        // Truncate why-it-matters
-        let teaser = sec.why_matters || "";
-        if (teaser.length > 160) teaser = teaser.slice(0, 157) + "…";
+        // Teaser
+        let teaser = g.whyMatters || "";
+        if (teaser.length > 180) teaser = teaser.slice(0, 177) + "...";
 
         html += `
-          <div class="cat-card" onclick="window.location.href='${catUrl}'">
-            <div class="cat-card-top">
-              <div class="cat-color-bar" style="background:${color}"></div>
-              <div class="cat-card-title">${escapeHtml(sec.category)}</div>
-              <span class="cat-card-arrow">→</span>
+          <div class="group-card" onclick="window.location.href='${groupUrl}'" style="border-color:${g.color}22">
+            <div class="group-card-top">
+              <div class="group-icon" style="background:${g.color}18; color:${g.color}">${g.icon}</div>
+              <div>
+                <div class="group-card-title">${escapeHtml(g.name)}</div>
+                <div style="font-size:0.75rem; color:var(--text-dim); margin-top:2px;">
+                  ${g.totalItems} articles &middot; ${g.totalBullets} key points
+                </div>
+              </div>
+              <span class="group-card-arrow" style="color:${g.color}">&rarr;</span>
             </div>
 
-            <div class="cat-stats">
-              <span class="cat-stat"><span class="num">${sec.bullet_count}</span> points</span>
-              <span class="cat-stat"><span class="num">${sec.link_count}</span> sources</span>
-              ${sec.location_count > 0 ? `<span class="cat-stat"><span class="num">${sec.location_count}</span> locations</span>` : ""}
-            </div>
-
-            ${tagsHtml ? `<div class="cat-tags">${tagsHtml}</div>` : ""}
-            ${locsHtml ? `<div class="cat-locations">${locsHtml}</div>` : ""}
-            ${teaser ? `<div class="cat-teaser">${escapeHtml(teaser)}</div>` : ""}
+            <div class="subcat-pills">${subcatHtml}</div>
+            ${tagsHtml ? `<div class="group-tags">${tagsHtml}</div>` : ""}
+            ${teaser ? `<div class="group-teaser">${escapeHtml(teaser)}</div>` : ""}
           </div>
         `;
       }
@@ -502,15 +596,14 @@
 
       // ── Global map panel ──────────────────────────
       const allMapLocs = [];
-      for (const sec of data.sections) {
-        if (sec.locations && sec.locations.length > 0) {
-          const color = getColor(sec.category);
-          sec.locations.forEach(loc => {
-            allMapLocs.push({ ...loc, category: sec.category, color });
+      for (const g of groups) {
+        if (g.locations && g.locations.length > 0) {
+          g.locations.forEach(loc => {
+            allMapLocs.push({ ...loc, group: g.name, color: g.color });
           });
         }
       }
-      const catsWithLocs = [...new Set(allMapLocs.map(l => l.category))];
+      const groupsWithLocs = [...new Set(allMapLocs.map(l => l.group))];
 
       if (allMapLocs.length > 0) {
         html += `
@@ -518,14 +611,15 @@
             <div class="global-map-header">
               <span style="font-size:1.1rem;">🌍</span>
               Today's Global Hotspots
-              <span style="margin-left:auto; font-size:0.75rem; color:var(--text-dim);">${allMapLocs.length} locations across ${catsWithLocs.length} categories</span>
+              <span style="margin-left:auto; font-size:0.75rem; color:var(--text-dim);">${allMapLocs.length} locations across ${groupsWithLocs.length} topics</span>
             </div>
             <div id="globalMap"></div>
             <div class="map-legend" id="mapLegend">
-              ${catsWithLocs.map(cat => {
-                const c = getColor(cat);
-                return `<span class="legend-item" data-cat="${cat}" onclick="toggleMapCategory('${cat}')">
-                  <span class="legend-dot" style="background:${c}"></span>${cat}
+              ${groupsWithLocs.map(gName => {
+                const g = groups.find(x => x.name === gName);
+                const c = g ? g.color : "#8b8fa3";
+                return `<span class="legend-item" data-group="${gName}" onclick="toggleMapGroup('${gName}')">
+                  <span class="legend-dot" style="background:${c}"></span>${gName}
                 </span>`;
               }).join("")}
             </div>
@@ -553,8 +647,8 @@
         const bounds = [];
         const markerLayers = {};
 
-        catsWithLocs.forEach(cat => {
-          markerLayers[cat] = L.layerGroup().addTo(map);
+        groupsWithLocs.forEach(gName => {
+          markerLayers[gName] = L.layerGroup().addTo(map);
         });
 
         allMapLocs.forEach(loc => {
@@ -562,33 +656,25 @@
           const color = loc.color;
 
           const circle = L.circleMarker([loc.lat, loc.lng], {
-            radius: radius,
-            color: color,
-            fillColor: color,
-            fillOpacity: 0.5,
-            weight: 2,
+            radius, color, fillColor: color, fillOpacity: 0.5, weight: 2,
           });
 
           const pulse = L.circleMarker([loc.lat, loc.lng], {
-            radius: radius + 5,
-            color: color,
-            fillColor: color,
-            fillOpacity: 0.12,
-            weight: 1,
-            className: "pulse-marker",
+            radius: radius + 5, color, fillColor: color,
+            fillOpacity: 0.12, weight: 1, className: "pulse-marker",
           });
 
-          const catUrl = `/category/${data.date}/${encodeURIComponent(loc.category)}`;
+          const groupUrl = `/group/${data.date}/${encodeURIComponent(loc.group)}`;
           circle.bindPopup(
             `<strong>${loc.name}</strong><br>` +
-            `<span style="color:${color}; font-size:0.78rem; font-weight:600;">${loc.category}</span><br>` +
+            `<span style="color:${color}; font-size:0.78rem; font-weight:600;">${loc.group}</span><br>` +
             `<span style="color:#8b8fa3">${loc.count} mention${loc.count > 1 ? "s" : ""}</span><br>` +
-            `<a href="${catUrl}" style="color:${color}; font-size:0.78rem; text-decoration:none; margin-top:4px; display:inline-block;">View category detail →</a>`,
+            `<a href="${groupUrl}" style="color:${color}; font-size:0.78rem; text-decoration:none; margin-top:4px; display:inline-block;">View topic &rarr;</a>`,
             { maxWidth: 240 }
           );
 
-          markerLayers[loc.category].addLayer(circle);
-          markerLayers[loc.category].addLayer(pulse);
+          markerLayers[loc.group].addLayer(circle);
+          markerLayers[loc.group].addLayer(pulse);
           bounds.push([loc.lat, loc.lng]);
         });
 
@@ -600,24 +686,24 @@
 
         window._globalMap = map;
         window._markerLayers = markerLayers;
-        window._hiddenCats = new Set();
+        window._hiddenGroups = new Set();
       }
     }
 
-    // ── Toggle category on the map ──────────────────
-    function toggleMapCategory(cat) {
+    // ── Toggle group on the map ──────────────────────
+    function toggleMapGroup(gName) {
       if (!window._globalMap || !window._markerLayers) return;
-      const layer = window._markerLayers[cat];
+      const layer = window._markerLayers[gName];
       if (!layer) return;
 
-      if (window._hiddenCats.has(cat)) {
-        window._hiddenCats.delete(cat);
+      if (window._hiddenGroups.has(gName)) {
+        window._hiddenGroups.delete(gName);
         window._globalMap.addLayer(layer);
-        document.querySelector(`.legend-item[data-cat="${cat}"]`).style.opacity = "1";
+        document.querySelector(`.legend-item[data-group="${gName}"]`).style.opacity = "1";
       } else {
-        window._hiddenCats.add(cat);
+        window._hiddenGroups.add(gName);
         window._globalMap.removeLayer(layer);
-        document.querySelector(`.legend-item[data-cat="${cat}"]`).style.opacity = "0.3";
+        document.querySelector(`.legend-item[data-group="${gName}"]`).style.opacity = "0.3";
       }
     }
 
@@ -631,7 +717,7 @@
         `;
         return;
       }
-      let html = `<div class="main-header"><h2>Search: "${escapeHtml(data.query)}" — ${data.results.length} match${data.results.length > 1 ? "es" : ""}</h2></div>`;
+      let html = `<div class="main-header"><h2>Search: "${escapeHtml(data.query)}" &mdash; ${data.results.length} match${data.results.length > 1 ? "es" : ""}</h2></div>`;
       html += `<div class="search-results">`;
       for (const r of data.results) {
         html += `
@@ -649,7 +735,7 @@
     async function loadBriefing(date) {
       currentDate = date;
       renderDates();
-      document.getElementById("mainContent").innerHTML = `<div class="loading">Loading briefing…</div>`;
+      document.getElementById("mainContent").innerHTML = `<div class="loading">Loading briefing...</div>`;
       const data = await fetchOverview(date);
       if (data) renderOverview(data);
     }
@@ -682,7 +768,6 @@
     (async () => {
       dates = await fetchDates();
       renderDates();
-      // Check URL for date param
       const params = new URLSearchParams(window.location.search);
       const urlDate = params.get("date");
       if (urlDate && dates.includes(urlDate)) {

@@ -246,6 +246,16 @@ async def category_page(date: str, category: str):
     return HTMLResponse(page.read_text(encoding="utf-8"))
 
 
+# ── Group detail page ────────────────────────────────────────────────
+
+
+@app.get("/group/{date}/{group}", response_class=HTMLResponse)
+async def group_page(date: str, group: str):
+    """Serve the group detail page."""
+    page = STATIC_DIR / "group.html"
+    return HTMLResponse(page.read_text(encoding="utf-8"))
+
+
 # ── API: search across briefings ─────────────────────────────────────
 
 

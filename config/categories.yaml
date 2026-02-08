@@ -16,6 +16,10 @@ taxonomy:
       scope: >-
         Active warfare, military deployments, terrorist attacks,
         defence policy, arms deals, cyber-warfare, peacekeeping operations
+    - name: "Society & Human Rights"
+      scope: >-
+        Social movements, civil rights, immigration, inequality,
+        protests, education policy, demographics
 
   # ═══ 2. Economy ════════════════════════════════
   "Economy":
@@ -34,38 +38,41 @@ taxonomy:
       scope: >-
         Non-AI science & engineering — space, physics, quantum computing,
         robotics, biotech, materials science, semiconductors
+
+  # ═══ 4. Health & Longevity ═════════════════════
+  "Health & Longevity":
+    - name: "Health & Pandemic"
+      scope: >-
+        Disease outbreaks, public-health policy, pharmaceuticals,
+        healthcare systems, epidemiology (excluding aging-focused research)
     - name: "Longevity & Anti-Aging"
       scope: >-
         Aging biology, lifespan / health-span extension, senolytics,
         biogerontology, age-reversal research, caloric-restriction studies
 
-  # ═══ 4. Planet & Health ════════════════════════
-  "Planet & Health":
+  # ═══ 5. Environment & Planet ═══════════════════
+  "Environment & Planet":
     - name: "Climate & Environment"
       scope: >-
         Climate change, renewable energy, biodiversity loss, pollution,
         natural disasters, conservation, environmental policy
-    - name: "Health & Pandemic"
-      scope: >-
-        Disease outbreaks, public-health policy, pharmaceuticals,
-        healthcare systems, epidemiology (excluding aging-focused research)
 
-  # ═══ 5. Society & Culture ═════════════════════
-  "Society & Culture":
-    - name: "Society & Human Rights"
-      scope: >-
-        Social movements, civil rights, immigration, inequality,
-        protests, education policy, demographics
+  # ═══ 6. Culture & Entertainment ════════════════
+  "Culture & Entertainment":
     - name: "Art & Culture"
       scope: >-
-        Fine arts, music, film, literature, cultural events,
-        entertainment industry, heritage & museums
+        Fine arts, literature, cultural heritage, museums, awards
+        ceremonies, classical and traditional art forms
+    - name: "Entertainment"
+      scope: >-
+        New music releases, movies, TV shows, streaming, gaming,
+        concerts & tours, celebrity news, bestseller books, pop culture
     - name: "Sports"
       scope: >-
         Athletic competitions, leagues, Olympics, player transfers,
         major sporting events & results
 
-  # ═══ 6. Uncategorised ═════════════════════════
+  # ═══ 7. Uncategorised ═════════════════════════
   "Uncategorised":
     - name: "Other"
       scope: >-
@@ -105,7 +112,12 @@ disambiguation:
     International policy on human rights, sanctions for abuses
     → Geopolitics & Diplomacy.
   - >-
-    Sports vs Society —
+    Sports vs Entertainment —
     Sporting events, results, and athlete performance → Sports.
-    Social or political issues arising from sports (e.g. discrimination scandals)
-    → Society & Human Rights.
+    Entertainment industry coverage of a sporting event (e.g. Super Bowl halftime show)
+    → Entertainment.
+  - >-
+    Art & Culture vs Entertainment —
+    Fine-arts exhibitions, literary prizes, heritage events → Art & Culture.
+    New movie/music/TV releases, streaming, concerts, gaming, pop culture
+    → Entertainment.

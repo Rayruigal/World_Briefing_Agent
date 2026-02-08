@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Brief – Group Detail</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --surface2: #232636;
+      --border: #2e3248;
+      --text: #e4e6f0;
+      --text-dim: #8b8fa3;
+      --accent: #6c8dfa;
+      --radius: 10px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── Top bar ────────────────────────────────── */
+    .topbar {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 32px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+    .back-btn {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+      padding: 6px 16px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .back-btn:hover { background: var(--accent); color: #fff; }
+    .topbar h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .topbar .date-label { color: var(--text-dim); font-size: 0.9rem; margin-left: auto; }
+
+    /* ── Content ─────────────────────────────────── */
+    .content {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 32px;
+    }
+    @media (max-width: 768px) { .content { padding: 16px; } }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    .panel-header {
+      padding: 14px 20px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* ── Map ─────────────────────────────────────── */
+    #map {
+      width: 100%;
+      height: 400px;
+      background: #151820;
+    }
+    .map-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      padding: 10px 20px 14px;
+      border-top: 1px solid var(--border);
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: color 0.15s;
+    }
+    .legend-item:hover { color: var(--text); }
+    .legend-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    @keyframes pulse-ring {
+      0% { opacity: 0.4; transform: scale(1); }
+      100% { opacity: 0; transform: scale(1.8); }
+    }
+    .pulse-marker { animation: pulse-ring 2s ease-out infinite; }
+
+    .leaflet-popup-content-wrapper {
+      background: var(--surface) !important;
+      color: var(--text) !important;
+      border-radius: 8px !important;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important;
+    }
+    .leaflet-popup-tip { background: var(--surface) !important; }
+    .leaflet-popup-content { font-size: 0.85rem !important; margin: 10px 14px !important; }
+
+    /* ── Sub-category section ────────────────────── */
+    .subcat-section {
+      margin-bottom: 20px;
+    }
+    .subcat-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .subcat-header:hover { background: var(--surface2); }
+    .subcat-color-bar {
+      width: 4px;
+      height: 32px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+    .subcat-title {
+      font-weight: 700;
+      font-size: 1rem;
+      flex: 1;
+    }
+    .subcat-badge {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 10px;
+      font-size: 0.72rem;
+      color: var(--text-dim);
+    }
+    .subcat-detail-link {
+      font-size: 0.78rem;
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .subcat-detail-link:hover { text-decoration: underline; }
+
+    /* Bullets */
+    .bullets-list { list-style: none; padding: 16px 20px; }
+    .bullets-list li {
+      position: relative;
+      padding: 8px 0 8px 20px;
+      font-size: 0.9rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .bullets-list li:last-child { border-bottom: none; }
+    .bullets-list li::before {
+      content: "\2022";
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .why-matters-box {
+      padding: 12px 20px;
+      font-style: italic;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+      border-top: 1px solid var(--border);
+      background: var(--surface2);
+    }
+
+    .source-links-bar {
+      padding: 10px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      border-top: 1px solid var(--border);
+    }
+    .source-link {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 3px 10px;
+      font-size: 0.75rem;
+      text-decoration: none;
+      transition: background 0.15s;
+      max-width: 280px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .source-link:hover { color: #fff; }
+
+    .loading {
+      text-align: center;
+      padding: 80px;
+      color: var(--text-dim);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <a class="back-btn" id="backBtn" href="/">&#8592; Back to briefing</a>
+    <h1 id="groupTitle">Loading...</h1>
+    <span class="date-label" id="dateLabel"></span>
+  </div>
+
+  <div class="content" id="content">
+    <div class="loading">Loading group detail...</div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // ── Group definitions (must match index.html) ──
+    const GROUPS = {
+      "World & Politics": {
+        icon: "🌍", color: "#6c8dfa",
+        categories: ["Geopolitics & Diplomacy", "Armed Conflict & Security", "Society & Human Rights"],
+      },
+      "Economy": {
+        icon: "📈", color: "#5ec98f",
+        categories: ["Economy & Markets"],
+      },
+      "Science & Innovation": {
+        icon: "🔬", color: "#a78bfa",
+        categories: ["Artificial Intelligence", "Science & Technology"],
+      },
+      "Health & Longevity": {
+        icon: "🧬", color: "#f59e0b",
+        categories: ["Health & Pandemic", "Longevity & Anti-Aging"],
+      },
+      "Environment & Planet": {
+        icon: "🌱", color: "#34d399",
+        categories: ["Climate & Environment"],
+      },
+      "Culture & Entertainment": {
+        icon: "🎭", color: "#f472b6",
+        categories: ["Art & Culture", "Entertainment", "Sports"],
+      },
+    };
+
+    const CAT_COLORS = {
+      "Geopolitics & Diplomacy": "#6c8dfa",
+      "Armed Conflict & Security": "#f07068",
+      "Society & Human Rights": "#ec4899",
+      "Economy & Markets": "#5ec98f",
+      "Artificial Intelligence": "#00d4ff",
+      "Science & Technology": "#a78bfa",
+      "Health & Pandemic": "#f59e0b",
+      "Longevity & Anti-Aging": "#22d3ee",
+      "Climate & Environment": "#34d399",
+      "Art & Culture": "#f472b6",
+      "Entertainment": "#e879f9",
+      "Sports": "#fb923c",
+      "Other": "#8b8fa3",
+    };
+
+    // ── Parse URL ────────────────────────────────
+    const parts = window.location.pathname.split("/");
+    const date = parts[2];
+    const groupName = decodeURIComponent(parts.slice(3).join("/"));
+    const groupDef = GROUPS[groupName];
+    const groupColor = groupDef ? groupDef.color : "#6c8dfa";
+    const groupIcon = groupDef ? groupDef.icon : "";
+    const groupCategories = groupDef ? groupDef.categories : [];
+
+    document.getElementById("backBtn").href = `/?date=${date}`;
+
+    function extractDomain(url) {
+      try { return new URL(url).hostname.replace("www.", ""); }
+      catch { return url.slice(0, 30); }
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement("div");
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    // ── Load data ────────────────────────────────
+    (async () => {
+      document.getElementById("groupTitle").innerHTML =
+        `<span style="font-size:1.4rem;">${groupIcon}</span> ${escapeHtml(groupName)}`;
+      document.getElementById("groupTitle").style.color = groupColor;
+      document.getElementById("dateLabel").textContent = new Date(date + "T00:00:00")
+        .toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+
+      // Fetch all sub-category data in parallel
+      const promises = groupCategories.map(cat =>
+        fetch(`/api/briefings/${date}/categories/${encodeURIComponent(cat)}`)
+          .then(r => r.ok ? r.json() : null)
+          .catch(() => null)
+      );
+      const results = await Promise.all(promises);
+      const subcatData = results.filter(Boolean);
+
+      if (subcatData.length === 0) {
+        document.getElementById("content").innerHTML =
+          `<div class="loading">No data found for this group.</div>`;
+        return;
+      }
+
+      const content = document.getElementById("content");
+      let html = "";
+
+      // ── Combined map ────────────────────────────
+      const allLocations = [];
+      subcatData.forEach(data => {
+        (data.locations || []).forEach(loc => {
+          allLocations.push({ ...loc, category: data.category, color: CAT_COLORS[data.category] || groupColor });
+        });
+      });
+      const catsWithLocs = [...new Set(allLocations.map(l => l.category))];
+
+      html += `
+        <div class="panel">
+          <div class="panel-header">
+            <span style="font-size:1.1rem;">🌍</span> Geographic Hotspots
+            <span style="margin-left:auto; font-size:0.75rem; color:var(--text-dim);">${allLocations.length} locations</span>
+          </div>
+          <div id="map"></div>
+          ${catsWithLocs.length > 1 ? `
+          <div class="map-legend">
+            ${catsWithLocs.map(cat => {
+              const c = CAT_COLORS[cat] || groupColor;
+              return `<span class="legend-item" data-cat="${cat}" onclick="toggleCat('${cat}')">
+                <span class="legend-dot" style="background:${c}"></span>${cat}
+              </span>`;
+            }).join("")}
+          </div>
+          ` : ""}
+        </div>
+      `;
+
+      // ── Sub-category sections ───────────────────
+      subcatData.forEach(data => {
+        const catColor = CAT_COLORS[data.category] || groupColor;
+        const detailUrl = `/category/${date}/${encodeURIComponent(data.category)}`;
+
+        html += `
+          <div class="panel subcat-section">
+            <div class="subcat-header" onclick="window.location.href='${detailUrl}'">
+              <div class="subcat-color-bar" style="background:${catColor}"></div>
+              <div class="subcat-title">${escapeHtml(data.category)}</div>
+              <span class="subcat-badge">${data.bullets.length} points &middot; ${(data.source_items || []).length} articles</span>
+              <a class="subcat-detail-link" href="${detailUrl}" style="color:${catColor}">
+                Full detail &rarr;
+              </a>
+            </div>
+            <ul class="bullets-list">
+              ${data.bullets.map(b => `<li style="color:var(--text)"><span style="color:${catColor}; position:absolute; left:0;">&bull;</span>${escapeHtml(b)}</li>`).join("")}
+            </ul>
+            ${data.why_matters ? `<div class="why-matters-box">Why it matters: ${escapeHtml(data.why_matters)}</div>` : ""}
+            <div class="source-links-bar">
+              ${data.links.map(l => `<a class="source-link" href="${escapeHtml(l)}" target="_blank" rel="noopener" style="color:${catColor}">${extractDomain(l)}</a>`).join("")}
+            </div>
+          </div>
+        `;
+      });
+
+      content.innerHTML = html;
+
+      // ── Render map ────────────────────────────────
+      const map = L.map("map", {
+        center: [25, 20], zoom: 2,
+        zoomControl: true, attributionControl: false,
+      });
+
+      L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+        subdomains: "abcd", maxZoom: 19,
+      }).addTo(map);
+
+      if (allLocations.length > 0) {
+        const maxCount = Math.max(...allLocations.map(l => l.count));
+        const bounds = [];
+        const layers = {};
+        catsWithLocs.forEach(cat => { layers[cat] = L.layerGroup().addTo(map); });
+
+        allLocations.forEach(loc => {
+          const radius = Math.max(7, (loc.count / maxCount) * 24);
+          const c = loc.color;
+          const circle = L.circleMarker([loc.lat, loc.lng], {
+            radius, color: c, fillColor: c, fillOpacity: 0.5, weight: 2,
+          });
+          const pulse = L.circleMarker([loc.lat, loc.lng], {
+            radius: radius + 5, color: c, fillColor: c,
+            fillOpacity: 0.12, weight: 1, className: "pulse-marker",
+          });
+
+          const detailUrl = `/category/${date}/${encodeURIComponent(loc.category)}`;
+          circle.bindPopup(
+            `<strong>${loc.name}</strong><br>` +
+            `<span style="color:${c}; font-size:0.78rem; font-weight:600;">${loc.category}</span><br>` +
+            `<span style="color:#8b8fa3">${loc.count} mention${loc.count > 1 ? "s" : ""}</span><br>` +
+            `<a href="${detailUrl}" style="color:${c}; font-size:0.78rem; text-decoration:none; margin-top:4px; display:inline-block;">View detail &rarr;</a>`,
+            { maxWidth: 240 }
+          );
+
+          layers[loc.category].addLayer(circle);
+          layers[loc.category].addLayer(pulse);
+          bounds.push([loc.lat, loc.lng]);
+        });
+
+        if (bounds.length > 1) map.fitBounds(bounds, { padding: [40, 40], maxZoom: 5 });
+        else if (bounds.length === 1) map.setView(bounds[0], 4);
+
+        window._map = map;
+        window._layers = layers;
+        window._hidden = new Set();
+      } else {
+        const noData = L.control({ position: "topleft" });
+        noData.onAdd = () => {
+          const div = L.DomUtil.create("div", "");
+          div.style.cssText = "background:rgba(26,29,39,0.9);color:#8b8fa3;padding:12px 20px;border-radius:8px;font-size:0.85rem;";
+          div.innerHTML = "No geographic locations detected for this topic";
+          return div;
+        };
+        noData.addTo(map);
+      }
+    })();
+
+    function toggleCat(cat) {
+      if (!window._map || !window._layers) return;
+      const layer = window._layers[cat];
+      if (!layer) return;
+      if (window._hidden.has(cat)) {
+        window._hidden.delete(cat);
+        window._map.addLayer(layer);
+        document.querySelector(`.legend-item[data-cat="${cat}"]`).style.opacity = "1";
+      } else {
+        window._hidden.add(cat);
+        window._map.removeLayer(layer);
+        document.querySelector(`.legend-item[data-cat="${cat}"]`).style.opacity = "0.3";
+      }
+    }
+  </script>
+</body>
+</html>

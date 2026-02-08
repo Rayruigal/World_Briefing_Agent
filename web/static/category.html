@@ -248,7 +248,24 @@
       "Health & Pandemic": "#f59e0b",
       "Society & Human Rights": "#ec4899",
       "Art & Culture": "#f472b6",
+      "Entertainment": "#e879f9",
       "Other": "#8b8fa3",
+    };
+
+    // Category → Group mapping for back navigation
+    const CAT_TO_GROUP = {
+      "Geopolitics & Diplomacy": "World & Politics",
+      "Armed Conflict & Security": "World & Politics",
+      "Society & Human Rights": "World & Politics",
+      "Economy & Markets": "Economy",
+      "Artificial Intelligence": "Science & Innovation",
+      "Science & Technology": "Science & Innovation",
+      "Health & Pandemic": "Health & Longevity",
+      "Longevity & Anti-Aging": "Health & Longevity",
+      "Climate & Environment": "Environment & Planet",
+      "Art & Culture": "Culture & Entertainment",
+      "Entertainment": "Culture & Entertainment",
+      "Sports": "Culture & Entertainment",
     };
 
     // ── Parse URL ────────────────────────────────
@@ -256,8 +273,16 @@
     const date = parts[2];
     const category = decodeURIComponent(parts.slice(3).join("/"));
     const color = COLORS[category] || "#6c8dfa";
+    const parentGroup = CAT_TO_GROUP[category];
 
-    document.getElementById("backBtn").href = `/?date=${date}`;
+    // Back button goes to parent group page
+    const backBtn = document.getElementById("backBtn");
+    if (parentGroup) {
+      backBtn.href = `/group/${date}/${encodeURIComponent(parentGroup)}`;
+      backBtn.textContent = `\u2190 Back to ${parentGroup}`;
+    } else {
+      backBtn.href = `/?date=${date}`;
+    }
 
     function extractDomain(url) {
       try { return new URL(url).hostname.replace("www.", ""); }
