@@ -14,9 +14,12 @@ from pathlib import Path
 
 log = logging.getLogger(__name__)
 
-# Microsoft Edge TTS voice – natural, professional English
-VOICE = "en-US-AriaNeural"  # clear female voice, great for news
-RATE = "+10%"  # slightly faster than default for a newscast feel
+# Microsoft Edge TTS voice – warm, conversational English
+VOICE = "en-US-JennyNeural"  # softer, warmer tone than Aria
+RATE = "+5%"  # only slightly faster for a calm newscast feel
+
+# Word limit per section to keep audio files compact (~1 min per 150 words)
+MAX_WORDS_PER_SECTION = 300  # ~2 min of audio per section, ~12 min total
 
 # Section order matching the dashboard groups
 GROUP_SECTIONS: dict[str, list[str]] = {
@@ -91,6 +94,20 @@ def _parse_sections(brief_text: str) -> dict[str, str]:
     return sections
 
 
+def _truncate_words(text: str, max_words: int) -> str:
+    """Truncate text to at most *max_words* words, ending at a sentence."""
+    words = text.split()
+    if len(words) <= max_words:
+        return text
+    truncated = " ".join(words[:max_words])
+    # Try to end at a sentence boundary
+    for punct in (".", "!", "?"):
+        last = truncated.rfind(punct)
+        if last > len(truncated) // 2:
+            return truncated[: last + 1]
+    return truncated + "."
+
+
 def _build_group_text(
     group_name: str, categories: list[str], sections: dict[str, str]
 ) -> str:
@@ -111,7 +128,8 @@ def _build_group_text(
         if cleaned:
             parts.append(cleaned)
 
-    return "\n\n".join(parts)
+    full = "\n\n".join(parts)
+    return _truncate_words(full, MAX_WORDS_PER_SECTION)
 
 
 async def _generate_audio(text: str, output_path: Path) -> None:

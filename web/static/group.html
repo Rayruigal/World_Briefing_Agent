@@ -191,6 +191,25 @@
       background: var(--surface2);
     }
 
+    .section-summary {
+      padding: 14px 20px;
+      border-top: 1px solid var(--border);
+      background: rgba(108, 141, 250, 0.04);
+    }
+    .section-summary-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-dim);
+      margin-bottom: 6px;
+    }
+    .section-summary-text {
+      font-size: 0.85rem;
+      line-height: 1.65;
+      color: var(--text);
+    }
+
     .source-links-bar {
       padding: 10px 20px;
       display: flex;
@@ -374,6 +393,11 @@
               ${data.bullets.map(b => `<li style="color:var(--text)"><span style="color:${catColor}; position:absolute; left:0;">&bull;</span>${escapeHtml(b)}</li>`).join("")}
             </ul>
             ${data.why_matters ? `<div class="why-matters-box">Why it matters: ${escapeHtml(data.why_matters)}</div>` : ""}
+            ${data.bullets.length > 0 ? `
+            <div class="section-summary">
+              <div class="section-summary-label">Section Summary</div>
+              <div class="section-summary-text">${data.bullets.map(b => escapeHtml(b)).join(". ").replace(/\.\./g, ".")}. ${data.why_matters ? escapeHtml(data.why_matters) : ""}</div>
+            </div>` : ""}
             <div class="source-links-bar">
               ${data.links.map(l => `<a class="source-link" href="${escapeHtml(l)}" target="_blank" rel="noopener" style="color:${catColor}">${extractDomain(l)}</a>`).join("")}
             </div>
