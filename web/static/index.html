@@ -348,19 +348,103 @@
 
     /* ── Audio player bar ──────────────────────── */
     .audio-bar {
-      display: flex;
-      align-items: center;
-      gap: 12px;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 12px 20px;
+      padding: 16px 20px;
       margin-bottom: 20px;
     }
+    .audio-bar-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
     .audio-bar .audio-icon { font-size: 1.2rem; }
-    .audio-bar .audio-label { font-size: 0.85rem; font-weight: 600; white-space: nowrap; }
-    .audio-bar audio { flex: 1; height: 36px; min-width: 0; }
+    .audio-bar .audio-label { font-size: 0.9rem; font-weight: 700; }
     .audio-bar .audio-na { font-size: 0.8rem; color: var(--text-dim); font-style: italic; }
+    .audio-bar audio { width: 100%; height: 36px; }
+
+    .audio-playlist {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .audio-track {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.15s;
+      font-size: 0.82rem;
+    }
+    .audio-track:hover { background: var(--surface2); }
+    .audio-track.active { background: var(--surface2); }
+    .audio-track .track-btn {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      border: none;
+      background: var(--surface2);
+      color: var(--text);
+      font-size: 0.75rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: background 0.15s, color 0.15s;
+    }
+    .audio-track.active .track-btn { background: var(--accent); color: #fff; }
+    .audio-track .track-name { flex: 1; font-weight: 500; }
+    .audio-track .track-size { color: var(--text-dim); font-size: 0.72rem; }
+
+    .audio-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .play-all-btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 7px 18px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .play-all-btn:hover { background: var(--accent-hover); }
+    .now-playing {
+      font-size: 0.78rem;
+      color: var(--text-dim);
+    }
+    .now-playing span { color: var(--text); font-weight: 500; }
+
+    /* Per-group-card play button */
+    .group-play-btn {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-dim);
+      font-size: 0.7rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.15s;
+    }
+    .group-play-btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
 
     /* ── Chat widget ───────────────────────────── */
     .chat-fab {
@@ -698,9 +782,11 @@
           </div>
         </div>
         <div class="audio-bar" id="audioBar">
-          <span class="audio-icon">🎧</span>
-          <span class="audio-label">Audio Briefing</span>
-          <div id="audioContent"><span class="audio-na">Checking...</span></div>
+          <div class="audio-bar-header">
+            <span class="audio-icon">🎧</span>
+            <span class="audio-label">Audio Briefing</span>
+          </div>
+          <div id="audioContent"><span class="audio-na">Loading audio...</span></div>
         </div>
       `;
 
@@ -744,6 +830,7 @@
                   ${g.totalItems} articles &middot; ${g.totalBullets} key points
                 </div>
               </div>
+              <button class="group-play-btn" data-group="${escapeHtml(g.name)}" onclick="event.stopPropagation(); playGroup('${escapeHtml(g.name)}')" title="Play ${escapeHtml(g.name)} audio">&#9654;</button>
               <span class="group-card-arrow" style="color:${g.color}">&rarr;</span>
             </div>
 
@@ -929,19 +1016,112 @@
       }, 300);
     });
 
-    // ── Audio bar ────────────────────────────────────
+    // ── Audio playlist ─────────────────────────────────
+    let audioSections = [];
+    let audioPlayer = null;
+    let currentTrack = -1;
+    let isPlayingAll = false;
+
     async function checkAudio(date) {
       const el = document.getElementById("audioContent");
       if (!el) return;
       try {
         const resp = await fetch(`/api/briefings/${date}/audio-check`);
-        if (resp.ok) {
-          el.innerHTML = `<audio controls preload="none" src="/api/briefings/${date}/audio"></audio>`;
+        if (!resp.ok) {
+          el.innerHTML = `<span class="audio-na">Not available for this date</span>`;
+          return;
+        }
+        const data = await resp.json();
+
+        if (data.sections && data.sections.length > 0) {
+          audioSections = data.sections.map(s => ({
+            ...s,
+            url: `/api/briefings/${date}/audio/${s.slug}`,
+          }));
+          renderPlaylist(el);
+        } else if (data.legacy) {
+          // Fallback to legacy single file
+          el.innerHTML = `<audio controls preload="none" src="/api/briefings/${date}/audio" style="width:100%;height:36px;"></audio>`;
         } else {
           el.innerHTML = `<span class="audio-na">Not available for this date</span>`;
         }
       } catch {
         el.innerHTML = `<span class="audio-na">Not available</span>`;
+      }
+    }
+
+    function renderPlaylist(container) {
+      let html = `<div class="audio-playlist">`;
+      audioSections.forEach((s, i) => {
+        const sizeKB = (s.size / 1024).toFixed(0);
+        html += `
+          <div class="audio-track" id="track-${i}" onclick="playTrack(${i})">
+            <button class="track-btn" id="trackBtn-${i}">&#9654;</button>
+            <span class="track-name">${escapeHtml(s.group)}</span>
+            <span class="track-size">${sizeKB} KB</span>
+          </div>`;
+      });
+      html += `</div>`;
+      html += `
+        <div class="audio-controls">
+          <button class="play-all-btn" onclick="playAll()">&#9654; Play All</button>
+          <div class="now-playing" id="nowPlaying"></div>
+        </div>
+        <audio id="mainAudioPlayer" style="width:100%; margin-top:10px; display:none;" controls></audio>
+      `;
+      container.innerHTML = html;
+      audioPlayer = document.getElementById("mainAudioPlayer");
+      audioPlayer.addEventListener("ended", onTrackEnded);
+    }
+
+    function playTrack(idx) {
+      if (idx < 0 || idx >= audioSections.length) return;
+      currentTrack = idx;
+      audioPlayer.src = audioSections[idx].url;
+      audioPlayer.style.display = "block";
+      audioPlayer.play();
+      updateTrackUI();
+    }
+
+    function playGroup(groupName) {
+      const idx = audioSections.findIndex(s => s.group === groupName);
+      if (idx >= 0) {
+        isPlayingAll = false;
+        playTrack(idx);
+      }
+    }
+
+    function playAll() {
+      if (audioSections.length === 0) return;
+      isPlayingAll = true;
+      playTrack(0);
+    }
+
+    function onTrackEnded() {
+      if (isPlayingAll && currentTrack < audioSections.length - 1) {
+        playTrack(currentTrack + 1);
+      } else {
+        isPlayingAll = false;
+        updateTrackUI();
+      }
+    }
+
+    function updateTrackUI() {
+      // Reset all tracks
+      audioSections.forEach((_, i) => {
+        const track = document.getElementById(`track-${i}`);
+        const btn = document.getElementById(`trackBtn-${i}`);
+        if (track) track.classList.remove("active");
+        if (btn) btn.innerHTML = "&#9654;";
+      });
+      // Highlight current
+      if (currentTrack >= 0) {
+        const track = document.getElementById(`track-${currentTrack}`);
+        const btn = document.getElementById(`trackBtn-${currentTrack}`);
+        if (track) track.classList.add("active");
+        if (btn) btn.innerHTML = "&#9646;&#9646;";
+        const np = document.getElementById("nowPlaying");
+        if (np) np.innerHTML = `Now playing: <span>${escapeHtml(audioSections[currentTrack].group)}</span>`;
       }
     }
 

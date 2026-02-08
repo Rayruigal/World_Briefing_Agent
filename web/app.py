@@ -377,19 +377,63 @@ async def chat(req: ChatRequest):
 
 # ── API: audio briefing ─────────────────────────────────────────────
 
+# Group order + slug mapping (must match process/tts.py)
+_AUDIO_GROUP_ORDER = [
+    "Science & Innovation",
+    "Health & Longevity",
+    "Culture & Entertainment",
+    "Environment & Planet",
+    "Economy",
+    "World & Politics",
+]
+
+
+def _slugify(name: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
 
 @app.get("/api/briefings/{date}/audio-check")
 async def check_audio(date: str):
-    """Lightweight check whether an audio briefing exists for a date."""
-    mp3_path = OUTPUT_DIR / f"{date}.mp3"
-    if not mp3_path.exists():
+    """Return list of available audio sections for a date."""
+    audio_dir = OUTPUT_DIR / f"{date}-audio"
+
+    # Also check legacy single-file
+    legacy = OUTPUT_DIR / f"{date}.mp3"
+
+    sections: list[dict] = []
+    if audio_dir.exists():
+        for group_name in _AUDIO_GROUP_ORDER:
+            slug = _slugify(group_name)
+            mp3 = audio_dir / f"{slug}.mp3"
+            if mp3.exists() and mp3.stat().st_size > 0:
+                sections.append({
+                    "group": group_name,
+                    "slug": slug,
+                    "size": mp3.stat().st_size,
+                })
+
+    if not sections and not legacy.exists():
         raise HTTPException(status_code=404, detail="not found")
-    return {"available": True, "size": mp3_path.stat().st_size}
+
+    return {
+        "available": True,
+        "sections": sections,
+        "legacy": legacy.exists() and not sections,
+    }
+
+
+@app.get("/api/briefings/{date}/audio/{slug}")
+async def get_section_audio(date: str, slug: str):
+    """Serve a per-section audio MP3."""
+    mp3_path = OUTPUT_DIR / f"{date}-audio" / f"{slug}.mp3"
+    if not mp3_path.exists():
+        raise HTTPException(status_code=404, detail=f"No audio for section '{slug}'")
+    return FileResponse(mp3_path, media_type="audio/mpeg", filename=f"briefing-{date}-{slug}.mp3")
 
 
 @app.get("/api/briefings/{date}/audio")
 async def get_audio(date: str):
-    """Serve the audio briefing MP3 for a given date."""
+    """Serve the legacy single-file audio briefing MP3."""
     mp3_path = OUTPUT_DIR / f"{date}.mp3"
     if not mp3_path.exists():
         raise HTTPException(status_code=404, detail=f"No audio briefing for {date}")
