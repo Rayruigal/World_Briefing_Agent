@@ -19,6 +19,8 @@ from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
+from dotenv import load_dotenv
+
 from web.geo import extract_locations, extract_words
 
 log = logging.getLogger(__name__)
@@ -27,6 +29,9 @@ log = logging.getLogger(__name__)
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = PROJECT_ROOT / "output"
 STATIC_DIR = Path(__file__).resolve().parent / "static"
+
+# ── Load .env so LLM credentials are available for the chat endpoint ─
+load_dotenv(PROJECT_ROOT / ".env", override=True)
 
 # ── App ──────────────────────────────────────────────────────────────
 app = FastAPI(title="World Brief", version="1.0.0")
