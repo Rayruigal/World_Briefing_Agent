@@ -12,7 +12,7 @@ import re
 from pathlib import Path
 from typing import Any, Sequence
 
-from process.llm import chat_completion_kwargs, get_client, get_model
+from process.llm import chat_completion_kwargs, get_client, get_model, is_reasoning_model
 from storage.models import NormalizedItem
 
 log = logging.getLogger(__name__)
@@ -115,7 +115,10 @@ def classify_item(
             resp = client.chat.completions.create(
                 model=model,
                 messages=[
-                    {"role": "system", "content": "You are a strict JSON-only classifier."},
+                    {
+                        "role": "developer" if is_reasoning_model(model) else "system",
+                        "content": "You are a strict JSON-only classifier.",
+                    },
                     {"role": "user", "content": prompt},
                 ],
                 **chat_completion_kwargs(model=model, temperature=0.1, max_tokens=200),

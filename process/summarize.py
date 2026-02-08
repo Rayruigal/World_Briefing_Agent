@@ -8,7 +8,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Sequence
 
-from process.llm import chat_completion_kwargs, get_client, get_model
+from process.llm import chat_completion_kwargs, get_client, get_model, is_reasoning_model
 from storage.models import NormalizedItem
 
 log = logging.getLogger(__name__)
@@ -70,11 +70,13 @@ def summarize(
     log.info("Generating summary with model=%s, categories=%d, items=%d", model, len(grouped), len(items))
 
     try:
+        # Reasoning models (o1, o3, gpt-5) require "developer" role, not "system"
+        sys_role = "developer" if is_reasoning_model(model) else "system"
         resp = client.chat.completions.create(
             model=model,
             messages=[
                 {
-                    "role": "system",
+                    "role": sys_role,
                     "content": (
                         "You are a senior news editor writing a concise daily world briefing email. "
                         "Respond ONLY with the briefing text (plaintext, no markdown)."
@@ -86,6 +88,11 @@ def summarize(
         )
         brief = resp.choices[0].message.content or ""
         brief = brief.strip()
+        if not brief:
+            log.warning(
+                "LLM returned empty content (model=%s, finish_reason=%s)",
+                model, resp.choices[0].finish_reason,
+            )
     except Exception:
         log.exception("Summarisation LLM call failed")
         # Emergency fallback: just list titles
