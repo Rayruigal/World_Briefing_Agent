@@ -378,6 +378,15 @@ async def chat(req: ChatRequest):
 # ── API: audio briefing ─────────────────────────────────────────────
 
 
+@app.get("/api/briefings/{date}/audio-check")
+async def check_audio(date: str):
+    """Lightweight check whether an audio briefing exists for a date."""
+    mp3_path = OUTPUT_DIR / f"{date}.mp3"
+    if not mp3_path.exists():
+        raise HTTPException(status_code=404, detail="not found")
+    return {"available": True, "size": mp3_path.stat().st_size}
+
+
 @app.get("/api/briefings/{date}/audio")
 async def get_audio(date: str):
     """Serve the audio briefing MP3 for a given date."""

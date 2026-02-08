@@ -934,7 +934,7 @@
       const el = document.getElementById("audioContent");
       if (!el) return;
       try {
-        const resp = await fetch(`/api/briefings/${date}/audio`, { method: "HEAD" });
+        const resp = await fetch(`/api/briefings/${date}/audio-check`);
         if (resp.ok) {
           el.innerHTML = `<audio controls preload="none" src="/api/briefings/${date}/audio"></audio>`;
         } else {
