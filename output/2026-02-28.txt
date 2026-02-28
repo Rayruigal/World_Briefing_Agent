@@ -1,0 +1,159 @@
+Armed Conflict & Security
+• Israel launched “pre-emptive” air strikes on Iran as cross-border tensions with Hezbollah in Lebanon persisted, with daily violations reported.
+• Pakistan-Afghanistan hostilities escalated; Islamabad described an “open war” with the Taliban government after strikes, while the US backed Pakistan’s right to self-defense.
+• A Bolivian Air Force plane carrying banknotes crashed near La Paz, killing at least 15–20 people and triggering chaotic scenes as crowds rushed the scattered cash.
+• A US military anti-drone laser mistakenly shot down a Customs and Border Protection drone near the Texas border, prompting an FAA airspace closure.
+• The Pentagon’s standoff with Anthropic over military AI use deepened, with Trump ordering agencies to stop using its tech and the company preparing a legal challenge.
+Why it matters: Rapid escalations across multiple theaters—from the Middle East to South Asia—combined with emerging tech mishaps and AI policy clashes are testing crisis management and governance.
+https://www.ft.com/content/b8ad2fe0-0df8-4a43-bc5a-6fd53b48cc1e
+https://www.aljazeera.com/news/2026/2/28/israel-attacks-southern-lebanon-in-latest-near-daily-ceasefire-violation
+https://www.aljazeera.com/news/liveblog/2026/2/28/pakistan-afghanistan-live-calls-for-dialogue-amid-deadly-border-clashes
+https://www.theguardian.com/world/2026/feb/28/us-backs-pakistans-right-to-defend-itself-against-taliban-after-strikes-on-afghanistan
+https://www.bbc.com/news/articles/c0rjpxxpp49o?at_medium=RSS&at_campaign=rss
+https://www.theverge.com/policy/886021/us-military-cbp-drone-laser-texas
+
+Artificial Intelligence
+• Trump ordered all US agencies to cease using Anthropic’s AI, and Defense Secretary Pete Hegseth labeled the firm a “supply chain risk” amid a dispute over “any lawful use” provisions.
+• Anthropic plans to sue, arguing the Pentagon’s blacklisting is legally unsound; tech workers at Google and OpenAI voiced support for Anthropic’s red lines on mass surveillance and autonomous lethal weapons.
+• OpenAI struck a deal with the Pentagon hours after Anthropic was blacklisted, and announced $110 billion in new investments (Amazon $50B, Nvidia and SoftBank $30B each) while reporting 900M weekly users.
+• Media and analysts warn of risks in military AI governance, surveillance, and autonomous weapons as labs and policymakers draw lines in real time.
+Why it matters: The confrontation is defining who sets the rules for military AI—and how commercial models can be constrained—while reshaping funding, partnerships, and public trust.
+https://www.bbc.com/news/articles/cn48jj3y8ezo?at_medium=RSS&at_campaign=rss
+https://www.theverge.com/policy/886489/pentagon-anthropic-trump-dod
+https://www.wired.com/story/trump-moves-to-ban-anthropic-from-the-us-government/
+https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html
+https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/
+https://www.theverge.com/ai-artificial-intelligence/886082/ai-vs-the-pentagon-killer-robots-mass-surveillance-and-red-lines
+
+Geopolitics & Diplomacy
+• Iran nuclear diplomacy sent mixed signals: Oman’s FM said “peace within reach” with no stockpiles, while the IAEA said it can’t verify Iran suspended enrichment; US and UK moved to pull diplomats amid war fears.
+• The US Embassy in Israel advised staff they could leave as tensions rose; Trump said he’s “not happy” with nuclear talks but will allow more time, and floated a “friendly takeover of Cuba” without details.
+• Denmark warned of likely Russian interference in its March election, citing new fault lines and disinformation risks.
+• The Anthropic-Pentagon clash spilled into policy, with supply-chain risk designations and tech employees’ open letters highlighting governance of AI in national security.
+Why it matters: Conflicting signals on Iran, heightened regional risks, and foreign election interference concerns underscore a volatile diplomatic landscape with tech policy implications.
+https://www.aljazeera.com/news/2026/2/28/peace-within-reach-as-iran-agrees-no-nuclear-material-stockpile-oman-fm
+https://apnews.com/article/iran-us-israel-embassy-staff-436162f886bdaed30c8dd0cdbe1b5aea
+https://apnews.com/article/iran-nuclear-iaea-uranium-enrichment-suspend-ccf574a324504b985f4b158f9d3d6941
+https://www.ft.com/content/001b06e5-16f8-4e1a-9771-98aee680752b
+https://apnews.com/article/trump-cuba-friendly-takeover-rubio-venezuela-435f056b47cfd6bc0c0af875318fa123
+https://www.theguardian.com/world/2026/feb/28/denmark-election-interference-russia-chaos-us-greenland-intelligence-agencies
+
+Society & Human Rights
+• US authorities indicted 30 more people over an anti-immigration protest at a Minnesota church, as the administration also detained refugees already admitted to the US for review.
+• Scouting America will alter policies at the Pentagon’s urging, including using “biological sex at birth” for membership criteria.
+• Bill Clinton testified to Congress he had “no idea” of Epstein’s crimes; meanwhile, Iran continued cracking down on protesters despite US warnings.
+• A federal court blocked a Virginia law limiting minors’ social media use, citing free speech protections.
+Why it matters: Civil liberties, immigration enforcement, and culture-war policies are increasingly intersecting with federal power and public safety debates.
+https://apnews.com/article/immigration-church-minnesota-837d2ebc7a121340a7eaf73600cba019
+https://apnews.com/article/refugees-review-minnesota-trump-detention-immigration-4d8d0ed8224056bd4a49160b360e91bd
+https://www.theguardian.com/us-news/2026/feb/27/bill-clinton-testimony-jeffrey-epstein-investigation
+https://apnews.com/article/scouting-america-pentagon-military-boy-scouts-14a5fc1521fcd1e51103638f6f504214
+https://www.ft.com/content/d8267b9e-109b-4e00-9e82-159a9f5b7cdd
+https://www.npr.org/2026/02/27/nx-s1-5724974/iran-continues-crackdown-on-anti-government-protesters-despite-trumps-threat
+
+Entertainment
+• Warner Bros. Discovery agreed to a $110B merger with Paramount, after Netflix backed out, setting up major consolidation across studios, streaming, and gaming.
+• Editors honored “Sinners” and “One Battle After Another” at the ACE Eddie Awards, signaling the Oscars’ editing race.
+• Music icon Neil Sedaka died at 86, prompting widespread tributes.
+• Amazon teased its God of War live-action series with a first image of Kratos and Atreus.
+Why it matters: A sweeping studio merger could reshape content pipelines and competition, while awards, obituaries, and tentpole adaptations reflect industry transitions.
+https://www.theverge.com/entertainment/886478/warner-bros-discovery-paramount-merger-agreement
+https://apnews.com/article/warner-bros-paramount-deal-explained-7c05a7455e3cef11875dd53784dbf9d2
+https://variety.com/2026/artisans/news/ace-eddie-awards-2026-winners-list-1236674690/
+https://www.hollywoodreporter.com/movies/movie-news/2026-ace-eddie-awards-winners-list-one-battle-sinners-1236517103/
+https://www.rollingstone.com/music/music-news/neil-sedaka-tributes-micky-dolenz-1235523246/
+https://www.theverge.com/streaming/886008/amazon-god-of-war-kratos-image
+
+Science & Technology
+• NASA overhauled Artemis, adding a 2027 test flight and pushing the crewed Moon landing to Artemis IV in 2028, aiming for standardized vehicle configurations and higher cadence.
+• Google moved to quantum-proof parts of HTTPS with Merkle Tree Certificates, reducing data footprints and strengthening security against future quantum attacks.
+• New research showed virtual photons can influence superconductivity, while Toyota’s 2026 bZ small EV saw notable efficiency improvements.
+• A congressional impasse suspended small-business research programs, derailing funding for gene therapies, medical devices, and other innovations.
+Why it matters: Space timelines, cybersecurity resilience, fundamental physics, EV advances, and research funding all have far-reaching impacts on innovation and policy.
+https://apnews.com/article/nasa-moon-artemis-astronauts-83132fc4f86c3491984844fc309e25d2
+https://www.theverge.com/science/886656/nasa-artemis-moon-landing-delayed-2028
+https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/
+https://arstechnica.com/science/2026/02/photons-that-arent-actually-there-influence-superconductivity/
+https://arstechnica.com/cars/2026/02/and-the-award-for-the-most-improved-ev-goes-to-the-2026-toyota-bz/
+https://www.science.org/content/article/suspended-small-business-research-programs-derail-development-gene-therapies-hip
+
+Health & Pandemic
+• European regulators approved a single-dose sleeping sickness drug, simplifying treatment and boosting eradication hopes in affected African countries.
+• Teen girls face the highest ACL tear risk; parents and experts urge more prevention programs and support in youth sports.
+• Ultrahuman launched a Ring Pro smart ring with up to 15-day battery life, expanding consumer health tracking.
+• Texas sued Kenvue over Tylenol warnings for pregnant women; a judge rejected the company’s bid to dismiss.
+Why it matters: Breakthrough therapies, youth injury prevention, consumer health tech, and product liability shape public health outcomes and trust.
+https://www.science.org/content/article/truly-spectacular-drug-sleeping-sickness-simplifies-treatment-raising-hopes-eradication
+https://apnews.com/article/acl-women-girls-soccer-injury-athletes-high-school-b7cf544bfec1ac44e975bbd79d67fdfc
+https://www.theverge.com/tech/885866/ultrahuman-ring-pro-jade-ai-launch-price-availability
+https://www.businessoffashion.com/news/beauty/judge-rejects-kenvue-tylenol-bid/
+https://phys.org/news/2026-02-immune-cells-viral-rna-fast.html
+https://www.theverge.com/column/885444/optimizer-huel-wellness-supplements-meal-replacement
+
+Economy & Markets
+• US bank stocks posted their biggest slide since April as investors fretted over private credit strains and AI’s potential disruption of software.
+• OpenAI raised $110B in one of history’s largest private rounds, while Nvidia faced a tough week amid rising competition and shifting chip demand.
+• Dell shares jumped 22% on strong earnings despite rising memory costs; CoreWeave’s stock fell after revenue guidance disappointed.
+• The DOJ said tariff refunds after the Supreme Court ruling will “take time,” tempering expectations despite business pressure.
+• Lithium giant SQM forecast global demand up about 25% in 2026; China’s capital markets rebounded on refinancing and bond issuance.
+Why it matters: Market volatility, unprecedented AI capital flows, supply chain and tariff uncertainty, and energy transition metals are reshaping investment priorities.
+https://www.ft.com/content/259d2b95-ca0e-4029-b432-37bc6e2cec57
+https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/
+https://www.cnbc.com/2026/02/27/nvidia-wraps-tough-week-as-investors-focus-on-competition-over-growth.html
+https://www.cnbc.com/2026/02/27/dell-stock-earnings-memory-shortage-ai-servers.html
+https://www.theguardian.com/us-news/2026/feb/27/trump-tariff-refunds
+https://www.bloomberg.com/news/articles/2026-02-28/lithium-producer-sqm-sees-global-demand-growing-25-this-year
+
+Other
+• The long-teased Trump Mobile T1 appears to be based on HTC’s U24 Pro, raising new questions about the device’s status and originality.
+• Estée Lauder executive Kendal Ascher died after 25 years at the company, prompting industry tributes.
+Why it matters: Branding, consumer tech transparency, and leadership changes in global beauty signal reputational and market impacts.
+https://www.theverge.com/tech/886135/trump-mobile-t1-phone-htc-u24-pro
+https://www.businessoffashion.com/news/beauty/kendal-ascher-obituary/
+
+Art & Culture
+• Hyperion author Dan Simmons died at 77, remembered for reshaping sci-fi with his seminal work.
+• Radiohead blasted ICE over use of “Let Down” in a government post; Frieze LA spotlighted fashion as much as art at its opening.
+• Photographer Emily Lipson’s “Dykes” monograph explores identity and community, drawing buzz across culture circles.
+Why it matters: Losses of major creators and culture-health clashes reflect art’s influence on public discourse and identity.
+https://arstechnica.com/culture/2026/02/hyperion-author-dan-simmons-dies-from-stroke-at-77/
+https://pitchfork.com/news/radiohead-to-ice-go-fuck-yourselves/
+https://www.hollywoodreporter.com/gallery/frieze-la-festival-fashion-photos-1236517772/
+https://www.vogue.com/article/emily-lipson-dykes-book
+https://hypebeast.com/2026/2/art-production-fund-frieze-projects-2026-los-angeles
+
+Longevity & Anti-Aging
+• A stem cell infusion from young donors improved mobility in frail older adults, suggesting a therapy that targets underlying frailty mechanisms.
+• Reviews highlight how calorie restriction slows aging via multiple pathways; researchers also chart age-related changes in bloodborne extracellular vesicles.
+• Experts weighed in on cellular reprogramming’s promise and risks for longevity.
+Why it matters: Translational geroscience is progressing from theory to interventions that could extend healthy years.
+https://www.newscientist.com/article/2517139-frailty-can-be-eased-with-an-infusion-of-stem-cells-from-young-people/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home
+https://www.fightaging.org/archives/2026/02/reviewing-what-is-known-of-the-mechanisms-by-which-calorie-restriction-slows-aging/
+https://www.fightaging.org/archives/2026/02/a-view-of-age-related-changes-in-the-features-of-extracellular-vesicles/
+https://lifespan.io/news/cellular-reprogramming-the-expert-roundup/?utm_source=rss&utm_medium=rss&utm_campaign=cellular-reprogramming-the-expert-roundup
+
+Climate & Environment
+• An ocean alkalinity enhancement trial in the Gulf of Maine removed up to 10 tonnes of CO₂ with no detected harm to marine life.
+• Winters are getting shorter in 80% of major US cities since the 1970–1997 average, new data show.
+• A North Dakota judge finalized a $345m judgment against Greenpeace tied to Dakota Access Pipeline protests; EPA moved to roll back chemical disaster protections and loosen toxic emissions rules for coal plants.
+• Scotland weighs lynx reintroduction, with public support but local concerns about livelihoods.
+Why it matters: Climate interventions, shifting seasonal patterns, and regulatory reversals are reshaping risk, policy, and conservation strategies.
+https://www.newscientist.com/article/2517171-ocean-geoengineering-trial-finds-no-evidence-of-harm-to-marine-life/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home
+https://www.theguardian.com/us-news/2026/feb/27/us-winters-getting-shorter
+https://www.theguardian.com/us-news/2026/feb/27/north-dakota-greenpeace-access-pipeline-energy-transfer
+https://www.theguardian.com/environment/2026/feb/27/trump-fire-chemical-safety-system-epa
+https://www.theguardian.com/us-news/2026/feb/27/trump-coal-plant-air-pollution-rules
+https://www.theguardian.com/uk-news/2026/feb/27/lynx-could-return-to-scotlands-forests-but-can-rewilders-win-over-wary-highlanders
+
+Sports
+• Wolves beat Aston Villa 2-0 to avoid setting the Premier League fewest-points record, denting Villa’s Champions League chase; Salah’s future at Liverpool remains in focus.
+• The Celtics delivered one of the NBA’s most efficient offensive performances in a rout of the Nets.
+• Michigan clinched the Big Ten men’s basketball title; Miami (Ohio) extended its unbeaten run to 29-0.
+• NFL Combine Day 2 showcased speedy DBs and standout tight ends; the WNBPA submitted a new proposal with concessions on revenue sharing and housing.
+Why it matters: Pivotal performances and negotiations across leagues influence postseason prospects, player movement, and labor frameworks.
+https://www.bbc.com/sport/football/videos/cm217k34lg2o?at_medium=RSS&at_campaign=rss
+https://www.espn.com/nba/story/_/id/48059114/celtics-def-nets-post-one-nba-best-offensive-performances
+https://www.espn.com/mens-college-basketball/story/_/id/48058957/behind-morez-johnson-jr-michigan-clinches-outright-big-ten-crown
+https://www.espn.com/mens-college-basketball/story/_/id/48058421/no-21-miami-ohio-rallies-western-michigan-improves-29-0
+https://www.espn.com/nfl/draft2026/story/_/id/47978529/2026-nfl-combine-top-draft-prospects-workouts-risers-40-every-position
+https://www.espn.com/wnba/story/_/id/48058040/new-wnbpa-proposal-includes-revenue-sharing-housing-concessions-sources-say
