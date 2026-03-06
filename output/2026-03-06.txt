@@ -1,0 +1,125 @@
+Date: 2026-03-06
+
+Geopolitics & Diplomacy
+• The US and Venezuela agreed to reestablish diplomatic relations after Nicolás Maduro’s ouster, signaling a major reset.
+• As the US-Israel-Iran war grinds on, Congress rejected a war powers curb; Spain barred US forces from using joint bases, while China offered to mediate and US-UK ties showed strain.
+• The Pentagon labeled Anthropic a supply-chain risk; the AI firm plans a court challenge as industry rivals pursue defense work.
+Why it matters: Rapid geopolitical shifts around the Iran war and Latin America, plus AI-security clashes, are reshaping alliances, policy and industry.
+https://apnews.com/article/venezuela-united-states-diplomatic-relations-trump-e25403c31cce29742fd95f7ffe3bbe09
+https://www.aljazeera.com/video/newsfeed/2026/3/6/us-house-joins-senate-to-vote-down-war-powers-resolution?traffic_source=rss
+https://www.npr.org/2026/03/05/nx-s1-5732804/china-offers-to-mediate-in-us-israel-iran-war
+https://apnews.com/article/pentagon-ai-anthropic-claude-dario-amodei-openai-d4608c7dd139245ac8ad94d5427c505a
+
+Armed Conflict & Security
+• Israel launched broad strikes on Tehran and Beirut after warning civilians in Hezbollah strongholds; the US says B‑2s degraded Iran’s missile capacity.
+• Iran widened retaliation, targeting an Israeli embassy site in Bahrain and firing across the Gulf as militias stepped up attacks; regional defenses intercepted several projectiles.
+• Displacement is surging in Lebanon; Iran appointed Ahmad Vahidi to lead the IRGC amid intensified fighting.
+Why it matters: Escalation risks wider regional war and collateral damage to critical infrastructure and civilians.
+https://apnews.com/article/iran-israel-us-march-6-2026-6108249f19c4bc162eacd7847976c174
+https://www.bbc.com/news/articles/cj32750e7j6o?at_medium=RSS&at_campaign=rss
+https://www.aljazeera.com/news/2026/3/6/tehran-hit-by-heavy-bombing-on-day-seven-of-us-israel-war-on-iran?traffic_source=rss
+https://www.ft.com/content/09fa5c20-2c8f-4f41-9d91-c78476eaac20
+
+Artificial Intelligence
+• The Pentagon formally designated Anthropic a supply-chain risk; Anthropic says it will sue, while Microsoft said its customers can keep accessing Anthropic models.
+• OpenAI launched GPT‑5.4 with computer-use and “Thinking” versions, pushing toward autonomous agents amid scrutiny of military ties.
+• Platforms moved on transparency and privacy: Apple Music added optional AI labels; reports said Meta contractors viewed sensitive smart‑glasses footage.
+Why it matters: Governance battles over AI in defense, capability leaps, and privacy standards will shape markets and public trust.
+https://www.bbc.com/news/articles/cn5g3z3xe65o?at_medium=RSS&at_campaign=rss
+https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/
+https://www.theverge.com/ai-artificial-intelligence/889926/openai-gpt-5-4-model-release-ai-agents
+https://www.theverge.com/tech/889637/meta-ai-smart-glasses-human-reviewers-kenya
+
+Society & Human Rights
+• An Australian court found a council unlawfully breached the rights of homeless residents during encampment evictions; a UK review warned adult social care faces a “moment of reckoning.”
+• US lawmakers advanced child online safety bills including app‑store age verification as watchdogs scrutinized Meta smart‑glasses privacy.
+• In Cleveland, a mother was charged with murdering two daughters found in suitcases, underscoring strains in child protection systems.
+Why it matters: Social safety nets and digital safeguards are under pressure as authorities balance rights, protection and accountability.
+https://www.theguardian.com/australia-news/2026/mar/06/brisbane-homeless-encampment-park-council-removal-ruling-ntwnfb
+https://www.theguardian.com/society/2026/mar/06/louise-casey-englands-social-care-system-faces-moment-of-reckoning
+https://www.theverge.com/policy/890367/house-lawmakers-online-safety-bills-kids-act
+https://apnews.com/article/girls-found-suitcases-cleveland-29778073900935e3527b34267fe19b5a
+
+Entertainment
+• GLAAD Media Awards honored titles including Heated Rivalry, Stranger Things and The Traitors, reflecting growing LGBTQ representation.
+• Harry Styles released his first album in four years; Britney Spears was arrested on suspicion of DUI; industry moves included Amazon MGM naming a Japan head and remembrance of manager Sandy Wernick.
+Why it matters: Awards, releases and executive shifts signal evolving cultural narratives and global content strategies.
+https://variety.com/2026/awards/awards/heated-rivalry-stranger-things-traitors-win-glaad-media-awards-1236680434/
+https://www.billboard.com/music/music-news/harry-styles-kiss-all-the-time-disco-occasionally-listen-1236193349/
+https://www.bbc.com/news/articles/c4gjjn41l7no?at_medium=RSS&at_campaign=rss
+https://variety.com/2026/film/news/sandy-wernick-dead-manager-adam-sandler-1236680778/
+
+Economy & Markets
+• Over 20 US states sued to block President Trump’s new 15% global tariffs; US investors pressed for funds that exclude Chinese tech, and UBS fee-sharing with private funds sparked conflict‑of‑interest concerns.
+• Energy shocks from the Iran war are forcing Asian importers to scramble for supply; the US granted India a 30‑day waiver to buy Russian oil as markets eyed a rebound.
+• The US is weighing sweeping chip export controls, while data‑center firms pledged to finance more of their own power amid surging demand.
+Why it matters: Trade, energy and technology policy shifts are adding volatility to supply chains, inflation and capital allocation.
+https://apnews.com/article/global-15-tariffs-trump-lawsuit-2247451a7cbc9b8283c4574e3ee54537
+https://www.ft.com/content/b5ce07cd-d240-4b5d-bdb1-833d4c725081
+https://www.ft.com/content/87d2bcb1-a2ae-479a-bdcb-a4639f74f625
+https://techcrunch.com/2026/03/05/us-reportedly-considering-sweeping-new-chip-export-controls/
+https://www.bloomberg.com/news/live-blog/2026-03-06/ftse-100-live-trump-iran-war-pound-gilts-oil-gold-prices-bonds-what-s-moving-uk-markets-right-now-markets-today
+
+Climate & Environment
+• UK emissions fell 2.4% in 2025 as coal use hit a 400‑year low; the EU set “Made in Europe” rules to boost low‑carbon industry; China outlined new five‑year climate goals.
+• Australia braced for major flooding across Queensland and the Northern Territory; Germany moved to legalize wolf hunting amid livestock attacks.
+• Studies tracked toxic wildfire residues and explained a mass whale stranding; imagery highlighted Morocco’s giant solar array and an iceberg‑driven phytoplankton bloom.
+Why it matters: Policy and extreme weather are accelerating the transition and testing ecosystems and communities.
+https://www.carbonbrief.org/analysis-uk-emissions-fall-2-4-in-2025-as-coal-hits-400-year-low/
+https://www.carbonbrief.org/qa-what-the-eus-new-industry-and-made-in-europe-rules-mean-for-climate-action/
+https://www.carbonbrief.org/china-briefing-5-march-2026-new-five-year-climate-goals-revealed-at-two-sessions-meeting/
+https://www.theguardian.com/australia-news/2026/mar/06/far-north-queensland-severe-weather-tropical-low-flash-flood-warnings
+https://www.theguardian.com/world/2026/mar/05/germany-moves-to-legalise-wolf-hunting-in-response-to-livestock-bloodlust
+https://science.nasa.gov/earth/earth-observatory/ailing-megaberg-sparks-surge-of-microscopic-life/
+
+Art & Culture
+• A UK House of Lords committee urged a licensing regime for AI training and warned against sacrificing creators’ rights for speculative AI gains.
+• The Virgil Abloh Archive launched its first reader and public membership; renewed interest in the JFK Jr.–Carolyn Bessette wedding site reflects pop‑culture nostalgia.
+Why it matters: How AI interacts with creative works will determine incentives, livelihoods and cultural output.
+https://www.theguardian.com/technology/2026/mar/06/uk-arts-must-not-be-sacrificed-for-speculative-ai-gains-peers-say
+https://hypebeast.com/2026/3/virgil-abloh-archive-the-virgil-reader-vol-001-public-membership-launch-info
+https://www.vogue.com/article/cumberland-island-jfk-jr-carolyn-bessette-wedding
+
+Science & Technology
+• Amazon resolved an hours‑long site/app outage tied to a software deployment that disrupted checkout and logins.
+• Congress extended ISS operations and pressed NASA to accelerate private space stations; Vast raised $500m as Rocket Lab continued launches and JWST ruled out a 2032 moon impact from asteroid 2024 YR4.
+• TerraPower won approval to build a next‑gen nuclear reactor in Wyoming, as researchers advanced infrared devices and even grew chickpeas in simulated lunar regolith.
+Why it matters: Infrastructure resilience and accelerating space/energy innovation carry major economic and security implications.
+https://www.cnbc.com/2026/03/05/amazon-online-store-suffers-outage-for-some-users.html
+https://arstechnica.com/space/2026/03/congress-steps-up-pressure-on-nasa-to-support-private-space-stations/
+https://www.space.com/space-exploration/human-spaceflight/vast-500-million-dollars-funding-haven-private-space-stations
+https://www.theverge.com/science/889768/bill-gates-terrapower-nuclear-wyoming-reactor
+https://www.space.com/astronomy/moon/making-hummus-on-the-moon-scientists-just-grew-chickpeas-in-simulated-lunar-dirt
+
+Health & Pandemic
+• A single psilocybin dose relieved OCD symptoms for months in a small study; separate research suggests Alzheimer’s may originate with inflammation outside the brain.
+• The DOJ argued RFK Jr.’s anti‑vaccine policies are “unreviewable” in an AAP lawsuit; toxic metals in Amazon fish pose health risks to riverine communities.
+Why it matters: Emerging therapies and debates over public health authority will influence treatment pathways and trust in institutions.
+https://www.newscientist.com/article/2518102-just-one-dose-of-psilocybin-relieves-symptoms-of-ocd-for-months/
+https://www.newscientist.com/article/2517735-alzheimers-may-start-with-inflammation-in-the-skin-lungs-or-gut/
+https://arstechnica.com/health/2026/03/rfk-jr-can-promote-getting-measles-with-impunity-doj-lawyer-tells-judge/
+https://phys.org/news/2026-03-amazon-fish-contaminated-toxic-metals.html
+
+Other
+• Amazon suffered a widespread outage affecting product pages and checkout for many users before service returned.
+Why it matters: Retail disruptions underscore systemic dependency on single platforms for commerce.
+https://arstechnica.com/gadgets/2026/03/amazon-appears-to-be-down-with-over-20000-reported-problems/
+
+Sports
+• F1’s 2026 season kicked off in Melbourne with McLaren’s Oscar Piastri fastest in Friday practice amid debate over new energy‑management demands.
+• LeBron James passed Kareem Abdul‑Jabbar for most made field goals in NBA history; other US sports saw notable roster moves and rulings.
+• Golf’s Daniel Berger led at Bay Hill, as domestic cup and league storylines built across English football.
+Why it matters: Records, regulations and early‑season form shape commercial momentum and fan engagement.
+https://www.bbc.com/sport/formula1/articles/cp328jwy4yqo?at_medium=RSS&at_campaign=rss
+https://arstechnica.com/cars/2026/03/nerve-damage-energy-management-and-apple-tv-f1-in-2026-starts-today/
+https://www.espn.com/nba/story/_/id/48117860/lebron-james-passes-kareem-abdul-jabbar-most-made-fg-nba-history
+https://www.bbc.com/sport/golf/articles/czx4r53dzp7o?at_medium=RSS&at_campaign=rss
+
+Longevity & Anti-Aging
+• Enhancing mitochondrial function improved memory in flies and mice, while depleting aged mice’s microbiomes reversed some brain‑aging markers.
+• Researchers spotlighted circular RNA MT‑RNR2’s role in mitochondrial health and how inflammaging worsens pneumonia severity.
+Why it matters: Targeting mitochondria, the microbiome and chronic inflammation could slow cognitive decline and improve late‑life resilience.
+https://www.fightaging.org/archives/2026/03/microbiome-depletion-in-aged-mice-reverses-aspects-of-the-aging-of-the-brain/
+https://www.fightaging.org/archives/2026/03/enhancing-mitochondrial-function-improves-memory-in-flies-and-mice/
+https://www.fightaging.org/archives/2026/03/circular-rna-mt-rnr2-in-mitochondrial-function-and-aging/
+https://lifespan.io/news/how-inflammaging-makes-pneumonia-worse-in-mice/?utm_source=rss&utm_medium=rss&utm_campaign=how-inflammaging-makes-pneumonia-worse-in-mice
