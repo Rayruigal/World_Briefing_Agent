@@ -1,0 +1,88 @@
+Date: 2026-03-14
+
+Society & Human Rights
+• Georgia prosecutors dropped charges against teens after a teacher died during a toilet-paper prank, citing the family’s request to avoid “a separate tragedy.” 
+• Los Angeles city council unanimously sought an investigation into LA28 Olympics chief Casey Wasserman over ties to Jeffrey Epstein.
+• A billionaire’s takeover of East Africa’s largest media group raised fresh concerns about press freedom in the region.
+• A former New York state trooper was convicted of manslaughter for a 2020 high-speed chase that killed an 11-year-old.
+Why it matters: Accountability cases and scrutiny of institutions highlight tensions between justice, ethics and public trust at home and abroad.
+Sources: https://www.bbc.com/news/articles/c1l76346dvlo https://www.bbc.com/news/articles/cn9ewxq98e5o https://apnews.com/article/new-york-state-trooper-trial-verdict-5aecbaa651c253f248e09d49a3fe9083
+
+Geopolitics & Diplomacy
+• The Iran war is exposing rifts in Trump’s Republican coalition, with some advisers urging the U.S. to “declare victory and get out.” 
+• Ukraine’s Zelenskyy criticized a U.S. 30-day waiver on Russian oil sanctions, saying it undermines efforts to stop Russia’s war.
+• Yemen protested new shipping surcharges amid the conflict and Strait of Hormuz uncertainty; experts cautioned against minimizing risks.
+• Cuba confirmed recent talks with the U.S., while Brazil blocked a visit by a Trump official to see jailed ex-president Bolsonaro, straining ties.
+Why it matters: War-driven energy moves and shifting diplomatic fault lines are reshaping alliances and leverage from the Middle East to the Americas.
+Sources: https://www.bbc.com/news/articles/cev7wn213rvo https://apnews.com/article/russia-ukraine-war-macron-oil-drones-a9330482d471ea67890a0e8ec1913db7 https://www.ft.com/content/21200555-302e-417d-976e-7cf4ae21876d
+
+Armed Conflict & Security
+• The U.S. struck Iranian military targets on Kharg Island; Trump warned Iran’s oil infrastructure could be next as Tehran threatened retaliation against U.S.-linked energy facilities.
+• Spillover intensified: smoke was seen over the U.S. Embassy in Baghdad after a reported attack; Israeli airstrikes in Beirut displaced thousands; Iraq absorbed strikes from both sides.
+• The U.S. plans to move more Marines and warships into the region; analysts said “no quarter” rhetoric risks violating international law.
+• Beyond Iran: Ukrainian drones hit a Russian refinery and port; a stealthy open-source software supply-chain attack used invisible Unicode to infiltrate repositories.
+Why it matters: Military escalation and cyber risks threaten regional stability, global energy flows, and civilian safety far beyond the battlefield.
+Sources: https://apnews.com/article/iran-iraq-us-trump-march-14-2026-oil-prices-a2399398b4c590995b814d7640362a11 https://www.bloomberg.com/news/articles/2026-03-14/iran-repeats-retaliation-threat-as-us-hits-kharg-island-military https://www.bbc.com/news/articles/cq8gj9n12g8o https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/
+
+Art & Culture
+• Trump confirmed leadership changes at the Kennedy Center, naming Matt Floca to replace Richard Grenell.
+• The U.S. Postal Service honored lowrider car culture with a new stamp series, reflecting its expanding global influence.
+• Exhibitions and acquisitions made headlines, from a Mumbai show tracing India’s history through chairs to Zach Bryan buying Kerouac’s “On the Road” scroll.
+Why it matters: Leadership shifts and cultural tributes signal how institutions and artists shape national narratives and heritage.
+Sources: https://www.hollywoodreporter.com/lifestyle/arts/trump-kennedy-center-leadership-departure-ric-grenell-1236530773/ https://apnews.com/article/lowrider-postage-stamps-91b43fd5b9ec20c31ed9ebd484289089
+
+Economy & Markets
+• Energy shock management: the U.S. temporarily eased some Russian oil sanctions and began an 86 million barrel Strategic Petroleum Reserve exchange as strikes on Iran’s oil hub raised supply fears; Wall Street warned of a prolonged energy crisis.
+• U.S. inflation picked up in January even before war-driven fuel spikes, complicating rate paths.
+• Media/telecom shifts: Amazon’s ad-free Prime Video tier will cost more and become the sole route to 4K; Alphabet is selling control of Google Fiber as it merges with Astound.
+• Legal and antitrust: Adobe will pay $75 million to settle a DOJ case over cancellation fees; Live Nation’s antitrust trial continues with states pressing claims.
+Why it matters: War-driven energy volatility and regulatory pressure are rippling through inflation, consumer bills, and market structure.
+Sources: https://apnews.com/article/russia-oil-sanctions-iran-war-hormuz-d131631be94766f50a5b1888b2aad778 https://www.bloomberg.com/news/articles/2026-03-14/us-begins-emergency-oil-reserve-release-of-86-million-barrels https://www.ft.com/content/e5d1f192-c9f1-448f-9aa4-528d6e867cd2
+
+Entertainment
+• SXSW brought rowdy premieres, including “Ready or Not 2” and Kevin Bacon/Kyra Sedgwick’s meta-horror “Family Movie,” while indie features drew strong early notices.
+• The Razzie Awards named Ice Cube worst actor as “War of the Worlds” took multiple dishonors; “Access Hollywood” was canceled after a 30-year run.
+• Streaming platforms experiment: Peacock will introduce vertical NBA streams and an AI Andy Cohen curator; Spotify is testing user-edited Taste Profiles.
+Why it matters: As formats and franchises evolve, fan engagement is reshaped by experimentation across festivals, awards, and streaming platforms.
+Sources: https://variety.com/2026/film/news/ready-or-not-2-bloody-rowdy-sxsw-premiere-1236687629/ https://variety.com/2026/film/news/razzie-awards-2026-winners-list-1236684909/ https://www.billboard.com/culture/tv-film/access-hollywood-canceled-after-30-years-1236199245/
+
+Health & Pandemic
+• A Guardian investigation found confidential UK Biobank records were exposed online multiple times, raising data protection concerns.
+• Genes conferring resistance to last-resort antibiotics were detected in Lough Neagh, a key Northern Ireland drinking water source.
+• Researchers reported engineered brain cells that clear Alzheimer’s-linked plaques in mice, highlighting a potential new therapeutic avenue.
+Why it matters: From data privacy to antimicrobial resistance and neurodegeneration, health systems face simultaneous threats and breakthroughs.
+Sources: https://www.theguardian.com/science/2026/mar/14/confidential-health-records-exposed-online-uk-biobank https://www.theguardian.com/environment/2026/mar/14/lough-neagh-northern-ireland-genes-antibiotic-resistance-superbugs https://singularityhub.com/2026/03/13/these-genetically-engineered-brain-cells-devour-toxic-alzheimers-plaques/
+
+Artificial Intelligence
+• Nvidia is set to unveil new products focused on AI “inference,” as spending shifts from training to running models; questions mount about the UK’s datacentre investment boom; Musk’s xAI is rebooting a faltering coding tool amid executive churn.
+• Microsoft’s Copilot is coming to current-gen Xbox consoles this year; Digg halted its open beta, blaming AI bot spam.
+• Defense applications advance: demos show AI chatbots helping generate war plans and target rankings, even as experts warn about safety and governance.
+Why it matters: AI’s rapid spread across chips, consumer platforms and militaries heightens stakes around capability, reliability, and oversight.
+Sources: https://www.ft.com/content/849fab2d-0d04-411d-8fbb-7fe3b515f5bf https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/ https://www.wired.com/story/palantir-demos-show-how-the-military-can-use-ai-chatbots-to-generate-war-plans/
+
+Science & Technology
+• NASA advanced its Dragonfly mission to Titan, beginning rotorcraft integration and building a nuclear-powered drone for a 2028 launch; Russia revived plans for a 2036 Venus mission.
+• Instagram will remove end-to-end encrypted DMs due to low usage; materials innovation points to future AI chips built on glass.
+• Engineering gains and limits: 800V EV architectures promise faster charging; humanoid robots still struggle with fine manipulation.
+Why it matters: Space exploration, privacy trade-offs, and hardware breakthroughs are redefining the frontiers of science and consumer tech.
+Sources: https://www.space.com/space-exploration/missions/nasa-begins-building-nuclear-powered-dragonfly-drone-for-2028-launch-to-saturn-moon-titan https://www.theverge.com/tech/894752/instagram-end-to-end-encryption https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/
+
+Sports
+• College hoops drama: Arizona reached the Big 12 final on a buzzer-beater; UCLA upset Michigan State despite losing a star to injury; the MAC expects two NCAA bids; the Big 12 scrapped slippery LED courts mid-tournament.
+• Pro updates: the Warriors’ injury list grew during a four-game slide; Maple Leafs star Auston Matthews is out for the season with a torn MCL; WNBA officials push for a new CBA by Monday; Team USA advanced to the WBC semifinals versus the Dominican Republic.
+Why it matters: Injuries, format tweaks and labor talks are shaping competitive balance and fan experience across leagues.
+Sources: https://www.espn.com/nba/story/_/id/48202277/warriors-lose-four-more-players-injury-slide-continues https://www.espn.com/nhl/story/_/id/48199600/toronto-maple-leafs-auston-matthews-miss-remainder-nhl-season-knee-injury https://www.theverge.com/tech/894372/big-12-basketball-t-mobile-center-led-glass-floor-hardwood
+
+Climate & Environment
+• UK bathers continue to swim despite widespread pollution; improperly disposed wet wipes shed microplastics into rivers, adding to water quality pressures.
+• The UK proposed regulatory changes that could accelerate nuclear plant siting, even near homes and sensitive nature areas; EPA records show high-level meetings with Bayer amid looming glyphosate litigation.
+• Iran’s water security is under mounting strain from climate change, war and mismanagement, experts warn.
+Why it matters: Water pollution, energy policy choices and climate stress are converging to test ecosystems and public health.
+Sources: https://phys.org/news/2026-03-improperly-disposed-microplastics-rivers.html https://www.theguardian.com/environment/2026/mar/13/nuclear-power-generation-uk-deregulation-plans-ed-miliband https://www.carbonbrief.org/qa-how-climate-change-and-war-threaten-irans-water-supplies/
+
+Longevity & Anti-Aging
+• A preprint claimed dramatic lifespan extension in mice via telomere transfer, underscoring both the promise and the scrutiny needed for early-stage biotech.
+• New work probed early cataract formation and showed some older adults can improve functional measures despite population-wide decline.
+• Dermatologists shared step-by-step shower routines for mature skin, while research linked gut microbes to cognition via the vagus nerve.
+Why it matters: Aging science and practical care are advancing in parallel, but translating findings into safe, effective interventions requires rigorous evidence.
+Sources: https://www.fightaging.org/archives/2026/03/a-preprint-claiming-exceptional-extension-of-life-in-mice-via-a-telomere-transfer-mechanism/ https://lifespan.io/news/gut-bacteria-might-affect-cognition-via-the-vagus-nerve/
