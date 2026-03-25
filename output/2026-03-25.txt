@@ -1,0 +1,141 @@
+Society & Human Rights
+• A New Mexico jury ordered Meta to pay $375 million after finding its apps endangered children and violated state consumer protection law, the first such state win against the company.
+• Journalists at Australia’s ABC staged a rare 24-hour strike over a pay offer below inflation.
+• The Netherlands, which banned phones in schools two years ago, is weighing tighter social media limits for under‑16s.
+• A Guardian analysis found no Israeli prosecutions for killings of Palestinian civilians in the West Bank since 2020, amid warnings of “organised Jewish terrorism.”
+• Baltimore filed the first U.S. city lawsuit over Grok deepfake porn, increasing legal pressure on Elon Musk’s xAI.
+Why it matters: Tech accountability, press labor actions, youth protections, and human rights enforcement are converging to pressure governments and platforms to tighten safeguards.
+https://www.aljazeera.com/economy/2026/3/25/us-jury-orders-meta-to-pay-375m-for-endangering-children?traffic_source=rss
+https://apnews.com/article/meta-facebook-new-mexico-trial-28eabd8ec5f58c1d1ecddc21bb107de7
+https://www.bbc.com/news/articles/c208ngv1mz7o?at_medium=RSS&at_campaign=rss
+https://www.bbc.com/news/articles/cpqxjwvvyl4o?at_medium=RSS&at_campaign=rss
+https://www.theguardian.com/world/2026/mar/25/no-israel-prosecutions-for-killing-palestinian-civilians-in-occupied-west-bank-since-start-of-decade
+https://www.cnbc.com/2026/03/24/musk-xai-sued-baltimore-grok-deepfake-porn.html
+
+Entertainment
+• OpenAI is shuttering its Sora video app and ending its Disney partnership, signaling a pivot away from consumer video amid cost pressures.
+• BTS’s Netflix “Comeback Live” drew 18.4 million global viewers, topping weekly charts in dozens of countries.
+• Stephen Colbert and his son are co-writing a new “Lord of the Rings” movie in development at Warner Bros.
+• Instagram and Facebook will bake affiliate shopping links into posts and Reels, tightening Meta’s commerce push.
+• Newly purchased Vizio smart TVs now require Walmart accounts to access smart features.
+Why it matters: Streaming scale, IP expansion, and platform commerce shifts are reshaping how audiences discover, watch, and shop for entertainment.
+https://www.bbc.com/news/articles/c3w3e467ewqo?at_medium=RSS&at_campaign=rss
+https://www.billboard.com/music/pop/bts-comeback-live-18-4-million-views-netflix-1236206297/
+https://variety.com/2026/film/news/lord-of-the-rings-movie-stephen-colbert-warner-bros-1236698684/
+https://www.theverge.com/news/899717/meta-instagram-facebook-affiliate-shopping-links-reels
+https://arstechnica.com/gadgets/2026/03/newly-purchased-vizio-tvs-now-require-walmart-accounts-to-use-smart-features/
+
+Geopolitics & Diplomacy
+• Washington’s reported 15‑point plan to end the Iran war was met with public skepticism from Iran’s military, even as the White House touts progress.
+• Canada and France urged Israel not to occupy southern Lebanon; Israel is reportedly preparing for expanded operations up to the Litani River.
+• Denmark’s Social Democrats won the most votes but lost their majority, ushering tough coalition talks.
+• Democrats flipped a Florida legislative district that includes Trump’s Mar‑a‑Lago, a GOP stronghold in 2024.
+• NATO chief Mark Rutte’s backing of the Iran war irked European capitals wary of escalating involvement.
+Why it matters: Conflicting signals on Iran, European unease, and shifting electoral maps underscore a volatile diplomatic landscape with economic and security spillovers.
+https://apnews.com/article/iran-us-israel-trump-lebanon-march-25-2026-be07c54139bcc70672bb33f0773ede6a
+https://www.bloomberg.com/news/videos/2026-03-25/what-we-know-about-trump-s-15-point-plan-video
+https://www.aljazeera.com/news/2026/3/25/canada-tells-israel-that-lebanons-sovereignty-must-not-be-violated?traffic_source=rss
+https://www.bbc.com/news/articles/c74v5qynl9vo?at_medium=RSS&at_campaign=rss
+https://www.ft.com/content/d63336c1-851f-4ab2-a68a-8473576a23ad
+
+Economy & Markets
+• Oil neared $100 as mixed U.S. signals on Iran kept markets on edge; UK equities looked set to extend gains on de‑escalation hopes.
+• The Philippines declared a national energy emergency and warned fuel rationing may be needed, as airlines secure supplies only through June.
+• Fuel price spikes from the Iran war are hitting developing economies across Asia, Africa, and the Middle East hardest.
+• SK Hynix confidentially filed for a potential U.S. listing to fund capacity amid a memory boom driven by AI.
+Why it matters: Energy shocks and war risk are rippling through inflation, travel, and supply chains, while chipmakers seek capital to meet AI‑era demand.
+https://www.ft.com/content/e35ce13e-0e11-4363-9e6c-bcdd963404fb
+https://www.theguardian.com/world/2026/mar/25/philippines-declares-national-energy-emergency-iran-war
+https://www.aljazeera.com/economy/2026/3/25/from-pakistan-to-egypt-iran-war-drives-up-fuel-prices-in-the-global-south?traffic_source=rss
+https://www.bloomberg.com/news/live-blog/2026-03-25/ftse-100-live-gilts-iran-war-oil-what-s-moving-uk-markets-right-now-markets-today-mn5owa4p
+https://www.cnbc.com/2026/03/25/sk-hynix-confidential-us-listing-adr-ai-memory.html
+
+Artificial Intelligence
+• OpenAI is closing Sora and reevaluating shopping features as it refocuses on business productivity and safety initiatives, including open-source teen safety tools.
+• Arm unveiled its first in‑house AI CPU, with Meta as a launch customer, signaling a broader hardware push.
+• Anthropic’s Claude Code gained more autonomous “auto mode” capabilities to operate computers within safeguards.
+• A federal judge questioned the Pentagon’s blacklisting of Anthropic, suggesting potential First Amendment concerns.
+Why it matters: The AI stack is shifting—foundations are pruning consumer bets, chipmakers are verticalizing, agents are gaining autonomy, and regulators are testing new limits.
+https://www.theverge.com/ai-artificial-intelligence/899850/openai-sora-ai-chatgpt
+https://www.theverge.com/ai-artificial-intelligence/899823/arm-agi-cpu-meta
+https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/
+https://www.ft.com/content/68f6a495-72a5-4dad-9696-8f7a893e3569
+https://openai.com/index/teen-safety-policies-gpt-oss-safeguard
+
+Sports
+• MLB’s new automated ball‑strike challenge system debuts, reshaping manager strategy and potentially reducing on‑field disputes.
+• New Zealand’s team said it’s willing to move its World Cup match with Iran outside the U.S. amid Tehran’s boycott threats.
+• Ja Morant will miss the rest of the NBA season with an elbow UCL sprain; he’s expected back for 2026–27.
+• Tiger Woods returned to competition, but Los Angeles Golf Club cruised to the TGL title.
+Why it matters: Rule changes, geopolitics, and key injuries are influencing outcomes and fan experiences across major leagues.
+https://www.espn.com/mlb/story/_/id/48288278/opening-day-2026-mlb-season-preview-automated-ball-strike-challenge-system-rule
+https://www.aljazeera.com/sports/2026/3/25/new-zealand-footballers-willing-to-play-iran-world-cup-match-outside-us?traffic_source=rss
+https://www.espn.com/nba/story/_/id/48300820/grizzlies-rule-ja-morant-season-due-left-elbow-injury
+https://www.espn.com/golf/story/_/id/48300365/la-spoils-tiger-return-tops-jupiter-links-tgl-title
+
+Art & Culture
+• Art Basel Hong Kong opens its 13th edition with a dense slate of booths, partnerships, and auctions.
+• Christie’s Hong Kong features Gerhard Richter’s “Abstraktes Bild” in a star‑studded spring sale lineup.
+• Villages in Indonesia’s West Java celebrated post‑Eid traditions with wooden cannon face‑offs.
+Why it matters: Asia’s cultural market remains vibrant despite macro headwinds, with regional traditions and blue‑chip art drawing global attention.
+https://www.vogue.com/article/art-basel-hong-kong-2026-cheat-sheet
+https://hypebeast.com/2026/3/gerhard-richter-abstraktes-bild-leads-christies-hong-kong-spring-2026-auction-basquiat-hockney-picasso-yayoi-kusama
+https://www.aljazeera.com/video/newsfeed/2026/3/25/indonesians-fire-wooden-cannons-in-post-eid-tradition?traffic_source=rss
+
+Armed Conflict & Security
+• Iran’s Revolutionary Guards launched fresh strikes on Israeli cities and U.S. bases in Kuwait, Jordan, and Bahrain amid talk of a U.S. ceasefire plan.
+• The U.S. is set to deploy additional troops, including airborne units, even as the president claims negotiations with Tehran are progressing.
+• Israeli officials say several more weeks of fighting are needed to meet war aims.
+• Moldova declared an energy emergency after Russian attacks cut a key power line via Ukraine.
+• Georgia advanced a bill to install weapons detection systems across all public schools.
+Why it matters: The war’s regionalization and force movements heighten escalation risks, with knock‑on effects for civilian infrastructure and domestic security policy.
+https://www.theguardian.com/world/live/2026/mar/25/middle-east-crisis-live-iran-war-oil-prices-more-us-troops-reportedly-deployed-donald-trump-attacks-on-lebanon
+https://www.ft.com/content/24ec59d8-78d7-44f1-9095-a3200abbb3d9
+https://www.npr.org/2026/03/24/nx-s1-5759317/israel-iran-war
+https://www.theguardian.com/world/2026/mar/25/ukraine-war-briefing-moldova-declares-emergency-after-russian-attack-cuts-key-power-line
+https://apnews.com/article/georgia-apalachee-schools-guns-weapons-detection-784da79e1c81b2c01a33a12dd53a8ba9
+
+Climate & Environment
+• Asia is turning back to coal as the Iran war squeezes LNG supplies, stabilizing power but worsening pollution.
+• Back‑to‑back Kona storms triggered destructive flash flooding across Hawaii.
+• Researchers warn that great fish migrations in rivers are collapsing, threatening food security for millions.
+• A second set of mountain gorilla twins was born in DRC’s Virunga park, a rare bright spot for an endangered species.
+• Ralph Lauren reset its sustainability plan with shorter‑term goals after dropping its 2040 net‑zero target.
+Why it matters: Climate shocks and energy insecurity are forcing short‑term tradeoffs that risk long‑term ecological and health consequences—while conservation wins and corporate pivots show the stakes and opportunities.
+https://www.npr.org/2026/03/24/g-s1-114940/asia-boosts-coal-use-as-iran-war-squeezes-global-lng-supplies
+https://science.nasa.gov/earth/earth-observatory/kona-storms-flood-o%ca%bbahu/
+https://phys.org/news/2026-03-world-great-fish-migrations-collapsing.html
+https://www.theguardian.com/environment/2026/mar/24/mountain-gorillas-twins-born-drc-aoe
+https://www.businessoffashion.com/news/sustainability/ralph-lauren-resets-sustainability-plan-after-dropping-net-zero-targets/
+
+Longevity & Anti-Aging
+• Scientists rewarmed and examined portions of a cryopreserved brain, probing viability and ethical questions around cryonics and future transplantation.
+• A comprehensive survey links human myostatin loss‑of‑function mutations to greater muscle and less visceral fat.
+• New theorizing explores microtubules as the mechanistic link between amyloid‑β and tau in Alzheimer’s disease.
+Why it matters: Advances in tissue preservation, muscle biology, and neurodegeneration could inform therapies that extend healthy lifespan.
+https://www.technologyreview.com/2026/03/24/1134562/cryopreservation-brain-cryonics-organ-transplantation/
+https://www.fightaging.org/archives/2026/03/a-more-comprehensive-survey-of-human-myostatin-mutations-increased-muscle-less-fat/
+https://www.fightaging.org/archives/2026/03/theorizing-on-microtubules-as-the-connection-between-amyloid-%ce%b2-and-tau-in-alzheimers-disease/
+
+Science & Technology
+• NASA is scrapping plans for the lunar Gateway station to prioritize ambitious surface bases, including a proposed $20 billion Moon base.
+• CERN transported antimatter by road for the first time, moving 92 antiprotons around a 4 km loop as it builds an antimatter delivery capability.
+• Final analysis of the 2025 Iberian blackout faults grid policies that allowed too much equipment to trip near normal operating thresholds.
+• New research suggests rocky planets may have formed from two rings around the young Sun, reshaping models of solar system formation.
+Why it matters: Big swings in exploration strategy, fundamental physics milestones, and grid and planetary science findings will shape future infrastructure and discovery.
+https://arstechnica.com/space/2026/03/nasa-kills-lunar-space-station-to-focus-on-ambitious-moon-base/
+https://www.theverge.com/science/899891/nasa-moon-base-mars-nuclear-power-jared-isaacman
+https://www.newscientist.com/article/2520548-antimatter-has-been-transported-by-road-for-the-first-time/
+https://arstechnica.com/science/2026/03/final-analysis-of-2025-iberian-blackout-policies-left-spain-at-risk/
+https://www.newscientist.com/article/2520503-earth-may-have-formed-from-two-separate-rings-around-the-sun/
+
+Health & Pandemic
+• Hospital‑treated infections like cystitis or severe dental infections were linked to a higher risk of developing dementia within five to six years.
+• Genomic analysis indicates SARS‑CoV‑2’s evolution has been constrained, with recent changes largely recombining existing mutations.
+• In mice, in vivo CRISPR engineering created CAR T cells that eradicated tumors across three cancer types, outperforming in‑vitro approaches.
+• Over 160 public health and environmental groups urged EPA chief Lee Zeldin’s removal, alleging rollbacks that endanger health.
+Why it matters: Understanding infection‑linked neurodegeneration, viral evolution, and next‑gen immunotherapies intersects with debates over environmental health protections.
+https://www.newscientist.com/article/2520688-cystitis-or-tooth-decay-could-trigger-dementia-just-a-few-years-later/
+https://phys.org/news/2026-03-uncovering-evolutionary-limits-covid-virus.html
+https://lifespan.io/news/in-vivo-created-car-t-cells-eliminate-tumors-in-mice/?utm_source=rss&utm_medium=rss&utm_campaign=in-vivo-created-car-t-cells-eliminate-tumors-in-mice
+https://www.theguardian.com/environment/2026/mar/24/fire-epa-zeldin-public-health
