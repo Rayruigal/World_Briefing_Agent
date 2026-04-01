@@ -1,0 +1,129 @@
+Economy & Markets
+• Global risk appetite improved as Asian and UK stocks rallied and Brent crude dipped below $100 on hopes the Iran war could end within weeks.
+• Oracle began significant layoffs, even as it ramps AI infrastructure spending; Microsoft closed its worst Wall Street quarter since 2008 amid AI profitability concerns.
+• OpenAI closed a record $122 billion funding round, fueling IPO speculation; Nvidia’s $2B stake lifted Marvell shares; CoinShares plans a Nasdaq listing via SPAC.
+• Australia cut fuel excise to ease a war-driven supply crunch as stations ran dry in parts of the country; Chinese government bonds stood out as a haven.
+Why it matters: Markets are whipsawing with war headlines as investors rotate on energy-price signals while tech’s AI buildout reshapes capital allocation and jobs.
+https://www.bloomberg.com/news/articles/2026-04-01/brent-oil-falls-below-100-on-optimism-iran-war-may-end
+https://www.bloomberg.com/news/articles/2026-04-01/asian-stocks-rally-most-in-a-year-on-hopes-iran-war-may-end-mnfocuch
+https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html
+https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html
+https://www.theguardian.com/australia-news/2026/apr/01/australia-fuel-crisis-petrol-prices-graphs
+
+Science & Technology
+• NASA’s crewed Artemis II mission is poised to launch from Florida—the first human trip around the moon in over 50 years—drawing massive crowds as weather and rocket checks align.
+• A Starlink satellite broke apart after an “anomaly,” raising debris concerns; separately, researchers say quantum computers may need far fewer resources than thought to crack key encryption.
+• Scientists set a new fiber‑optic throughput record using existing cables, pointing to vast internet capacity gains without laying new lines.
+Why it matters: A landmark lunar return underscores a new space era as tech infrastructure faces both breakthroughs (network capacity, quantum) and risks (orbital debris).
+https://apnews.com/article/nasa-moon-artemis-launch-countdown-weather-3e74cc62b51c343ebfd92358d0f84b22
+https://arstechnica.com/tech-policy/2026/03/starlink-satellite-breaks-apart-into-tens-of-objects-spacex-confirms-anomaly/
+https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/
+https://www.newscientist.com/article/2520542-new-fibre-optic-record-allows-50000000-movies-to-be-streamed-at-once/
+
+Health & Pandemic
+• Hazardous air pollution in Chiang Mai during peak fire season is raising acute health concerns for residents and children.
+• Megan Thee Stallion was hospitalized after falling ill mid‑performance in Broadway’s “Moulin Rouge!”; her team says symptoms are under evaluation.
+• Reports indicate the FDA may ease restrictions on some previously banned peptides despite safety questions; new research ties rogue immune attacks to some long COVID cases.
+Why it matters: Environmental and policy health risks continue to collide with public health pressures and high‑profile medical incidents.
+https://www.bbc.com/news/articles/c0le03ne05ro
+https://variety.com/2026/music/news/megan-thee-stallion-hospitalized-moulin-rouge-broadway-1236704169/
+https://arstechnica.com/health/2026/03/rfk-jr-s-fda-expected-to-lift-restrictions-on-risky-unproven-peptides/
+https://www.newscientist.com/article/2521476-attacks-from-our-immune-system-are-a-cause-of-long-covid/
+
+Armed Conflict & Security
+• President Trump said the U.S. could leave the Iran war within “two to three weeks,” fueling de‑escalation hopes.
+• Iran struck a tanker off Qatar and targeted Kuwait’s airport; Israel conducted strikes in Beirut, as the conflict widened.
+• Israel signaled plans to control parts of southern Lebanon in its campaign against Hezbollah; debris from a drone incident fell near Erbil’s airport in Iraq.
+• An American journalist was kidnapped in Baghdad, underscoring heightened risks to civilians and media.
+Why it matters: Escalation risks remain high across the region even as Washington hints at withdrawal, with direct impacts on security, shipping, and civilians.
+https://apnews.com/article/iran-us-israel-trump-lebanon-april-1-2026-19cf516c2d2c614eb182dbad7a6592ef
+https://www.ft.com/content/77e5184d-9854-4a30-b53c-498223b436a5
+https://www.bloomberg.com/news/videos/2026-04-01/israel-to-occupy-parts-of-lebanon-video
+https://www.aljazeera.com/news/2026/4/1/iran-war-what-is-happening-on-day-33-of-us-israel-attacks
+https://www.aljazeera.com/video/newsfeed/2026/4/1/residents-inspect-drone-damage-near-erbil-airport
+
+Society & Human Rights
+• India launched its massive two‑phase census to count over a billion residents.
+• The U.S. Supreme Court heard a challenge to birthright citizenship for children of undocumented or temporary visitors.
+• Food aid was cut for hundreds of thousands of Rohingya refugees in Bangladesh camps amid growing desperation.
+• Amazon settled allegations it retaliated against warehouse workers who struck, in a win for organized labor.
+Why it matters: Population data, landmark immigration rulings, and refugee welfare will shape policy and rights debates globally.
+https://www.bbc.com/news/articles/c7vqnpqrgy3o
+https://apnews.com/article/supreme-court-trump-birthright-citizenship-immigrants-4dca3a4e06f58d4378412ed711fab3a8
+https://www.npr.org/2026/04/01/nx-s1-5769798/food-assistance-slashed-rohingya-refugees-bangladesh-camps
+https://www.cnbc.com/2026/03/31/amazon-settles-teamsters-warehouse-strike.html
+
+Geopolitics & Diplomacy
+• A judge temporarily halted construction of President Trump’s planned White House ballroom, ruling he is a “steward,” not an owner.
+• Trump signaled the U.S. could exit the Iran conflict regardless of a deal as energy prices bite; Syria said it will stay out of the war unless attacked.
+• Russia’s extensive building in occupied Ukraine suggests it does not intend to return territory in any near‑term peace deal.
+Why it matters: Domestic legal constraints, wartime signaling, and facts on the ground are reshaping diplomatic calculations and alliances.
+https://www.bbc.com/news/articles/c7056exw78xo
+https://www.ft.com/content/77e5184d-9854-4a30-b53c-498223b436a5
+https://www.aljazeera.com/video/newsfeed/2026/4/1/al-sharaa-says-syria-to-stay-out-of-war-on-iran-unless-attacked
+https://www.npr.org/2026/03/31/nx-s1-5762561/russia-is-building-in-parts-of-ukraine-what-does-it-mean-for-a-peace-deal
+
+Entertainment
+• Bruce Springsteen opened his U.S. tour with pointed political remarks, urging fans to “fight for the America that we love.”
+• Megan Thee Stallion was hospitalized after exiting “Moulin Rouge!” mid‑show due to sudden illness.
+• Project Hail Mary became Amazon MGM’s highest‑grossing film to date, crossing $300 million globally; Netflix dated Avatar: The Last Airbender Season 2 for June 25, 2026.
+Why it matters: Big‑ticket releases and marquee artists are shaping box office momentum and cultural conversation as studios jostle for calendar space.
+https://variety.com/2026/music/news/bruce-springsteen-trump-cant-handle-the-truth-minneapolis-1236704103/
+https://variety.com/2026/music/news/megan-thee-stallion-hospitalized-moulin-rouge-broadway-1236704169/
+https://hypebeast.com/2026/3/project-hail-mary-becomes-amazon-mgms-biggest-movie-ever
+https://hypebeast.com/2026/3/netflix-avatar-the-last-airbender-season-2-premiere-date-release-info
+
+Sports
+• Italy failed to qualify for a third straight World Cup after a penalty shootout loss to Bosnia and Herzegovina.
+• Iraq beat Bolivia to reach its first World Cup since 1986; Türkiye also qualified, ending a 24‑year wait.
+• FIFA 2026’s expanded field is now complete, with new debutants alongside traditional powers.
+Why it matters: Historic upsets and long‑awaited returns signal a reshaped World Cup landscape with new narratives for the 2026 tournament.
+https://apnews.com/article/italy-world-cup-playoffs-bosnia-95f7299d0fd2c7a0f223f2d9a15c42d2
+https://www.aljazeera.com/sports/2026/4/1/iraq-defeat-bolivia-2-1-to-qualify-for-fifa-world-cup-2026
+https://www.aljazeera.com/video/newsfeed/2026/4/1/turkiye-qualifies-for-world-cup-after-24-year-wait
+https://www.bbc.com/sport/football/articles/c3exv0820e4o
+
+Art & Culture
+• Six titles from four continents were shortlisted for the 2026 International Booker Prize, spotlighting diverse translated fiction.
+• The Louvre remained the world’s most‑visited museum in 2025 as global attendance rebounded; Asia’s museum footfall surged.
+• A highly complete Triceratops skeleton sold for a record $5.55 million in an online auction.
+Why it matters: Post‑pandemic cultural demand is rising, with blockbuster artifacts and global literature drawing wider audiences.
+https://www.npr.org/2026/03/31/nx-s1-5766171/2026-international-booker-prize-shortlist
+https://hypebeast.com/2026/3/louvre-leads-2025-museum-visitor-rankings-as-asia-surges
+https://hypebeast.com/2026/4/triceratops-skeleton-trey-record-5-million-usd-joopiter-auction-sale-news
+
+Artificial Intelligence
+• OpenAI raised $122 billion to expand frontier AI and compute, intensifying the race to commercialize enterprise AI.
+• Anthropic suffered a major leak of Claude Code’s internal source via an exposed map file; the company faced other recent missteps.
+• AI features are moving deeper into consumer platforms: ChatGPT arrived on Apple CarPlay and Alexa+ can place natural‑language orders with Uber Eats and Grubhub.
+• Shares of China’s Zhipu surged after strong revenue growth in its first results post‑IPO.
+Why it matters: Investment and adoption are accelerating even as security lapses and governance concerns challenge fast‑moving AI deployments.
+https://openai.com/index/accelerating-the-next-phase-ai
+https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/
+https://www.theverge.com/ai-artificial-intelligence/904676/apple-carplay-openai-chatgpt
+https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/
+https://www.cnbc.com/2026/04/01/china-ai-tiger-zhipu-shares-surge-revenue-growth-first-earnings-report.html
+
+Climate & Environment
+• Asia is delaying coal plant closures and boosting output to cover energy shortfalls linked to the Iran war, alarming climate experts.
+• A rare U.S. committee waived Endangered Species Act protections to allow Gulf of Mexico oil and gas drilling, sparking conservation outcry.
+• Over 200 U.K. species, including the merlin, face extinction risk without urgent emission cuts and land‑use reform; Saharan dust blanketed parts of NW Africa and the Canaries.
+Why it matters: Energy security pressures are colliding with biodiversity and climate goals, testing policy resolve amid compounding shocks.
+https://www.theguardian.com/world/2026/apr/01/iran-energy-crisis-asia-dirty-fuels-coal
+https://www.theguardian.com/us-news/2026/mar/31/gulf-of-mexico-drilling-endangered-species
+https://www.theguardian.com/environment/2026/mar/31/uk-smallest-bird-prey-among-species-risk-extinction-study-finds
+https://science.nasa.gov/earth/earth-observatory/march-of-the-harmattan/
+
+Other
+• A judge rejected Kim Kardashian and Kris Jenner’s bid to keep portions of their sex‑tape settlement private, citing limited privacy grounds.
+Why it matters: High‑profile privacy claims continue to test court thresholds for sealing civil settlements.
+https://www.rollingstone.com/tv-movies/tv-movie-news/kim-kardashian-sex-tape-settlement-public-denied-1235539933/
+
+Longevity & Anti-Aging
+• New research details how reactive and senescent astrocytes drive brain aging and inflammation, highlighting potential targets to preserve cognition.
+• Studies link low‑protein diets, via gut microbiome shifts, to beneficial “browning” of fat and improved metabolic health; novel aging clocks from clinical and microbiome data continue to refine biological age measures.
+Why it matters: Mechanistic insights and better biomarkers are paving paths toward interventions that could extend healthy lifespan.
+https://www.fightaging.org/archives/2026/03/the-role-of-reactive-and-senescent-astrocytes-in-the-aging-of-the-brain/
+https://www.fightaging.org/archives/2026/03/a-gut-microbiome-response-to-low-protein-intake-drives-beneficial-browning-of-fat-tissue/
+https://www.fightaging.org/archives/2026/03/aging-clocks-derived-from-clinical-and-gut-microbiome-measures/
+https://onlinelibrary.wiley.com/doi/10.1111/acel.70464?af=R
