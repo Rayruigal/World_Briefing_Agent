@@ -1,0 +1,138 @@
+Armed Conflict & Security
+• The U.S.–Iran war escalated as President Trump warned of strikes on Iranian power plants and bridges if the Strait of Hormuz is not opened by Tuesday, with U.S. officials saying strikes on Iran have intensified.
+• A complex U.S. operation rescued an American airman deep inside Iran after a fighter jet was downed, with Trump publicly detailing parts of the mission.
+• Regional spillover mounted: Saudi Arabia closed the causeway to Bahrain after Iranian missile strikes in its Eastern Province, while Israeli strikes and militia clashes in Gaza killed at least 10 and displacement in Lebanon worsened amid Israeli bombardment.
+• Iran-linked messaging threatened U.S.-associated AI data centers abroad, and Tehran state media claimed a U.S.-Israeli projectile struck a synagogue in the capital; separate reports highlighted risks around attacks on Iran’s Bushehr nuclear plant.
+• Australia arrested and charged a former soldier over alleged Afghan war crimes following a defamation case loss, and locals in Nigeria challenged an army claim that 31 people were rescued after an Easter attack.
+Why it matters: Escalating military threats and regional spillovers raise the risk of wider conflict, civilian harm and critical infrastructure damage with global economic and security repercussions.
+https://www.aljazeera.com/news/liveblog/2026/4/7/iran-war-live-trump-warns-of-devastating-attacks-as-deal-deadline-nears?traffic_source=rss
+https://www.ft.com/content/35346eaf-0869-4706-8ebb-2d171e15266f
+https://www.npr.org/2026/04/06/nx-s1-5775736/trump-provides-details-behind-the-dramatic-rescue-of-an-american-airman-trapped-in-iran
+https://apnews.com/article/iran-us-israel-trump-lebanon-april-7-2026-421ee64fdc9a5c26460df8119c7d1b3f
+https://www.bbc.com/news/articles/c77md512n71o?at_medium=RSS&at_campaign=rss
+https://www.aljazeera.com/news/2026/4/7/australian-soldier-ben-roberts-smith-arrested-over-alleged-war-crimes?traffic_source=rss
+
+Geopolitics & Diplomacy
+• Taiwan opposition leader Cheng Li-wun met China’s Xi Jinping in the first such visit since 2016, casting herself as a “bridge for peace.”
+• U.S. Vice President JD Vance travels to Budapest to back Viktor Orbán ahead of a tight election, underscoring closer White House ties with Hungary’s leader.
+• Negotiations to end the Iran war appeared to stall ahead of Trump’s deadline, with Tehran rejecting a U.S. ceasefire plan and Trump floating a Hormuz toll on shipping.
+• European gas prices and markets remained watchful but relatively stable as allies planned post-war safe-passage talks and regional officials warned worse may lie ahead.
+• Iran-linked media threatened OpenAI’s planned Stargate data center in Abu Dhabi as tech infrastructure becomes entangled in geopolitical brinkmanship.
+Why it matters: Diplomatic maneuvers around Iran, Asia, and Europe highlight shifting alliances and the struggle to contain conflict spillovers while safeguarding critical trade routes and infrastructure.
+https://www.bbc.com/news/articles/c0krnz7mmmjo?at_medium=RSS&at_campaign=rss
+https://www.aljazeera.com/news/2026/4/6/trump-says-us-could-charge-for-strait-of-hormuz-passage-amid-iran-war?traffic_source=rss
+https://www.theguardian.com/world/2026/apr/06/proposals-for-immediate-ceasefire-us-israel-iran-war
+https://www.bloomberg.com/news/articles/2026-04-07/european-gas-ticks-higher-as-trump-threatens-iran-war-escalation
+
+Artificial Intelligence
+• The U.S. and China each lead in different AI races, with both intent on preventing the other’s dominance as the landscape continues to shift.
+• Broadcom expanded chip deals with Google and Anthropic as the AI startup’s annualized revenues hit $30bn, reinforcing a boom in AI compute supply chains.
+• Google quietly launched an offline-first AI dictation app on iOS using Gemma models, while a new generalist robotics model claimed near-production reliability.
+• OpenAI announced a Safety Fellowship for independent alignment research, even as reports surfaced of internal trust issues around leadership.
+• Marketers and SEOs increasingly seek to influence AI-generated responses in search, raising questions about manipulation and information quality.
+Why it matters: Rapid AI advances are reshaping industry alliances, hardware supply, and consumer tools while raising governance and information integrity challenges.
+https://www.bbc.com/news/articles/c145enxln0go?at_medium=RSS&at_campaign=rss
+https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html
+https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/
+https://openai.com/index/introducing-openai-safety-fellowship
+
+Society & Human Rights
+• A judge said Lil Nas X’s assault case in Los Angeles will be dismissed if he completes mental health treatment, calling his arrest behavior “aberrant.”
+• Nine police officers in India were sentenced to death over the 2020 custodial killings of a father and son detained for alleged lockdown breaches.
+• A U.S. Army staff sergeant is fighting to stop his wife’s deportation after she was detained on a Louisiana base days after their wedding.
+• UK data show stalking offenses and charges at record highs, as resident doctor strikes stoke anxiety over training posts and pay in England.
+Why it matters: Legal outcomes and justice system pressures reflect broader debates over accountability, mental health, immigration enforcement, and public safety.
+https://www.bbc.com/news/articles/ce8l0md9gl1o?at_medium=RSS&at_campaign=rss
+https://apnews.com/article/ice-immigration-military-spouse-deport-59ce5951fb284f95b836d0b07d6b0718
+https://www.theguardian.com/world/2026/apr/07/tuesday-briefing-what-is-driving-the-rise-in-stalking-offences-in-england-and-wales
+
+Science & Technology
+• NASA’s Artemis II crew looped around the Moon, traveling farther from Earth than any humans in history and beginning the journey home.
+• Trump again proposed steep cuts to U.S. science funding, including a large reduction to NASA’s science programs, reviving budget fights.
+• NASA leaders say the Orion spacecraft and SLS are performing well as attention turns to lunar lander readiness from SpaceX and Blue Origin.
+• Researchers unveiled a rapid “single-injection” multi-omics technique detecting over 1,300 proteins and 9,000 features in under five minutes.
+• The U.S. set a “grand challenge” to build a fault-tolerant quantum computer by 2028, aiming to galvanize progress beyond today’s error-prone machines.
+Why it matters: Historic human spaceflight milestones and ambitious tech goals contrast with proposed science budget cuts, shaping the pace and focus of future research.
+https://www.space.com/space-exploration/artemis/artemis-2-breaks-humanitys-all-time-distance-record-during-historic-loop-around-the-moon
+https://arstechnica.com/science/2026/04/trumps-next-budget-once-again-calls-for-massive-cuts-to-science/
+https://arstechnica.com/space/2026/04/nasas-moon-ship-and-rocket-seem-to-be-working-well-so-what-about-the-landers/
+https://phys.org/news/2026-04-method-rapidly-cell-proteins-metabolites.html
+
+Sports
+• Michigan beat UConn 69–63 to win the NCAA men’s basketball national title, capping coach Dusty May’s transfer-led run.
+• The Grizzlies tied the NBA record with 29 three-pointers in a game but lost to the Cavaliers; Victor Wembanyama exited Spurs’ win with a rib contusion.
+• European club football eyes summer moves, with Barcelona and Juventus linked to Bernardo Silva as Coventry edge closer to Premier League promotion.
+Why it matters: Championship outcomes and standout performances shift narratives and momentum across college and professional sports as transfer markets heat up.
+https://apnews.com/article/michigan-uconn-ncaa-title-game-806339fe73ae4e8d62d69e24c85dcc79
+https://www.espn.com/nba/story/_/id/48416352/grizzlies-tie-record-most-3s-made-29-lose-cavaliers
+https://www.espn.com/soccer/story/_/id/48410071/barcelona-juventus-lead-race-man-city-bernardo-silva
+
+Health & Pandemic
+• Bangladesh began emergency measles-rubella vaccinations amid its worst outbreak in years, with more than 100 children reported dead in under a month.
+• RFK Jr., after a court loss, expanded his control over a self-created CDC “vaccine panel,” raising concerns over public health messaging and credibility.
+• NSW, Australia rolled out free nasal-spray flu vaccines for children aged 2–4 as part of broader efforts to boost uptake.
+Why it matters: Resurgent vaccine-preventable diseases and politicized health bodies underscore the need for trusted institutions and rapid immunization campaigns.
+https://apnews.com/article/bangladesh-measles-vaccination-unicef-who-5b3b376246e7c00373028cf8eb800eb3
+https://arstechnica.com/health/2026/04/after-court-loss-rfk-jr-gives-himself-more-power-over-cdc-vaccine-panel/
+https://www.theguardian.com/australia-news/live/2026/apr/07/australia-news-live-cyclone-maila-threat-queensland-road-toll-trump-iran-ntwnfb
+
+Economy & Markets
+• Oil rose for a third day and Asian shares traded mixed as Trump’s Iran deadline loomed, with threats to strike infrastructure if Hormuz remains closed.
+• Samsung forecast a sharp jump in profit on AI chip demand, buoying shares and highlighting the sector’s continued strength.
+• Bill Ackman’s Pershing Square made a bid for Universal Music Group, proposing cash and stock and a potential relisting in New York.
+• UK finance firms reported their fastest rebound in three decades, offering a bright spot for the government after a gloomy 2025.
+• India stepped up imports of Venezuelan crude and Nigeria doubled supplies to Dangote’s refinery as Middle East disruptions forced shifts in sourcing.
+Why it matters: Energy tensions and AI demand are steering markets and corporate strategy, while deal-making and supply diversification aim to buffer geopolitical shocks.
+https://apnews.com/article/financial-markets-iran-oil-bcd3342cd0b4e60ebedc1e81db08f465
+https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html
+https://www.ft.com/content/3322139e-5df5-4a4a-a6d2-ec42ca6a3c4b
+https://www.bloomberg.com/news/articles/2026-04-07/india-returns-to-buying-venezuelan-crude-to-ease-supply-crunch
+
+Art & Culture
+• Christopher Nolan’s “Memento” at 25 remains a touchstone for explorations of memory and identity in cinema.
+• New research highlights a medieval ophthalmologist’s Arabic translations of Greek medical texts as pivotal to Western medical scholarship.
+• Adriano Goldschmied, the “godfather of denim” behind Diesel, Agolde and AG, died at 82, leaving a lasting imprint on fashion.
+Why it matters: Reappraisals of cultural milestones and historical scholarship illuminate how ideas and creators shape enduring aesthetics and knowledge.
+https://arstechnica.com/culture/2026/04/memento-turns-25/
+https://phys.org/news/2026-04-eye-physician-classical-greek-medicine.html
+https://www.businessoffashion.com/news/creative-class/italian-denim-designer-adriano-goldschmied-dies-at-82/
+
+Entertainment
+• Coachella released set times with Jack White added as a surprise Weekend One performer.
+• Rapper Offset was shot near a Florida casino and is in stable condition as police detained two people and investigate.
+• The Wireless Festival defended booking Kanye West amid sponsor pullouts, while critics including David Schwimmer urged remaining sponsors to withdraw.
+• A 4K-restored “Sholay” will open the New York Indian Film Festival preview night, and BAFTA-winning “Boong” will open the festival proper.
+• Netflix launched “Playground,” a dedicated app for kids’ games, as it leans further into family-friendly interactive content.
+Why it matters: Major festivals, high-profile incidents, and platform bets show how music, film, and streaming continue to navigate controversy, safety, and audience shifts.
+https://variety.com/2026/music/news/coachella-announces-set-times-2026-jack-white-addition-1236710074/
+https://apnews.com/article/rapper-offset-shooting-hollywood-hard-rock-florida-8ca079b957c1af6f9b3926f1667a8534
+https://www.hollywoodreporter.com/music/music-news/david-schwimmer-blasts-kanye-west-questions-apology-1236557108/
+https://www.space.com/space-exploration/artemis/moon-music-heres-a-spotify-playlist-of-the-artemis-2-crews-wakeup-songs
+https://www.theverge.com/entertainment/907293/netflix-playground-kids-games-app
+
+Climate & Environment
+• A UC Irvine study found 70% of remediated Los Angeles yards near a former battery smelter still exceed lead limits, highlighting gaps in cleanup efficacy.
+• Florida’s drought has intensified since January after an unusually dry 2025, according to NASA observations.
+• Southern California reported a spike in rattlesnake bites and two fatalities amid warmer spring conditions; a bald eagle pair’s two eaglets delighted livestream audiences.
+• Utah passed a law shielding fossil fuel companies from climate-damage litigation, drawing sharp criticism from environmental advocates.
+• Scientists and conservationists warned that using AI to speed Australian environmental approvals could risk “robodebt-style” failures, pushing species toward extinction.
+Why it matters: From persistent urban contamination to drought and policy choices, environmental risks and governance decisions carry long-term health and ecological consequences.
+https://phys.org/news/2026-04-remediated-los-angeles-yards-exceed.html
+https://science.nasa.gov/earth/earth-observatory/drought-parches-florida/
+https://www.theguardian.com/us-news/2026/apr/06/california-sixth-person-bitten-rattlesnake
+https://www.theguardian.com/us-news/2026/apr/06/utah-fossil-fuels-legal-shield
+
+Other
+• NASA updated instructions for grants status requests and issued guidance to grantees following recent federal directives and court orders.
+• Commentary examined the growing push to decide what digital content merits preservation as the internet’s ephemera explodes.
+Why it matters: Funding processes and cultural memory both influence which knowledge and projects endure over time.
+https://www.nasa.gov/centers-and-facilities/grants-2/
+https://www.ft.com/content/e1c3fd8e-b7c7-4582-a63b-f7b1a2f2bc93
+
+Longevity & Anti-Aging
+• Academic trials are launching to optimize rapamycin dosing for off-label anti-aging use, building on animal data and limited human studies.
+• New work highlights how exercise-released “exerkines” in extracellular vesicles and non-necroptotic MLKL effects on mitochondria may shape aging pathways and stem cell function.
+Why it matters: Translating mechanisms from lab to clinic could yield interventions that extend healthspan and clarify safe, effective dosing.
+https://www.fightaging.org/archives/2026/04/academic-clinical-trials-for-rapamycin-to-answer-questions-on-dosing-for-anti-aging-use/
+https://www.fightaging.org/archives/2026/04/a-review-focused-on-exerkines-in-extracellular-vesicles-generated-by-muscle-tissue/
+https://pubmed.ncbi.nlm.nih.gov/41942424/
