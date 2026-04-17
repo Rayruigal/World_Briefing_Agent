@@ -1,0 +1,139 @@
+Artificial Intelligence
+• Finance leaders warn Anthropic’s Mythos preview could identify and exploit cybersecurity weaknesses as UK banks gain access; Anthropic positions newly released Claude Opus 4.7 as a safer GA alternative.
+• OpenAI beefs up Codex with desktop control, in‑app browsing, memory and plugins, escalating the race with Anthropic’s coding tools.
+• Google expands AI features: Chrome’s AI Mode opens sources side‑by‑side, and Gemini taps Google Photos for personalized image generation.
+• Governments and ecosystems move: the UK launches a $675m Sovereign AI Fund and Anthropic plots a major London expansion, while US data‑centre delays threaten to choke AI growth.
+• Funding and niches surge: Factory raises $150m for enterprise AI coding; Upscale AI reportedly seeks a $2b valuation; OpenAI debuts biology‑tuned GPT‑Rosalind; Mozilla launches a self‑hosted Thunderbolt client.
+Why it matters: Capabilities and adoption are accelerating across finance, coding, and consumer products even as policymakers and infrastructure strain to manage risk and scale.
+https://www.bbc.com/news/articles/c2ev24yx4rmo?at_medium=RSS&at_campaign=rss
+https://www.theguardian.com/technology/2026/apr/17/finance-leaders-warn-over-claude-mythos-as-uk-banks-prepare-to-use-powerful-anthropic-ai-tool
+https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos
+https://www.cnbc.com/2026/04/16/google-photo-gemini-chatbot-nano-banana.html
+https://www.wired.com/story/the-uk-launches-its-dollar675-million-sovereign-ai-fund/
+https://www.ft.com/content/f2bae708-f5c3-49b0-99c0-e4a11552427b
+
+Geopolitics & Diplomacy
+• A 10‑day Israel–Lebanon ceasefire took effect with Hezbollah support; the UN urged full respect as parties explore a longer‑term deal.
+• Trump says the Iran war “should be ending pretty soon” with possible US‑Iran talks, while Macron and Starmer convene allies (without the US) on reopening the Strait of Hormuz.
+• The US House moves to renew a controversial FISA surveillance authority before it expires; a New Jersey special election adds another Democrat to the House.
+• UK politics faces a Mandelson vetting row, with calls for inquiries into PM Keir Starmer’s handling of security advice.
+Why it matters: Fragile de‑escalation in the Middle East could ease energy risks, but domestic political frictions in key capitals complicate diplomacy.
+https://www.bbc.com/news/articles/cwy32277e58o?at_medium=RSS&at_campaign=rss
+https://www.ft.com/content/cdb6aaee-3cec-4456-8106-5c9279d02392
+https://www.ft.com/content/a348e5e0-c9d3-424c-b8a9-7903fa817b7d
+https://apnews.com/article/congress-foreign-surveillance-fisa-spy-agencies-3dc3e84c3b9b03f52b84dfb3b01fc770
+https://www.theguardian.com/politics/2026/apr/17/starmer-mandelson-commons-inquiry-privileges-committee-vetting-ed-davey
+
+Society & Human Rights
+• Singer D4vd was arrested on suspicion of murdering a 14‑year‑old whose remains were found in his car; his lawyers say he did not kill her.
+• Rights and governance tensions persist: Burkina Faso dissolved 100+ NGOs; Palestinians mark Prisoners’ Day with 9,600+ held in Israeli prisons; Gaza’s recovery remains stalled despite a ceasefire.
+• Personal stories underscore systemic strains—from a Nigerian student seeking access after torture and disability to a UK immigration error separating a mother from her child; Turkey mourns a fatal school shooting.
+Why it matters: From high‑profile crimes to civil‑society crackdowns and post‑conflict hardship, rights and rule‑of‑law challenges reverberate across regions.
+https://apnews.com/article/d4vd-suspect-celeste-rivas-hernandez-f58e2983916aaf3340cc48b7e711118f
+https://www.aljazeera.com/news/2026/4/17/burkina-faso-dissolves-more-than-100-ngos-and-civil-society-groups?traffic_source=rss
+https://www.aljazeera.com/news/2026/4/17/palestinian-prisoners-day-what-happened-in-palestine-on-april-17-1971?traffic_source=rss
+https://www.npr.org/2026/04/16/nx-s1-5786615/six-months-after-ceasefire-with-israel-people-in-gaza-say-recovery-hasnt-even-begun
+https://www.bbc.com/news/articles/c9d4nnpw8w2o?at_medium=RSS&at_campaign=rss
+https://www.theguardian.com/politics/2026/apr/17/woman-dusseldorf-uk-home-office-return-flight-blocked
+
+Other
+• South Korea’s runaway zoo wolf “Neukgu” was recaptured after a nine‑day search that gripped the country.
+• E.l.f. Beauty reshuffled its C‑suite, while a Texas court ordered Theodore Knox to pay $2.8m over a 2024 street‑racing crash linked to an NFL player.
+Why it matters: Viral public moments and corporate/legal shifts reflect how social attention and accountability can shift quickly across sectors.
+https://www.bbc.com/news/videos/c70dvy2l701o?at_medium=RSS&at_campaign=rss
+https://www.businessoffashion.com/news/beauty/elf-beauty-makes-c-suite-changes/
+https://www.espn.com/nfl/story/_/id/48506401/court-rules-smu-theodore-knox-28m-judgement
+
+Art & Culture
+• Artemis commander Reid Wiseman reflected on NASA naming a lunar crater “Carroll” after his late wife, calling it a powerful family moment.
+• Ayo Edebiri and Don Cheadle lead a gripping but unevenly paced Broadway revival of “Proof,” critics say.
+Why it matters: High‑profile tributes and marquee revivals bridge space achievement and stage art, sustaining cultural narratives.
+https://www.bbc.com/news/videos/cq6jpp2e5d6o?at_medium=RSS&at_campaign=rss
+https://variety.com/2026/legit/reviews/proof-broadway-review-ayo-edebiri-don-cheadle-1236723836/
+
+Science & Technology
+• Artemis II astronauts praised Orion’s performance—especially its heat shield—and said a Moon landing is “absolutely doable soon.”
+• Europe’s ExoMars rover secured a SpaceX Falcon Heavy ride; Blue Origin tested a used New Glenn ahead of a landmark reflight.
+• Intel refreshed non‑Ultra Core CPUs with new silicon, while helium‑3 scarcity pushes new quantum cooling approaches; a student‑led experiment tightened limits on axion dark‑matter signals.
+• Skywatchers can catch the Lyrid meteor shower and once‑in‑a‑lifetime Comet PanSTARRS as it nears perihelion.
+Why it matters: Human spaceflight momentum, deep‑space missions, and advances in chips and physics are converging to shape the next tech frontier.
+https://apnews.com/article/nasa-artemis-moon-astronauts-e5f210b79bd269e9d402ef291623f5e9
+https://arstechnica.com/space/2026/04/after-a-saga-of-broken-promises-a-european-rover-finally-has-a-ride-to-mars/
+https://arstechnica.com/gadgets/2026/04/intels-non-ultra-core-cpus-are-new-silicon-this-year-for-a-change/
+https://www.science.org/content/article/helium-3-runs-scarce-researchers-seek-new-ways-chill-quantum-computers
+https://www.space.com/stargazing/meteor-showers/the-lyrid-meteor-shower-2026-has-begun-heres-what-to-expect
+
+Sports
+• World Athletics blocked 11 athlete nationality switches to Türkiye, calling it a government‑led “recruitment drive.”
+• On the field: Connor McDavid clinched a sixth NHL scoring title; Cleveland rookie Parker Messick lost a no‑hit bid in the ninth; Mike Trout homered five times in a four‑game Yankee Stadium series.
+• Governance and moves: The NWSL will vote on a fall–spring calendar; the Devils hired Sunny Mehta as GM; Napheesa Collier re‑signed with the Lynx on a supermax.
+Why it matters: Athletic integrity and player movement rules intersect with standout performances and league‑level scheduling shifts.
+https://www.aljazeera.com/sports/2026/4/17/world-athletics-deliver-nationality-switch-hammer-blow-to-turkiye?traffic_source=rss
+https://www.espn.com/nhl/story/_/id/48509318/oilers-mcdavid-wraps-nhl-scoring-title-4-assist-finale
+https://www.espn.com/mlb/story/_/id/48508569/messick-loses-no-hit-bid-9th-guardians-hold-orioles
+https://www.espn.com/mlb/story/_/id/48506296/mike-trout-crushes-fifth-yankee-stadium-hr-four-games
+https://www.espn.com/soccer/story/_/id/48508613/nwsl-expected-vote-calendar-shift-month
+https://www.espn.com/nhl/story/_/id/48507904/devils-hire-panthers-exec-sunny-mehta-general-manager
+
+Armed Conflict & Security
+• A 10‑day truce between Israel and Hezbollah in Lebanon appears to be holding, allowing some displaced residents to return as talks continue.
+• Australia’s Ben Roberts‑Smith was granted bail after being charged with Afghan war crimes.
+• Analysts warn “humans in the loop” may be illusory in AI‑driven warfare, while a new undersea cable‑cutter capability raises alarms for internet infrastructure.
+Why it matters: Temporary de‑escalation offers a window for diplomacy even as past war‑crime cases and emerging tech risks underscore enduring security challenges.
+https://apnews.com/article/us-iran-war-lebanon-israel-talks-pakistan-hormuz-17-april-2026-4bd5a29af608ecbd72356559b3c55d67
+https://apnews.com/article/australia-afghan-war-crimes-ben-roberts-smith-a64ad62169be971b96bdd0c3b44c9262
+https://www.technologyreview.com/2026/04/16/1136029/humans-in-the-loop-ai-war-illusion/
+https://arstechnica.com/gadgets/2026/04/china-tests-an-undersea-cable-cutter-as-suspected-sabotage-incidents-grow/
+
+Economy & Markets
+• Asian stocks eased after Wall Street records on ceasefire hopes; banks see limited upside for Europe and signs the dollar’s haven rally may fade.
+• Energy shock drives nuclear plans in parts of Asia and Africa, while Washington urges US oil producers to increase drilling.
+• TSMC’s profit jumped 58% on AI demand even as chip stocks showed muted reactions; sentiment remains sensitive.
+• Deals and credit: Uber raised its Delivery Hero stake; OnlyFans seeks a $3bn‑plus valuation; banks launched CDS to bet on pain in private‑credit funds.
+Why it matters: Markets are navigating geopolitics, energy shifts, and AI‑driven capex booms amid selective risk‑taking and new ways to hedge private‑credit exposures.
+https://apnews.com/article/stock-markets-trump-oil-iran-war-50e10bf2aa9b0b658c51e17db3eb3b13
+https://apnews.com/article/middle-east-wars-nuclear-energy-asia-africa-ab082ccbbc1fca8ab7eb6871040bf4a3
+https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html
+https://www.ft.com/content/0f41cbd9-58e5-4f0c-b975-3e6b919f1431
+https://www.ft.com/content/e06cdb42-6967-4e7c-b6d5-9516883c73bc
+https://www.ft.com/content/54076a09-7a66-44f3-8e70-343f6d601e50
+
+Climate & Environment
+• US tech firms led by Microsoft successfully lobbied to keep EU data‑centre emissions metrics confidential, an investigation finds.
+• NASA tracked spring rains saturating Michigan and damaging infrastructure; separately, the UK will release 15m oysters to rewild the North Sea and store carbon.
+• Research spotlights both harm and solutions: anthropogenic noise disrupts wildlife; agrovoltaics save water while generating power in tomato cultivation; MSC’s sustainability “blue tick” faces scrutiny over labor abuses.
+Why it matters: Transparency, resilience and credible sustainability standards are vital as climate risks intensify and nature‑based solutions scale.
+https://www.theguardian.com/technology/2026/apr/17/microsoft-us-tech-firms-lobbied-eu-secrecy-rules-datacentre-emissions
+https://science.nasa.gov/earth/earth-observatory/spring-rains-saturate-michigan/
+https://www.theguardian.com/environment/2026/apr/17/more-than-15m-oysters-to-be-released-in-the-north-sea-for-uk-rewilding-project
+https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/
+https://phys.org/news/2026-04-agrovoltaic-generating-energy-tomato-cultivation.html
+https://www.theguardian.com/environment/2026/apr/16/mscs-blue-tick-scheme-creates-illusion-of-ethically-sourced-fish-study-claims
+
+Entertainment
+• Netflix cofounder Reed Hastings will leave the board as the company rolls out a vertical‑video mobile redesign; Roku crossed 100m streaming households.
+• Olivia Rodrigo debuted “Drop Dead” with a Versailles‑set video; Massive Attack returned with Tom Waits; Nine Inch Nails released a surprise album with Boys Noize.
+• LAPD’s arrest of D4vd in a teen’s death reverberated through music media, while Meghan Trainor canceled her tour; Disney+ scored its biggest K‑drama debut with “Perfect Crown.”
+• Lucasfilm unveiled a final “The Mandalorian & Grogu” trailer; Paramount–Skydance pitched a tech‑ and sports‑driven reinvention; Christopher Meloni bid farewell after NBC canceled “Organized Crime.”
+Why it matters: Streaming strategies, marquee releases and franchise moves are reshaping audience attention and platform competition.
+https://www.theverge.com/streaming/913201/netflix-reed-hastings-earnings-q1-2026
+https://www.theverge.com/streaming/913539/netflix-mobile-app-update-vertical-video
+https://www.theverge.com/streaming/913169/roku-passes-100-million-users
+https://www.rollingstone.com/music/music-news/olivia-rodrigo-new-song-drop-dead-1235543566/
+https://pitchfork.com/news/massive-attacks-first-song-in-six-years-features-tom-waits/
+https://variety.com/2026/tv/news/christopher-meloni-law-and-order-organized-crime-cancellation-1236723821/
+
+Longevity & Anti-Aging
+• Mild mitochondrial stressors and fitness‑health causality analyses remain promising for healthier aging, but suppressing IGF‑1 signaling failed to slow aging in a mitochondrial mutator mouse model.
+• Suppressing the ghrelin receptor improved muscle function in older mice, and end‑of‑life dreams tend to become more emotive and symbolic, potentially easing acceptance.
+Why it matters: Translating basic biology into interventions against sarcopenia and aging requires careful target validation while honoring end‑of‑life care insights.
+https://www.fightaging.org/archives/2026/04/in-search-of-novel-means-to-provoke-mild-mitochondrial-stress-to-slow-aging/
+https://www.fightaging.org/archives/2026/04/igf-1-signaling-suppression-fails-to-slow-aging-in-mitochondrial-mutator-mice/
+https://www.fightaging.org/archives/2026/04/applying-mendelian-randomization-to-the-correlation-between-fitness-and-health/
+https://lifespan.io/news/targeting-an-appetite-hormone-receptor-for-stronger-muscles/?utm_source=rss&utm_medium=rss&utm_campaign=targeting-an-appetite-hormone-receptor-for-stronger-muscles
+https://www.newscientist.com/article/2523071-our-dreams-become-more-emotive-and-symbolic-as-we-approach-death/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home
+
+Health & Pandemic
+• Experts outline 11 ways to lower cortisol during peri‑ and post‑menopause, as hormonal shifts heighten stress reactivity.
+Why it matters: Practical strategies to manage stress hormones can improve quality of life during a sensitive transition for millions.
+https://www.vogue.com/article/cortisol-perimenopause-menopause
