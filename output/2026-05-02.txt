@@ -1,0 +1,123 @@
+Economy & Markets
+• Spirit Airlines ceased operations after a last-ditch White House rescue effort collapsed, ending 34 years of flying and putting roughly 17,000 jobs at risk.
+• Tech remains a market driver: Apple’s upbeat guidance lifted shares even as it raised Mac Mini prices, while chip stocks rebounded after an April surge; investors are separating AI leaders from laggards.
+• War-driven energy shocks are rippling through the real economy, with the US seeing the sharpest fuel-price spike in the G7, Kenya’s flower and tea exports hit by higher freight, and Libya’s oil output at a decade high amid price gains.
+• Wall Street traders far outpaced European rivals on commodities-heavy swings; the FT urges Europe to bolster the euro’s reserve role as geopolitical risk reshapes capital flows.
+Why it matters: A bifurcated market rally led by tech is colliding with war-related energy shocks and policy shifts, creating winners and losers across airlines, banks, and commodities while testing resilience in the US and Europe.
+https://www.bloomberg.com/news/articles/2026-05-02/spirit-shuts-operations-after-white-house-bailout-falls-apart
+https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html
+https://www.ft.com/content/aa553985-ef1a-4001-9f8d-f9501810dbb5
+https://www.ft.com/content/3b0438dc-7d8a-4564-9ce6-9d66b735eaae
+https://www.ft.com/content/286f4b2c-27a6-4f99-a62c-8ec092823483
+
+Society & Human Rights
+• Conditions in Gaza’s displacement camps are deteriorating, with pest infestations spreading disease risks amid prolonged conflict.
+• Canada’s eased citizenship rules triggered a wave of applications, many from Americans citing political and personal motives; in the UK, fear grew after stabbings of Jewish men in London.
+• A new US mobile network targeting Christians will enforce non‑overrideable content blocks on porn and some gender-related topics, drawing scrutiny from security experts.
+Why it matters: Social safety, rights, and access are being reshaped by conflict, policy change, and tech gatekeeping—driving new migration patterns, community anxiety, and debates over digital control.
+https://www.bbc.com/news/articles/c202m54xp0mo
+https://www.npr.org/2026/05/01/nx-s1-5804529/after-canada-loosens-citizenship-requirements-thousands-of-people-apply
+https://www.npr.org/2026/05/01/g-s1-119674/man-charged-with-attempted-murder-after-london-stabbings
+https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/
+
+Geopolitics & Diplomacy
+• On day 64 of the Iran war, President Trump rejected Tehran’s latest proposal and told Congress hostilities have “terminated” under a ceasefire claim, arguing he does not need authorization.
+• The US will withdraw about 5,000 troops from Germany within a year amid tensions over the Iran conflict; a Qatar-donated 747 will serve as a temporary Air Force One this summer.
+• Cuba denounced fresh US sanctions as “collective punishment,” while Peru opened a probe into trafficking citizens to fight for Russia in Ukraine.
+Why it matters: Legal, military, and diplomatic lines are blurring as Washington repositions forces, asserts executive war powers, and sharpens sanctions—moves that reverberate from Europe to Latin America.
+https://www.bbc.com/news/articles/c4g4xexy4w7o
+https://www.aljazeera.com/news/2026/5/2/iran-war-whats-happening-on-day-64-as-trump-rejects-tehrans-proposal
+https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6
+https://www.npr.org/2026/05/02/g-s1-119866/trump-new-air-force-one
+https://www.aljazeera.com/economy/2026/5/2/havana-slams-new-trump-sanctions-as-collective-punishment-of-cuban-people
+
+Health & Pandemic
+• A US court curbed mail-order access to mifepristone, the most common method for abortion, tightening constraints on reproductive healthcare delivery.
+• WHO prequalified the first malaria treatment specifically dosed for babies (Coartem Baby), a milestone for infant care in regions with high infection rates.
+• A rare, fatal amoebic infection case underscores how multiple modest risk factors can combine into deadly outcomes, a cautionary tale for clinicians.
+Why it matters: Regulatory shifts and new approvals are redefining access to care, while rare-case science continues to refine clinical vigilance and treatment pathways.
+https://www.bbc.com/news/articles/c2k20z5yj3wo
+https://www.theguardian.com/global-development/2026/may/02/new-drug-coartem-baby-babies-malaria-who-treatment
+https://arstechnica.com/health/2026/05/amoebas-eat-man-alive-over-months-in-puzzling-ultra-rare-cautionary-tale/
+
+Entertainment
+• Tours reshuffled: Post Malone delayed early stadium dates to finish an album; Barry Manilow postponed Las Vegas shows amid cancer recovery.
+• Network and studio decisions are reshaping slates: NBC canceled “Brilliant Minds” and “Stumble”; Disney’s live-action “Tangled” adds Diego Luna as casting accelerates.
+• Streaming remains ascendant with curated free libraries and a packed sci‑fi season as platforms court summer audiences.
+Why it matters: Content pipelines and touring economics remain fluid post‑pandemic, with star health, budgets, and streaming strategies driving what fans see and when.
+https://variety.com/2026/music/news/post-malone-cancels-stadium-concerts-jelly-roll-tour-1236735970/
+https://www.hollywoodreporter.com/tv/tv-news/brilliant-minds-stumble-canceled-nbc-1236582241/
+https://variety.com/2026/film/news/tangled-andor-diego-luna-disney-live-action-remake-1236735837/
+https://www.theverge.com/tech/921610/sci-fi-streaming-shows-2026
+
+Armed Conflict & Security
+• The US will reduce troop levels in Germany by 5,000 amid disputes over the Iran conflict; UK threat levels were raised to “severe,” prompting US embassy warnings.
+• China urged reversing UNIFIL’s departure from Lebanon as Israel‑Hezbollah fighting intensifies; US arms shipments to Europe may face delays as stocks run down.
+• Drone strikes on Middle East data centers left AWS with months of repairs, highlighting cyber‑physical risk to cloud infrastructure.
+Why it matters: Force posture shifts, coalition strain, and infrastructure vulnerability are converging, complicating both European defense and commercial resilience.
+https://www.bbc.com/news/articles/c0729d374mxo
+https://www.aljazeera.com/news/2026/5/2/us-embassy-warns-citizens-in-uk-as-threat-level-raised-to-severe
+https://www.ft.com/content/f87a8b04-e683-4e0e-8c66-647d23bfc2ff
+https://arstechnica.com/gadgets/2026/05/amazon-stuck-with-months-of-repairs-after-drone-strikes-on-data-centers/
+
+Art & Culture
+• Nepal welcomed home a stolen 13th‑century Buddha statue, returning it to its Kathmandu temple after decades abroad.
+• Hot Docs awarded its top international feature prize to a Palestinian resistance documentary, spotlighting narratives from conflict zones.
+• PETA launched a “Devil Wears Prada”-inspired ad campaign pushing fashion away from all animal skins as ethics debates intensify.
+Why it matters: Cultural restitution, documentary storytelling, and fashion activism are reshaping public discourse on heritage, conflict, and consumption.
+https://www.aljazeera.com/news/2026/5/2/nepal-celebrates-return-of-stolen-13th-century-buddha-statue-from-new-york
+https://www.hollywoodreporter.com/movies/movie-news/hot-docs-house-of-hope-jury-prize-1236582331/
+https://variety.com/2026/film/news/peta-devil-wears-prada-ad-protesting-animal-skins-1236733694/
+
+Sports
+• LeBron James led the Lakers past the Rockets to set up a semifinal with the Thunder; Raptors forced a decider vs. the Cavs, while Pistons staged a dramatic comeback.
+• Manchester United host Liverpool with European qualification at stake; in F1, Lando Norris secured sprint pole in Miami as McLaren shows renewed pace.
+• Boxing fans turn to Inoue vs. Nakatani for the undisputed super bantamweight title clash.
+Why it matters: High‑profile matchups across leagues and series are tightening races, boosting viewership, and reshaping postseason and championship narratives.
+https://www.bbc.com/sport/basketball/articles/c87qxrggrewo
+https://www.aljazeera.com/sports/2026/5/2/man-utd-vs-liverpool-premier-league-preview-team-news-start
+https://www.bbc.com/sport/formula1/articles/ce8pdm1rr6vo
+https://variety.com/2026/shopping/news/how-to-watch-inoue-vs-nakatani-live-boxing-online-1236732381/
+
+Artificial Intelligence
+• Elon Musk testified against OpenAI in week one of his lawsuit, alleging deception and warning of existential AI risk as early emails and exhibits surfaced.
+• The Pentagon inked deals to run OpenAI, Google, Microsoft, Amazon, Nvidia, xAI and others’ tools in classified settings—excluding Anthropic amid ongoing disputes.
+• New research finds models tuned to please users are more error‑prone; Minnesota passed a first‑in‑the‑nation ban targeting AI “nudification” apps.
+• Microsoft introduced a Word “Legal Agent” to handle structured workflows for contract review and negotiation.
+Why it matters: As governments rapidly adopt AI and courts probe corporate governance, safety, reliability, and regulation are becoming central to deployment in law, defense, and content.
+https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/
+https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia
+https://arstechnica.com/ai/2026/05/study-ai-models-that-consider-users-feeling-are-more-likely-to-make-errors/
+https://arstechnica.com/tech-policy/2026/05/minnesota-set-to-be-first-state-to-ban-nudification-apps/
+https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai
+
+Climate & Environment
+• Record May heat across southeast Australia will give way to a cold front, rain and storms—another swing in a climate‑charged weather year.
+• Countries gathered in Colombia to chart fossil fuel phase‑down pathways outside COP, as a top scientist predicted 2026 is likely to be the hottest year on record.
+• UK energy debate flared as Octopus’s CEO argued some households might accept occasional blackouts for lower bills.
+Why it matters: With climate diplomacy seeking new forums and extreme heat looming, the balance between reliability, affordability, and decarbonization is under intense scrutiny.
+https://www.theguardian.com/australia-news/2026/may/02/record-breaking-may-warmth-soon-to-blow-away-as-cold-front-moves-east
+https://www.newscientist.com/article/2525033-will-colombia-summit-kick-start-the-end-of-the-fossil-fuel-era/
+https://www.newscientist.com/article/2525229-2026-will-be-the-hottest-year-on-record-leading-scientist-predicts/
+https://www.theguardian.com/business/2026/may/01/octopus-energy-boss-blackouts-bills
+
+Science & Technology
+• A mass firing of the National Science Board dealt a fresh blow to US science governance, as researchers warn of destabilized funding oversight.
+• A severe “Copy Fail” flaw affects most Linux distributions since 2017, enabling easy privilege escalation; researchers used AI-assisted scanning to uncover it.
+• NASA’s Artemis II mission showcased high‑definition laser communications and new panoramas from Mars rovers highlighted diverse ancient terrains.
+• A deep‑Earth electrical map revealed an ancient lost continental fragment beneath the US, with implications for minerals and grid resilience.
+Why it matters: Governance shocks, critical vulnerabilities, and breakthroughs in exploration and geoscience all shape innovation capacity and infrastructure security.
+https://www.technologyreview.com/2026/05/01/1136722/mass-firing-trump-fresh-blow-american-science-nsf-nsb/
+https://www.theverge.com/tech/922243/linux-cve-2026-3141-copy-fail-exploit
+https://phys.org/news/2026-05-nasa-laser-terminal-views-artemis.html
+https://www.science.org/content/article/deep-earth-map-reveals-lost-u-s-continent
+https://www.space.com/astronomy/mars/nasas-curiosity-and-perseverance-rovers-capture-sweeping-mars-panoramas-video
+
+Longevity & Anti-Aging
+• New analyses suggest greater adult neurogenesis may help some people resist Alzheimer’s pathology, while oxidative stress impairs protein quality-control enzymes in aging brains.
+• In mice, fecal microbiota transplants from the young to the old reduced MDM2 expression and lowered liver cancer risk, underscoring the gut‑aging link.
+• Investors and brands are leaning into longevity as a growth theme across biotech, wellness, and beauty.
+Why it matters: Understanding and modulating aging pathways—neural plasticity, proteostasis, and the microbiome—could delay disease and attract significant capital to prevention-focused innovations.
+https://www.fightaging.org/archives/2026/05/does-greater-adult-neurogenesis-allow-some-people-to-resist-alzheimers-disease/
+https://www.fightaging.org/archives/2026/05/fecal-microbiota-transplantation-reduces-mdm2-expression-and-risk-of-liver-cancer/
+https://lifespan.io/rejuvenation-roundup-april-2026/
