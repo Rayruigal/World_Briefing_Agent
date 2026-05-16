@@ -1,0 +1,151 @@
+Armed Conflict & Security
+• Trump says a joint US–Nigerian operation killed senior IS/ISIL figure Abu‑Bilal al‑Minuki in Africa, with multiple outlets citing a complex mission.
+• Israeli strikes hit Gaza City, with at least seven Palestinians killed; Israel says a separate airstrike targeted a Hamas military wing leader.
+• Lebanon reports six killed in an Israeli strike as Washington announces an extension of a truce; cross‑border fire with Hezbollah continues.
+• Drone warfare is intensifying Sudan’s civil conflict, with experts warning of rising civilian harm and foreign supply lines to both sides.
+• Kyiv mourns after a Russian missile strike flattened an apartment block, raising the toll to 24; NATO plans to press European defense firms to boost output.
+Why it matters: Counterterror operations, regional escalations, and evolving military technologies are reshaping security dynamics while civilian tolls mount.
+https://www.bbc.com/news/articles/cy72p2kpd03o?at_medium=RSS&at_campaign=rss
+https://www.aljazeera.com/news/2026/5/16/trump-says-isil-second-in-command-abu-bilal-al-minuki-killed?traffic_source=rss
+https://www.aljazeera.com/video/newsfeed/2026/5/16/israel-launches-deadly-air-strikes-on-gaza-city-apartment-building?traffic_source=rss
+https://apnews.com/article/sudan-war-military-rsf-paramilitary-drones-1c0301faa15f5b57df9621a4b44aa939
+https://www.npr.org/2026/05/15/nx-s1-5823388/death-toll-in-attack-on-kyiv-apartment-building-now-stands-at-24
+
+Geopolitics & Diplomacy
+• After meeting China’s Xi, Trump warned Taiwan against declaring independence and urged Beijing–Taipei tensions to “cool down.”
+• The US is preparing a possible criminal indictment of ex‑Cuban leader Raúl Castro amid broader pressure on Havana; the CIA director’s visit underscored a hardening posture.
+• Israel’s ties with the UAE surfaced publicly alongside underlying frictions as regional conflict weighs on relations.
+• Spain’s prime minister defended a Eurovision boycott over Israel’s participation, reflecting culture‑politics crossover in Europe.
+• UK politics remain unsettled as Starmer faces internal pressure and Andy Burnham mulls a path to Parliament.
+Why it matters: Strategic maneuvering across the US–China–Taiwan triangle, pressure on Cuba, and domestic political strains in key allies will influence policy trajectories.
+https://www.bbc.com/news/articles/ce8p61v7l68o?at_medium=RSS&at_campaign=rss
+https://apnews.com/article/raul-castro-cuba-doj-indictment-trump-40939c6644185652649bc90d4e445394
+https://apnews.com/article/israel-uae-netanyahu-gaza-palestinians-c2401b72fbd20c72f05a8d0fba759836
+https://www.aljazeera.com/video/newsfeed/2026/5/16/spain-pm-defends-eurovision-boycott-over-israel?traffic_source=rss
+https://www.theguardian.com/politics/2026/may/16/keir-starmer-labour-leadership-talk-burnham-streeting
+
+Health & Pandemic
+• A rare Ebola strain with no approved vaccine has killed at least 65–80 people in DR Congo and surfaced in Uganda; hundreds of suspected cases are being probed.
+• The FDA removed a senior official from its drug program after high‑profile reviews of antidepressants and COVID‑19 vaccines.
+• The WHO’s latest global health statistics suggest the world is on track to miss 2030 health targets.
+• A suspected US hantavirus case was deemed a false positive, trimming an outbreak’s case count.
+Why it matters: Concurrent outbreak responses and regulatory shifts test health systems while research advances and accurate surveillance remain essential.
+https://www.bbc.com/news/articles/cze2wpk7y76o?at_medium=RSS&at_campaign=rss
+https://www.bloomberg.com/news/articles/2026-05-16/rare-ebola-strain-with-no-approved-vaccine-kills-dozens-in-congo
+https://apnews.com/article/tracy-beth-hoeg-fda-covid-drugs-makary-789be2c5a0da7b18a0dc2e7c52656acb
+https://arstechnica.com/health/2026/05/ebola-outbreak-confirmed-in-congo-and-uganda-246-suspected-cases-65-deaths/
+
+Economy & Markets
+• NextEra and Dominion are in talks on a tie‑up to meet soaring AI‑driven power demand, as regions like Lake Tahoe brace for higher electricity prices.
+• AI‑linked listings remain volatile: Cerebras’ blockbuster IPO was followed by a sharp pullback in its first full trading day.
+• Fed transitions stir debate as nominees object to terms keeping Jerome Powell as chair pro tempore pending Kevin Warsh’s arrival.
+• UK insurers are cautious on some Chinese EVs, limiting coverage or charging more than for comparable petrol models.
+• New disclosures show Trump bought and touted tech stocks, including Palantir, drawing scrutiny over posts and timing.
+Why it matters: AI’s infrastructure needs are reshaping utilities and capital markets while regulatory shifts and consumer risks influence investment and insurance decisions.
+https://www.ft.com/content/37ba1609-ffa7-42ae-b63c-b2c628c584e1
+https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/
+https://www.cnbc.com/2026/05/15/cerebras-stock-ipo-debut-ai.html
+https://www.ft.com/content/9baac6fa-a302-4621-bc71-23a60e704703
+https://www.theguardian.com/money/2026/may/16/uk-insurance-cover-chinese-evs-jaecoo-byd-xpeng
+
+Artificial Intelligence
+• Major platforms tighten guardrails: YouTube is expanding user deepfake‑likeness detection; arXiv will ban submitters of AI‑generated “slop”; Google updated spam rules to cover manipulation of AI search outputs.
+• OpenAI reorganized to focus on AI agents, put Greg Brockman over product, and previewed a finance feature connecting ChatGPT to bank accounts via Plaid.
+• A proposed $1.5B Anthropic copyright settlement faces judicial delays amid disputes over payouts and fees.
+• China’s short‑drama industry is rapidly adopting AI to automate and scale mobile video production, while upstart Runway doubles down on AI video to challenge incumbents.
+• Stripe’s John Collison says “agentic commerce” could reshape online shopping as AI agents transact on users’ behalf.
+Why it matters: As AI capabilities spread into finance, media, and search, companies and courts race to set safeguards that balance innovation with trust and accountability.
+https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults
+https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers
+https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection
+https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/
+https://www.bloomberg.com/news/articles/2026-05-16/stripe-s-john-collison-on-ai-shopping-and-agentic-commerce
+
+Science & Technology
+• Spaceflight advances: SpaceX launched NASA’s 34th cargo mission to the ISS, while a record‑breaking Starship test launch is expected within days.
+• Astronomers mapped the universe’s “cosmic web” with new JWST detail as Rubin Observatory preparations promise a flood of big‑data discoveries.
+• Microsoft is testing a movable taskbar and resizable Start menu in Windows 11, responding to long‑standing user requests.
+• Frontier research spans sunlight‑generated entangled photons, scalable micro‑transfer printing for silicon photonics, and bio‑engineering concepts like photosynthetic components to treat eye disease.
+Why it matters: Upgrades in space capabilities, computing interfaces, and fundamental science point to near‑term utility and long‑term breakthroughs.
+https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/
+https://www.newscientist.com/article/2526402-spacex-is-about-to-launch-tallest-and-most-powerful-rocket-in-history/
+https://www.space.com/astronomy/james-webb-space-telescope/james-webb-space-telescope-maps-our-universes-largest-structure-in-unprecedented-detail
+https://www.theverge.com/tech/931817/windows-11-movable-taskbar-start-button
+https://www.science.org/content/article/making-eyes-photosynthetic-could-treat-common-vision-problem
+
+Climate & Environment
+• Coal‑driven aerosols are dimming sunlight and cutting global solar power output below its potential.
+• A New York pilot adding olivine “green sand” to coastal environments found no harm to seafloor life while potentially enhancing ocean CO2 removal.
+• Cleaning up air pollution could further weaken the Atlantic overturning circulation, complicating climate‑health trade‑offs.
+• A new study identifies ocean circulation as a hidden accelerant of Antarctic ice loss, raising sea‑level concerns.
+• Leading experts urged the WHO to declare climate change a global public health emergency to spur coordinated action.
+Why it matters: Climate mitigation and adaptation efforts hinge on understanding feedbacks, trading off risks, and mobilizing policy across health, energy, and oceans.
+https://arstechnica.com/science/2026/05/solar-power-production-undercut-by-coal-pollution/
+https://www.newscientist.com/article/2526197-first-test-of-co2-removal-with-green-sand-finds-no-harm-to-marine-life/
+https://www.newscientist.com/article/2526785-cleaning-up-air-pollution-could-weaken-vital-amoc-ocean-current/
+https://phys.org/news/2026-05-scientists-hidden-antarctic-ice-loss.html
+https://www.theguardian.com/environment/2026/may/16/who-should-declare-climate-crisis-global-public-health-emergency-experts-say
+
+Society & Human Rights
+• New York’s Long Island Rail Road workers went on strike, halting the busiest US commuter rail line for the first time since 1994.
+• The US Supreme Court kept abortion‑pill telehealth access in place as advocates rallied in Alabama over voting rights amid redistricting upheaval.
+• A Canadian woman with mental illness is asking courts to allow assisted dying, testing the country’s delayed expansion of eligibility.
+• Eurovision’s claim of apolitical status is under strain as boycotts and protests over Israel’s participation divide fans.
+• Reports say Iran is confiscating property from perceived regime critics; Palestinian political discontent and UK activism reflect wider tensions.
+Why it matters: Access to transport, healthcare, and the ballot box—alongside free expression—remain contested arenas with immediate impacts on daily life and civil liberties.
+https://apnews.com/article/lirr-new-york-commuter-rail-strike-union-eefab0d1f91470934fb89bd1809d0a94
+https://www.npr.org/2026/05/15/g-s1-122218/up-first-newsletter-mifepristone-trump-china-keir-starmer-new-york-salmon-river-students
+https://www.bbc.com/news/articles/c78qzpg0n0go?at_medium=RSS&at_campaign=rss
+https://apnews.com/article/spain-eurovision-boycott-israel-ireland-netherlands-slovenia-2b8dc7a04fb40fd8f086183431f356a5
+https://www.npr.org/2026/05/15/nx-s1-5764842/iran-has-been-confiscating-property-from-critics-of-the-regime
+
+Entertainment
+• A New York judge declared another mistrial in Harvey Weinstein’s rape case after a jury deadlock; prosecutors have 30 days to decide on a new trial.
+• Eurovision’s grand final proceeds in Vienna amid heavy security and protests over Israel’s participation.
+• Drake released three albums in a day and set Spotify single‑day streaming records for artist, album, and song.
+• Shakira teams with Burna Boy on FIFA’s official 2026 World Cup song “Dai Dai”; Microsoft appears to rebrand Xbox to “XBOX.”
+Why it matters: Courts, mass events, and blockbuster releases reflect the cultural pulse and economic stakes of global entertainment.
+https://www.bbc.com/news/articles/c152lexw1vxo?at_medium=RSS&at_campaign=rss
+https://www.npr.org/2026/05/16/nx-s1-5824325/eurovision-final-vienna
+https://www.billboard.com/music/rb-hip-hop/drake-iceman-2026-spotify-record-single-day-album-streams-1236249717/
+https://www.npr.org/2026/05/15/nx-s1-5823435/world-cup-official-song-shakira-burna-boy
+https://www.theverge.com/news/931918/microsoft-xbox-rebrand-caps
+
+Sports
+• Aston Villa beat Liverpool 4–2 to clinch a Champions League place, deepening Liverpool’s end‑season woes.
+• The San Antonio Spurs advanced to the Western Conference finals; Detroit forced a series leveler in the East.
+• Manchester City face Chelsea in today’s FA Cup final, with City chasing more silverware and Chelsea seeking a season salvage.
+• Rory McIlroy rallied back into US PGA contention as Aronimink tested the field.
+Why it matters: Decisive matches across football, basketball, and golf are shaping title races, narratives, and careers.
+https://www.aljazeera.com/sports/2026/5/16/aston-villa-thrash-liverpool-4-2-to-seal-champions-league-place?traffic_source=rss
+https://www.bbc.com/sport/basketball/articles/ce8p0mgp4nvo?at_medium=RSS&at_campaign=rss
+https://www.rollingstone.com/product-recommendations/streaming/fa-cup-chelsea-vs-man-city-streaming-how-to-watch-2026-1235562297/
+https://www.bbc.com/sport/golf/articles/c1w2gl9x2v0o?at_medium=RSS&at_campaign=rss
+
+Art & Culture
+• Indonesia aims to be Cannes’ Country of Honor in 2028 as it seeks a bigger footprint in the global screen industry.
+• A Critics’ Week feature revisits 1990s Mexico City family struggles with an emphasis on love and resilience.
+• A study finds movie geologists have a strikingly high on‑screen fatality rate, highlighting genre tropes.
+• Hender Scheme and NOTA&design reimagine everyday objects by swapping leather and ceramic functions.
+Why it matters: Cultural aspirations, storytelling experiments, and design collaborations showcase evolving creative economies and narratives.
+https://variety.com/2026/film/markets-festivals/indonesia-cannes-2028-country-of-honor-fadli-zon-interview-1236750611/
+https://www.hollywoodreporter.com/movies/movie-news/cannes-critics-week-six-months-in-a-pink-and-blue-building-1236591012/
+https://www.science.org/content/article/murder-monsters-occupational-hazards-why-movie-geologists-die-so-often
+https://hypebeast.com/2026/5/hender-scheme-collaborates-with-notadesign-to-reimagine-every-objects
+
+Longevity & Anti-Aging
+• Researchers underscore the promise and limits of senolytics as the field shifts toward clearing senescent cells to slow degenerative aging.
+• In mice, inhibiting HuR in platelets reduced inflammatory signaling and attenuated age‑related decline.
+• Pre‑injury exposure to bacterial lipopolysaccharide improved wound healing in aged skin, suggesting immune priming effects.
+Why it matters: Emerging pathways to slow or reverse aspects of aging could translate into future therapies, pending safety and efficacy in humans.
+https://www.fightaging.org/archives/2026/05/a-view-of-the-changing-field-of-research-into-cellular-senescence-in-aging/
+https://www.fightaging.org/archives/2026/05/hur-inhibition-in-platelets-attenuates-degenerative-aging-in-mice/
+https://www.fightaging.org/archives/2026/05/lipopolysaccharide-exposure-before-injury-improves-regeneration-in-aged-skin/
+
+Other
+• A 38‑year‑old man was killed by a suspected 13‑ft great white shark near Rottnest Island off Western Australia, prompting beach warnings.
+• Graduation gift guides trend as consumers seek alternatives to cash for high school and college grads.
+Why it matters: Seasonal consumer behavior and coastal safety risks are in focus as summer approaches in both hemispheres.
+https://www.bbc.com/news/articles/c1m2xy3dr20o?at_medium=RSS&at_campaign=rss
+https://www.aljazeera.com/news/2026/5/16/man-killed-in-great-white-shark-attack-in-western-australia?traffic_source=rss
+https://www.rollingstone.com/product-recommendations/gift-guide/best-high-school-college-graduation-gifts-for-her-2026-1235552690/
