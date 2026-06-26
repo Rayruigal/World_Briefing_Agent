@@ -1,0 +1,116 @@
+Economy & Markets
+• Tech-led selloff swept Asia and is set to drag U.S. futures, with South Korea’s Kospi halted again and hedge funds warning of an AI “super bubble” as investors rotate out of pricey names.
+• Surging memory costs are rippling through hardware: Apple and Microsoft hiked prices (including Xbox), denting Apple’s stock, even as Micron posted blockbuster earnings and SK Hynix prepared a U.S. listing.
+• Macro signals turned cooler on inflation: eurozone consumer price expectations fell and traders pared ECB hike bets, while U.S. equity funds saw their first outflow since March; oil also stayed subdued despite Middle East conflict.
+• Corporate and policy moves: Volkswagen plans up to 100,000 job cuts; Heathrow warned of fewer passengers amid the Iran war; California put a “billionaire tax” on the November ballot; the Panama Canal expects revenue above forecasts after Hormuz disruption.
+Why it matters: Valuation jitters in AI, higher hardware costs, and shifting rate expectations are redefining near-term market leadership and consumer pricing power, while corporate restructurings and geopolitical choke points reshape global trade flows.
+https://www.bloomberg.com/news/articles/2026-06-26/us-stock-futures-resume-declines-as-ai-concerns-stall-tech-rally
+https://apnews.com/article/stocks-markets-ai-chips-oil-rates-e356760ec69cab916e53a9804336b845
+https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html
+https://www.ft.com/content/d0760eaf-d345-4964-b2ae-f55f6dfd9a4a
+
+Armed Conflict & Security
+• The UN paused its ship evacuation plan through the Strait of Hormuz after a cargo vessel was attacked near Oman, underscoring mounting risks to maritime trade.
+• Russia said it intercepted hundreds of Ukrainian drones over 12 regions and occupied Crimea, while North Korea conducted major weapons tests as Seoul trains “drone warriors.”
+• Germany’s Rheinmetall took a hit over a failed €15bn warship program, testing investor faith in Europe’s rearmament pipeline.
+Why it matters: Escalating drone warfare and maritime threats heighten supply chain vulnerabilities and insurance costs, while new weapons testing and procurement stumbles complicate regional deterrence strategies.
+https://www.bbc.co.uk/news/articles/cjwg9np904qo?at_medium=RSS&at_campaign=rss
+https://apnews.com/article/russia-ukraine-war-biggest-drone-attack-a356e2a119f3cb9422ede6acbedf56f3
+https://www.ft.com/content/e3fa2351-72bd-40e1-97e0-5a6ae0a63a2b
+
+Society & Human Rights
+• The U.S. Supreme Court allowed the Trump administration to end Temporary Protected Status for many Haitians and Syrians, potentially upending the lives of long‑resident immigrants.
+• Australia moved to tighten bans on under‑16s using social media, citing harms to children; in the U.S., the FCC may scrap a $2B schools-and-libraries connectivity program over screen‑time concerns.
+• A UK hospital is probing mass improper access to a toddler’s records after a zoo accident, while the Supreme Court shielded Roundup’s maker from thousands of failure‑to‑warn suits.
+Why it matters: Rapid shifts in immigration, online safety and liability regimes are reshaping civil protections and access to services amid polarized social debates.
+https://www.bbc.co.uk/news/articles/c4g8ym422lko?at_medium=RSS&at_campaign=rss
+https://apnews.com/article/australia-social-media-children-ban-5087482f61cd948afc4f148f88d0e4c7
+https://arstechnica.com/tech-policy/2026/06/fcc-may-kill-2b-program-that-connects-schools-and-libraries-to-internet/
+https://www.theguardian.com/business/2026/jun/25/monsanto-supreme-court-pesticide-case
+
+Climate & Environment
+• Venezuela reeled from back‑to‑back powerful earthquakes that killed at least 235, as rescuers searched rubble across northern cities.
+• Europe’s record heatwave shifted east with hospitals saturated; scientists say such extremes would have been virtually impossible without climate change.
+• Britain greenlit its first pumped‑storage hydropower projects in decades, while UK data centers and schools faced scrutiny over heat resilience.
+Why it matters: Concurrent disasters and heat stress are straining health systems and infrastructure, accelerating the push for resilient energy storage and climate adaptation.
+https://apnews.com/article/europe-heat-dome-study-climate-change-8633dbe64319523484c8feabf2205234
+https://www.bbc.co.uk/news/articles/cjegdqw5d3yo?at_medium=RSS&at_campaign=rss
+https://www.theguardian.com/environment/2026/jun/26/first-hydropower-projects-in-great-britain-in-40-years-given-go-ahead
+
+Sports
+• World Cup group play delivered more upsets as Türkiye beat the U.S. with a stoppage‑time winner; underdogs continue to outperform ahead of the new round‑of‑32 format.
+• The Netherlands and Australia advanced as qualification scenarios crystallize; the U.S. is exploring a bid for the 2038 World Cup amid potential expansion to 64 teams.
+• Serena Williams draws Australia’s Maya Joint in her Wimbledon singles comeback.
+Why it matters: Surprise results and an expanded knockout format are reshaping fan interest and broadcast dynamics in the flagship tournament.
+https://www.aljazeera.com/sports/2026/6/26/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32?traffic_source=rss
+https://www.aljazeera.com/sports/2026/6/26/turkiye-usa-fifa-world-cup-2026-ayhan-guler-yilmaz-trusty-berhalter-pulisic?traffic_source=rss
+https://www.bbc.co.uk/sport/tennis/articles/c621072x6l2o?at_medium=RSS&at_campaign=rss
+
+Geopolitics & Diplomacy
+• On war day 119, Israel struck Lebanon as the IAEA said it will return to Iran; talks between Israeli and Lebanese delegations are set to continue.
+• NATO’s deputy commander urged the upcoming Turkey summit to show unity, bolster defense spending and reaffirm support for Ukraine.
+• Italy’s PM Meloni advanced election rule changes denounced by opposition as “authoritarian,” while the Trump administration pressed OpenAI to slow a model release over security concerns.
+Why it matters: Security crises and elections are testing Western cohesion and raising questions about state oversight of high‑impact technologies.
+https://www.aljazeera.com/news/2026/6/26/iran-war-day-119-israel-hits-lebanon-as-iaea-says-it-will-return-to-iran?traffic_source=rss
+https://apnews.com/article/nato-summit-saceur-russia-trump-3294611611a4691e26b27ce65712c67d
+https://www.ft.com/content/e5ce6c30-e813-474f-a9b6-a8b26192d35a
+
+Health & Pandemic
+• Venezuela’s quake response faces a battered economy and fragile health system, complicating rescue and recovery.
+• Researchers are exploring bacteriophages engineered to leverage vaccine‑induced immunity to target cancer cells; other studies link excess HIF‑1α to cartilage damage and osteoarthritis.
+• Wearables continue to scale: Oura’s CEO discussed IPO ambitions and the importance of retention and habit formation in health tech.
+Why it matters: Disaster health responses and emerging biotechnologies are redefining care delivery, from acute crises to chronic disease.
+https://www.npr.org/2026/06/26/nx-s1-5870651/venezuela-earthquakes-caracas
+https://www.newscientist.com/article/2531700-phages-could-enable-us-to-hijack-vaccine-immunity-to-kill-cancer-cells/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home
+https://www.businessoffashion.com/articles/beauty/oura-tom-hale-ipo-trackable-wearable-health-data/
+
+Artificial Intelligence
+• The White House asked OpenAI to slow‑roll GPT‑5.6 over safety concerns, signaling intensifying federal oversight of cutting‑edge models.
+• Anthropic accused Alibaba of a mass “Claude” cloning attack, while Amazon committed $13B to India AI infrastructure and startups raised fresh capital to test and power AI agents.
+• Retail and finance increasingly rely on behind‑the‑scenes AI for search, inventory, and decisioning, even as new approaches aim to slash AI’s power use by orders of magnitude.
+• Paid consumers are gravitating toward Claude despite ChatGPT’s lead, highlighting a more competitive market for premium AI services.
+Why it matters: The AI race is broadening beyond chatbots into infrastructure, compliance and efficiency, with regulators, incumbents and challengers all reshaping the landscape.
+https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/
+https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/
+https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/
+https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/
+
+Science & Technology
+• IBM unveiled a prototype chip with ~100 billion transistors via 3D stacking, a leap that could extend Moore’s Law and boost performance per watt.
+• AI‑assisted scans decoded “unreadable” Herculaneum scrolls, while astronomers spotted ultra‑low‑density “super‑puff” exoplanets and JWST observed six galaxies merging into a giant system.
+• NASA tapped Rocket Lab for Sun/Earth missions; Windows 10’s extended updates were lengthened; a new push will sequence genomes of all endangered species.
+Why it matters: Advances from semiconductor design to space science and conservation underscore how computing and AI are accelerating discovery and extending technology lifecycles.
+https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/
+https://www.newscientist.com/article/2531697-lost-books-by-ancient-philosophers-recovered-from-unreadable-scrolls/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home
+https://www.space.com/astronomy/james-webb-space-telescope/james-webb-space-telescope-catches-6-galaxies-merging-into-one-of-the-largest-galaxies-in-the-universe
+
+Entertainment
+• The Directors Guild of America ratified a four‑year deal to protect jobs amid a prolonged production downturn; streaming viewership for the World Cup is breaking records in multiple markets.
+• New releases and performances led culture headlines: Katy Perry’s “Watch It Burn,” Phoebe Bridgers’ “Lost Boys,” Charli XCX’s “Wink Wink,” and Justin Bieber’s live Coachella album.
+• “Love Island USA” removed a Casa Amor participant over resurfaced video; Instagram rolled out TV features to keep users engaged on large screens.
+Why it matters: As labor pacts stabilize parts of Hollywood, streaming and social platforms are intensifying competition for attention while artists capitalize on global events.
+https://variety.com/2026/film/news/dga-ratify-contract-four-year-1236789691/
+https://www.theverge.com/column/956756/world-cup-streaming
+https://www.billboard.com/music/pop/katy-perry-new-song-watch-it-burn-here-listen-1236281454/
+
+Art & Culture
+• “Bouchra” uses animation to explore queer diasporic identity and mother‑daughter bonds, blending personal narrative with stylized distance.
+• Māori‑led “Mārama” channels ancestral resistance through dance and tattoos in a Victorian‑era horror‑revenge tale; Melbourne honored AC/DC’s Bon Scott with a new mural.
+Why it matters: Artists are reframing heritage and resistance for contemporary audiences, reinforcing culture’s role in social memory and identity.
+https://variety.com/2026/film/reviews/bouchra-review-1236537832/
+https://variety.com/2026/film/news/marama-horror-movie-ancestors-dancing-tattoos-1236788165/
+https://www.billboard.com/music/rock/acdc-bon-scott-melbourne-mural-1236281670/
+
+Other
+• A FEMA official who previously claimed to have “teleported” was removed from his job, highlighting scrutiny of behavior at crisis agencies.
+Why it matters: Trust in public institutions hinges on perceived credibility and competence, especially in emergency management.
+https://www.rollingstone.com/politics/politics-news/fema-official-gregg-phillips-teleported-ousted-job-1235584695/
+
+Longevity & Anti-Aging
+• Insurers are evaluating “aging clocks” for underwriting and forecasting as longevity tech advances, signaling mainstreaming of biological age metrics.
+• Researchers continue dissecting centenarian biology (immune function, inflammation) and pursuing bold interventions like “telomere rivers,” now eyeing an initial Phase 1 trial.
+• New initiatives like Younger 2027 aim to spur measurable biological age reduction, while emerging work links immune resilience and organ aging pathways to healthy lifespan.
+Why it matters: Translating aging science into metrics, trials and market incentives could accelerate preventative care and extend healthspan.
+https://www.fightaging.org/archives/2026/06/an-insurance-industry-viewpoint-on-the-utility-of-aging-clocks/
+https://www.fightaging.org/archives/2026/06/fundamental-research-into-centenarian-biochemistry-continues/
+https://lifespan.io/neuroage-therapeutics-launches-younger-2027/
