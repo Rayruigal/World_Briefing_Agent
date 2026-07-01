@@ -1,0 +1,97 @@
+Economy & Markets
+• Donald Trump’s latest disclosure shows over $1 billion in crypto-related income in his first year back in office, far outpacing traditional ventures.
+• UK house prices stalled for a second month, while eurozone inflation eased to 2.8% in June, bolstering hopes of a disinflation trend.
+• Getty Images moved to terminate its $3.7bn merger with Shutterstock after UK regulator demands, despite US clearance; Dish filed for Chapter 11 to restructure while keeping TV services running.
+• North American partners opened contentious USMCA renewal talks; chipmakers beyond Nvidia surged in Q2 as AI demand broadened.
+Why it matters: Markets are navigating regulatory cross-currents, shifting inflation dynamics, and an AI-driven capital rotation amid trade and antitrust frictions.
+Sources: https://www.ft.com/content/b96ab721-90bf-47bf-90a1-941fd8faabc5 https://www.ft.com/content/c4408588-ca9c-4c9f-b058-c8e2d0cc39e5 https://www.theverge.com/tech/960047/getty-shutterstock-merger-agreement-termination https://www.theverge.com/tech/959894/dish-chapter-11-bankruptcy https://apnews.com/article/usmca-mexico-canada-trade-nafta-4531f12f1a59cb2b2e20bcdbdd9d47b5 https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html
+
+Society & Human Rights
+• Amnesty accused Sudan’s RSF of crimes against humanity in El-Fasher; the UN has warned of genocidal hallmarks.
+• The US Supreme Court upheld birthright citizenship; a Trump adviser vowed to keep pursuing limits through other avenues.
+• Pakistan mourned 14 children killed in a tutoring center roof collapse near Lahore; Venezuela’s quake rescue faced equipment bottlenecks and criticism.
+• Airlines urged suspension of new EU biometric border checks amid hours-long queues; Amazon was fined by the FTC over identity-theft victim support.
+Why it matters: Rule-of-law and civilian protections are being tested from war zones to courts, as infrastructure and governance gaps imperil basic rights and services.
+Sources: https://www.bbc.co.uk/news/articles/cz9lqvx0z1vo https://www.bbc.co.uk/news/articles/cgmepnx1wzzo https://www.aljazeera.com/video/2026/7/1/trump-official-says-white-house-will-fight-birthright-citizenship-decision https://apnews.com/article/pakistan-tutoring-center-collapse-children-funerals-lahore-374e2c644b346d20781b2f61c834f158 https://www.theguardian.com/business/2026/jul/01/call-to-suspend-eu-border-system-peak-holiday-period-europe-travel-airport-queues https://www.theverge.com/tech/959847/amazon-ftc-identity-theft-fine
+
+Armed Conflict & Security
+• Pakistan said it intercepted four drones launched from Afghanistan after Taliban-claimed strikes in Balochistan and Khyber Pakhtunkhwa.
+• A light aircraft hit Beijing’s tallest building, raising questions about urban air defenses; China has limited public details.
+• Firebomb attacks in Thessaloniki targeted residences linked to Greece’s ruling party; five were reported with minor injuries.
+• In Venezuela’s quake zone, rescues continued, including a three-year-old pulled alive after six days.
+Why it matters: Border tensions, urban security breaches, and political violence underscore widening security risks alongside ongoing humanitarian crises.
+Sources: https://www.aljazeera.com/news/2026/7/1/pakistan-says-it-intercepted-four-drones-fired-from-afghanistan https://www.bbc.co.uk/news/articles/crlwe28dz44o https://apnews.com/article/greece-thessaloniki-firebomb-attacks-46ea5a2dbab53d0f270313dbe4a85787 https://www.bbc.co.uk/news/articles/c1jykwk8n18o
+
+Artificial Intelligence
+• The US lifted export controls on Anthropic’s advanced Mythos and Fable models; Anthropic also unveiled Claude Science and cheaper agent-focused Sonnet 5.
+• Google launched a faster, lower-cost image generator (Nano Banana 2 Lite); Meta introduced a paywall and usage limits for smart glasses’ AI features.
+• UAE-backed MGX closed a $49bn AI fund; chip startup Etched reached a $5bn valuation with $1bn in booked inference contracts.
+• Employers that replaced roles with AI are rehiring as limits of automation become clearer; cyber leaders say AI-driven threats are boosting demand.
+Why it matters: Policy shifts, funding scale, and practical adoption are rapidly reshaping AI’s trajectory across science, consumer devices, labor markets, and security.
+Sources: https://www.ft.com/content/137ddb71-852f-438c-ad76-25e2dc43486b https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite https://www.cnbc.com/2026/07/01/mgx-ai-fund-uae-49-billion.html https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/ https://www.cnbc.com/2026/07/01/employers-who-laid-off-workers-for-ai-are-reversing-their-decisions.html
+
+Geopolitics & Diplomacy
+• US envoys arrived in Doha to meet mediators but not Iranians; Tehran-linked media reported a ship aground in the Strait of Hormuz after not following an Iran-approved route.
+• Xi Jinping touted China’s development model as a path for the Global South.
+• Ireland assumed the rotating EU presidency, facing files on Russia sanctions and accession talks; UK politics saw backlash over defense funding trade-offs.
+• A Democratic Socialist won a Colorado primary, signaling turbulence ahead of US midterms; the Supreme Court term dealt Trump setbacks alongside expansions of executive power.
+Why it matters: Competing governance models and diplomatic maneuvers intersect with domestic political realignments that could alter foreign policy and security agendas.
+Sources: https://www.bbc.co.uk/news/articles/cpd38x1dy4no https://apnews.com/article/iran-us-war-strait-of-hormuz-july-1-2026-de0729197bc7b9d3ee9e543d94c18fbe https://apnews.com/article/china-xi-jinping-speech-communist-party-anniversary-c536a28e3e63f75d583322b4a1f22473 https://www.theguardian.com/world/live/2026/jul/01/ireland-set-to-take-presidency-of-eu-in-dublin-opening-ceremony-europe-live https://www.theguardian.com/politics/2026/jul/01/ministers-furious-cuts-road-projects-fund-defence-plan https://www.ft.com/content/36b9c745-5934-48b0-a505-f45d196ad632
+
+Climate & Environment
+• Global ocean surface temperatures hit a record high for June, raising the risk of extreme weather and marine stress.
+• Europe’s heat wave intensified, with satellite data visualizing its spread; heat-related risks extended to major sporting events and pollinators, with studies showing bee fertility declines.
+• Delhi plans to phase out petrol scooters, motorbikes and autorickshaws to cut toxic air, pushing toward electrification.
+Why it matters: Escalating heat and ocean warming are stressing ecosystems, public health, and infrastructure, forcing rapid adaptation in cities and sports schedules alike.
+Sources: https://phys.org/news/2026-07-world-oceans-june-eu.html https://www.space.com/space-exploration/satellites/europes-deadly-heat-wave-seen-from-space-space-photo-of-the-day-for-june-30-2026 https://www.theguardian.com/us-news/2026/jun/30/world-cup-matches-extreme-heat https://www.theguardian.com/environment/2026/jul/01/specieswatch-heatwave-bees-fertility-pollination-crops https://www.theguardian.com/world/2026/jun/30/delhi-gamechanger-ban-petrol-vehicles-tackle-air-pollution-electric-cars
+
+Sports
+• Mexico ended a 40-year World Cup knockout drought with a 2-0 win over Ecuador; England, Argentina and Belgium seek last-16 places amid tournament upsets.
+• FIFA explained the decision to disallow Germany’s extra-time goal against Paraguay, citing pre-tournament guidance on fouls.
+• NBA turbulence: reports of Kawhi Leonard returning to Toronto via trade talks; LeBron James informed the Lakers he plans to play elsewhere.
+• The Liberty beat the Aces to win the WNBA Commissioner’s Cup; MLB saw tempers flare as Red Sox-Nationals benches cleared; Ohtani skipped a pitching start for rest.
+Why it matters: High-stakes tournaments and star movements are reshaping narratives and economics across global sport, while officiating and player welfare remain in focus.
+Sources: https://www.aljazeera.com/video/2026/7/1/video-world-cup-2026-highlights https://www.espn.com/soccer/story/_/id/49232657/mexico-ecuador-2026-world-cup-knockout-win https://www.bbc.co.uk/sport/football/articles/c862yvvd2qdo https://apnews.com/article/kawhi-leonard-trade-raptors-clippers-29f53a91274b5fe8feb0d9d9430c8d32 https://www.espn.com/nba/story/_/id/49226472/lebron-james-informs-lakers-plans-play-elsewhere-2026-27 https://www.espn.com/wnba/story/_/id/49231944/new-york-liberty-beat-las-vegas-aces-win-second-wnba-commissioner-cup-title
+
+Art & Culture
+• President Trump will visit the new Theodore Roosevelt Presidential Library in North Dakota’s Badlands.
+• The Royal Shakespeare Company cast Sharon D. Clarke as a Black lesbian Othello in a futuristic reimagining of the play.
+• Italy unveiled newly acquired Etruscan tomb paintings as part of a cultural heritage push; Locarno announced 40 experimental titles for its Pardi di Domani and Open Doors programs.
+Why it matters: Cultural institutions are reframing history and classics for modern audiences while nations invest in heritage as soft power.
+Sources: https://apnews.com/article/trump-theodore-roosevelt-presidential-library-north-dakota-784bce4c9389b086a8a70a04d06b9939 https://www.theguardian.com/stage/2026/jul/01/royal-shakespeare-company-casts-sharon-d-clarke-as-black-lesbian-othello https://phys.org/news/2026-07-italy-displays-ancient-etruscan-tomb.html https://www.hollywoodreporter.com/news/general-news/locarno-2026-films-pardi-di-domani-open-doors-screenings-1236634144/
+
+Health & Pandemic
+• Australia will lose a subsidised long-acting opioid treatment (Sublocade) by year-end, prompting concerns about access and policy fallout.
+• A teen described how CRISPR base editing saved her from otherwise terminal leukemia; researchers advanced CAR-T approaches to dampen autoimmune inflammation by targeting TNF.
+• FDA turmoil continues as a panel composition on peptides drew criticism from agency scientists concerned about safety and evidence.
+Why it matters: Breakthrough therapies are advancing while access, safety, and regulatory coherence remain central to public health outcomes.
+Sources: https://www.theguardian.com/australia-news/2026/jul/01/life-saving-drug-for-people-with-opioid-dependency-to-be-pulled-from-australia-by-end-of-year https://www.newscientist.com/article/2532296-im-the-first-person-whose-life-was-saved-by-crispr-base-editing https://www.fightaging.org/archives/2026/06/car-t-cells-can-target-circulating-tnf-to-product-lasting-control-of-autoimmune-conditions https://arstechnica.com/health/2026/06/rfk-jr-stacks-fda-panel-with-peptide-peddlers-as-fda-scientists-oppose-access/
+
+Longevity & Anti-Aging
+• Experts debated “reprogramming” strategies to reverse aging as investment pours into translational approaches.
+• New work mapped secreted blood proteins to estimate organ-specific senescence and linked existing drugs to hallmarks of aging; evidence suggested some aging clocks may be accelerating in modern cohorts.
+• Multi-omics findings underscored shared mechanisms between sarcopenia and osteoporosis.
+Why it matters: Emerging biomarkers and repurposed drugs could speed preventive care and trials, but validation and ethics will shape real-world impact.
+Sources: https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body https://www.fightaging.org/archives/2026/06/using-secreted-proteins-to-map-burden-of-cellular-senescence-from-a-blood-sample https://lifespan.io/study-maps-existing-drugs-to-the-hallmarks-of-aging/ https://www.fightaging.org/archives/2026/06/evidence-for-aging-clocks-to-progress-faster-now-than-in-the-past/ https://onlinelibrary.wiley.com/doi/10.1111/acel.70617?af=R
+
+Science & Technology
+• NASA expanded Moon Base program missions for 2028 deliveries and floated sending a spare nuclear-powered Mars rover to the Moon; Rubin Observatory began its decade-long sky survey.
+• Google is shutting down Tenor’s API, forcing GIF picker changes across platforms; Vint Cerf will retire as Google’s “chief internet evangelist.”
+• A New Scientist roundup highlighted the world’s fastest spider and innate newborn number sense; seismic data suggested ancient Martian magma seas.
+• Physicists reported an AI-assisted breakthrough on a long-standing jamming problem; Blue Origin began rebuilding its damaged launch pad.
+Why it matters: Space initiatives and foundational research are accelerating, while platform and internet transitions reshape digital ecosystems.
+Sources: https://www.nasa.gov/news-release/nasa-awards-more-moon-base-science-previews-new-opportunities https://www.space.com/astronomy/rubin-observatory-begins-filming-the-greatest-cosmic-movie-ever-beginning-a-new-era-of-astronomy https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/ https://www.newscientist.com/article/2532086-the-worlds-fastest-spider-tops-3-5-metres-per-second https://phys.org/news/2026-06-physicists-ai-claude-collaborate-year.html
+
+Entertainment
+• Netflix’s Wonka reality series uses an AI-generated Gene Wilder voice, spotlighting ethical debates in entertainment AI.
+• Microsoft reportedly weighs closing multiple Xbox studios and canceling titles amid impending layoffs; IO Interactive announced cuts tied to a shelved partner project.
+• A jury ordered Chris Brown to pay $13 million over a 2020 dog-mauling case; Victor Willis of Village People died at 74.
+• Disney+ set a July 22 premiere for season 2 of Korean action hit “A Shop for Killers”; fashion houses unveiled Spring 2027 lineups as NYFW schedule dropped.
+Why it matters: AI’s cultural footprint, shifting studio economics, and legal reckonings are reshaping creative industries and IP strategies.
+Sources: https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder https://www.theverge.com/report/959467/microsoft-xbox-cancel-blade-game-arkane-studios-closure https://variety.com/2026/music/news/chris-brown-verdict-dog-mauling-housekeeper-13-million-1236799769/ https://variety.com/2026/music/news/victor-willis-dead-village-people-lead-singer-ymca-cowriter-1236799865/ https://www.hollywoodreporter.com/tv/tv-news/disney-plus-a-shop-for-killers-season-2-premiere-date-1236633620/ https://www.vogue.com/article/the-spring-2027-new-york-fashion-week-schedule-is-here
+
+Other
+• Reddit will require users to log in to access old.reddit.com, citing abusive scraping risks.
+• Apple asked the US Supreme Court to review a contempt finding tied to App Store fees in its Epic case.
+Why it matters: Platform gatekeeping and app-store governance continue to redefine access, privacy, and competitive dynamics online.
+Sources: https://arstechnica.com/gadgets/2026/06/reddit-will-require-you-to-log-in-to-use-old-reddit-com/ https://arstechnica.com/tech-policy/2026/06/apple-takes-epic-fight-over-app-store-fees-to-the-supreme-court/
