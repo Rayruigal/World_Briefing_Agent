@@ -1,0 +1,132 @@
+Economy & Markets
+• SK Hynix raised $26.5bn in a record US listing on Nasdaq, spotlighting AI memory demand and whether a US float can narrow the “Korea discount.” 
+• EasyJet entered a bidding war as Apollo made a £5.7bn all-cash approach, with the airline signaling it is minded to recommend the offer, potentially taking the low-cost pioneer private. 
+• Asian shares rose on tech strength while oil eased as traders gauged Iran war risks; separately, BMW’s Q2 sales fell amid a 30% plunge in China demand. 
+• Micron shares climbed on fresh US chipmaking investments, as private equity dealmaking (Apollo) ramps up despite peers’ slower deployment. 
+Why it matters: Chip and airline deals underscore capital shifting toward AI and consolidation plays, while geopolitics and China’s slowdown continue to steer market sentiment. 
+https://www.bbc.co.uk/news/articles/c4gym70r0y4o?at_medium=RSS&at_campaign=rss
+https://www.ft.com/content/7a6d7e59-a040-41cf-a8b5-2aafcaa1731b
+https://apnews.com/article/stocks-market-iran-war-ai-oil-45e2da56e466900ff8def70ab931387d
+https://www.bloomberg.com/news/articles/2026-07-10/bmw-s-car-sales-decline-after-30-plunge-in-china
+
+Science & Technology
+• China landed and recovered the first stage of a Long March 10B at sea during an orbital launch, marking a reusable-rocket milestone and closer alignment with SpaceX’s approach. 
+• SpaceX filed to operate up to 100,000 next-gen Starlink satellites, even as 2026 deployments already outpace last year’s record. 
+• Microsoft says Patch Tuesday updates will grow as it uses AI to surface more vulnerabilities sooner. 
+Why it matters: Reusability and megaconstellations are reshaping access to space, while AI-assisted security patching reflects the escalating cyber risk landscape. 
+https://www.bbc.co.uk/news/articles/cm2rmmx86pdo?at_medium=RSS&at_campaign=rss
+https://www.space.com/space-exploration/satellites/spacex-wants-to-launch-100-000-starlink-satellites-to-orbit
+https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates
+
+Climate & Environment
+• At least 11–12 people died in fast-moving wildfires in Spain’s Almería region amid a broader European heatwave; some victims were found in burned vehicles. 
+• Typhoon Maysak flooding stranded residents in southern China; torrential rains damaged infrastructure and raised secondary hazards. 
+• A lawsuit seeks to accelerate decarbonization at the Port of Rotterdam; Microsoft reported a 25% rise in 2025 emissions, citing AI datacenter growth. 
+• The US moved to loosen truck pollution rules as fuel disruptions tied to the Iran conflict threaten Africa’s clean-cooking LPG supplies, the IEA warned. 
+Why it matters: Intensifying extreme weather and policy responses to emissions—from ports to heavy transport and AI infrastructure—are colliding with energy security constraints. 
+https://apnews.com/article/spain-wildfire-almeria-760ecfff1316d56837888de4ab9efa21
+https://www.theguardian.com/world/2026/jul/10/weather-tracker-typhoon-leaves-people-stranded-on-rooftops-in-china
+https://www.bbc.co.uk/news/articles/c39y78rwrmno?at_medium=RSS&at_campaign=rss
+https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026
+https://www.climatechangenews.com/2026/07/10/iran-war-fuel-shocks-threaten-africa-clean-cooking-push-iea-says/
+
+Society & Human Rights
+• Iran buried former Supreme Leader Ali Khamenei in Mashhad, concluding six days of public mourning. 
+• An AP-NORC poll found many US Jewish adults feel less safe since Oct. 7, citing rising antisemitic incidents. 
+• A shoe factory fire in Fujian, China killed 28, renewing scrutiny of workplace safety. 
+• Reports detail ICE agents visiting online critics in the US, raising free-speech and civil rights concerns. 
+• UNESCO data show 113 developing countries spent more on foreign debt service than education last year. 
+Why it matters: Public safety, civil liberties, and human development are under pressure amid conflict aftershocks, labor standards gaps, and widening fiscal strains. 
+https://www.bbc.co.uk/news/articles/c5yzm8m4peeo?at_medium=RSS&at_campaign=rss
+https://apnews.com/article/poll-jewish-adults-antisemitism-israel-safety-82eba4bd6970145593bc8b77d5b8ad41
+https://apnews.com/article/china-fire-shoe-factory-safety-f6999ee3e299294f62e36668b0414302
+https://www.theverge.com/report/963106/ice-doxxing-office-of-professional-responsibility-free-speech
+
+Entertainment
+• Paris Haute Couture Week showcased heat-defying looks as fashion houses unveiled fall couture. 
+• Netflix is reportedly considering always-on, curated streaming channels, a shift toward linear-like programming. 
+• James Corden’s World Cup after show on Fox reunites his former Late Late Show team, tapping surging soccer audiences. 
+Why it matters: Media and fashion are mixing new formats and global fanbases to sustain attention amid crowded streaming and cultural calendars. 
+https://www.bbc.co.uk/news/articles/cj3g6n64z4mo?at_medium=RSS&at_campaign=rss
+https://www.theverge.com/streaming/963733/netflix-always-on-channels-bundles
+https://variety.com/2026/tv/news/james-corden-world-cup-fox-after-hours-ben-winston-late-1236806207/
+
+Armed Conflict & Security
+• US-Iran hostilities escalated with larger exchanges across the region, straining a fragile ceasefire framework. 
+• In Gaza, Israeli forces expanded areas of control with nightly shelling and daytime raids, increasing civilian risks. 
+• Pakistan recovered more debris from a cargo plane crash in the Arabian Sea as the crew search continued; Greek police arrested three over fatal firebombings. 
+• Seafarers hit in a March Strait of Hormuz attack sued their employer; a Windows Defender 0‑day fix highlighted persistent cyber vulnerabilities. 
+Why it matters: Regional flashpoints and cyber risks are complicating ceasefire efforts, supply chains, and civilian safety while testing legal and security systems. 
+https://www.npr.org/2026/07/10/g-s1-132927/us-iran-war
+https://www.npr.org/2026/07/10/nx-s1-5887357/israel-gaza-war-trump-ceasefire-military-control
+https://apnews.com/article/pakistan-cargo-plane-arabian-sea-search-investigation-0446c3d05c19aa48a4b6888f72ef7c72
+https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk
+
+Geopolitics & Diplomacy
+• The US is building a pressure architecture against Iran via NATO diplomacy and regional reshaping, analysts say. 
+• The Philippines marked the 2016 South China Sea ruling rejecting China’s expansive claims; tensions remain. 
+• Reports say OpenAI and Google sold AI services to Singapore units of blacklisted Chinese firms; Beijing reportedly forced unwinding of Meta’s $2bn Manus deal, with Tencent emerging as top shareholder. 
+• With Hormuz risks elevated, analysts expect more commitment to alternate pipeline routes. 
+Why it matters: Strategic competition spans security, legal order at sea, and technology supply chains, with energy routes under renewed stress. 
+https://www.aljazeera.com/opinions/2026/7/10/the-us-is-building-a-new-pressure-architecture-against-iran?traffic_source=rss
+https://apnews.com/article/china-philippines-south-china-sea-disputes-arbitration-ruling-d0148a4175f80eedf70dcf2696f03ddd
+https://www.ft.com/content/5d6aafa1-5d47-4585-aa95-6ec06a6cd20f
+https://www.bloomberg.com/news/videos/2026-07-10/ziemba-alternates-pipelines-as-hormuz-pressure-remains-video
+
+Sports
+• France beat Morocco 2-0 to reach the World Cup semifinals, with Mbappé downplaying an ankle knock. 
+• England face Norway in Miami (Haaland vs Kane), while Spain play Belgium in Los Angeles for a first semifinal since 2010. 
+• The USMNT’s loss to Belgium drew a record 33.1 million average viewers in the US, underscoring surging soccer interest. 
+• At Wimbledon, Djokovic and Sinner renew their semifinal rivalry. 
+Why it matters: World Cup momentum and blockbuster tennis storylines are driving massive audiences and shaping narratives for global sport. 
+https://www.aljazeera.com/sports/2026/7/10/unstoppable-force-mbappes-france-crush-moroccos-world-cup-dreams?traffic_source=rss
+https://www.aljazeera.com/sports/2026/7/10/england-vs-norway-all-to-know-ahead-of-fifa-world-cup-quarterfinal?traffic_source=rss
+https://variety.com/2026/tv/news/u-s-world-cup-loss-ratings-most-watched-soccer-telecast-1236806132/
+https://www.bbc.co.uk/sport/tennis/articles/cq51xjg2vnlo?at_medium=RSS&at_campaign=rss
+
+Health & Pandemic
+• Congo’s Ebola outbreak death toll reached 600, with suspected spread to new regions beyond Ituri. 
+• Michigan’s outbreak of a diarrheal parasite surged past 1,200 cases, with more than 500 in neighboring Ohio. 
+• Highly pathogenic H5 avian influenza was detected in an Australian seabird for the first time. 
+• The DEA’s push to ban kratom compounds reignited debate over opioid alternatives and harm reduction. 
+Why it matters: Concurrent infectious disease risks and contentious drug policy choices test public health systems’ agility and credibility. 
+https://www.npr.org/2026/07/10/g-s1-132930/ebola-outbreak-congo
+https://arstechnica.com/health/2026/07/michigans-explosive-outbreak-of-diarrheal-parasite-jumps-to-over-1200-cases/
+https://phys.org/news/2026-07-h5-bird-flu-australian-seabird.html
+
+Artificial Intelligence
+• OpenAI launched GPT‑5.6 and “ChatGPT Work,” positioning agentic workflows that run across apps for extended tasks; Atlas, its AI browser, will be sunset as features move to the desktop and a Chrome extension. 
+• MIT Technology Review profiled Anthropic’s “Jacobian lens,” offering new visibility into how models reason, while the NYT sought sanctions alleging OpenAI hid evidence in its copyright case. 
+• Google will label AI-made ads across Search, Discover, and YouTube; a US senator unveiled an “AI accountability” bill package addressing datacenters, automated hiring, and child harms. 
+• Meta’s Muse Spark 1.1 targets coding tasks and large code migrations as enterprise AI competition intensifies. 
+Why it matters: Tighter scrutiny and new governance proposals arrive as AI agents enter workplaces, raising stakes around safety, IP, transparency, and cost. 
+https://openai.com/index/gpt-5-6
+https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset
+https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/
+https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/
+https://www.theguardian.com/technology/2026/jul/10/us-senator-unveils-ai-accountability-agenda-bills
+
+Longevity & Anti-Aging
+• An mRNA injection halved the risk of common chromosome errors in older human egg cells in research, potentially aiding fertility outcomes. 
+• Clearing senescent cells with dasatinib and quercetin rejuvenated kidney function in aging mice. 
+• Reviews highlight how gut microbiome composition influences muscle and brain aging, suggesting intervention targets. 
+Why it matters: Targeted cellular and microbiome interventions are moving closer to translational strategies for extending healthy human function. 
+https://www.newscientist.com/article/2533616-injection-halves-risk-of-chromosome-error-common-in-older-human-eggs/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home
+https://www.fightaging.org/archives/2026/07/senolytic-treatment-with-dasatinib-and-quercetin-rejuvenates-the-aging-kidney-in-mice/
+https://www.fightaging.org/archives/2026/07/known-ways-in-which-the-gut-microbiome-influences-aging-of-muscle-and-brain/
+
+Art & Culture
+• Aviation pioneer Wally Funk, who became the oldest woman to fly to space, died at 87. 
+• A biopic on CERN physicist Fabiola Gianotti, central to the Higgs boson discovery, is in development. 
+• George Lucas’s upcoming LA museum plans free access for nearby residents, broadening cultural inclusion. 
+• BTS partnered with the British Museum on a Korea Gallery art trail linking artifacts to music themes. 
+Why it matters: Cultural institutions and storytelling continue to honor scientific trailblazers and expand access, bridging art, history, and popular culture. 
+https://www.space.com/space-exploration/human-spaceflight/wally-funk-trailblazing-pilot-and-astronaut-passes-away-at-87
+https://variety.com/2026/film/global/mysterious-particle-fabiola-gianotti-god-particle-1236806300/
+https://www.hollywoodreporter.com/news/local-news/george-lucas-museum-free-access-neighbors-1236643651/
+https://hypebeast.com/2026/7/bts-x-british-museum-launch-korea-gallery-art-trail
+
+Other
+• OpenAI’s Fidji Simo will step down from her full-time AGI deployment role due to chronic illness and serve as a part-time adviser. 
+Why it matters: Leadership transitions at major AI firms can influence product focus, partnerships, and governance at a pivotal moment for the sector. 
+https://variety.com/2026/biz/news/fidji-simo-openai-step-down-recovery-illness-1236806169/
