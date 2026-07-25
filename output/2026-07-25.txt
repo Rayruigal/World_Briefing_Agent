@@ -1,0 +1,161 @@
+Date: 2026-07-25
+
+Society & Human Rights
+• A pared-down, rescheduled White House Correspondents’ Dinner saw President Trump deride journalists, while a judge rebuffed administration subpoenas for New York Times reporters’ phone records in a press-freedom test.
+• The administration ordered the Smithsonian to add warnings about “inaccurate” U.S. history, intensifying cultural and historical narrative battles.
+• In Gaza, doctors report a surge in premature births amid war conditions, while community-led swimming classes offer trauma relief for children after three years of conflict.
+• Organizers of the UK’s largest Muslim gathering increased security amid rising anti-Muslim hate crime.
+• Meta’s smart glasses sparked a moderation and harassment backlash over covert filming, highlighting tech’s collision with public privacy norms.
+Why it matters: Press freedoms, cultural institutions, and everyday privacy are being tested alongside mounting humanitarian strain in conflict zones and heightened social tensions.
+https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&at_campaign=rss
+https://arstechnica.com/tech-policy/2026/07/judge-rebuffs-trump-admin-demand-for-phone-records-from-nyt-reporters/
+https://www.bbc.co.uk/news/articles/c1w10gwnj74o?at_medium=RSS&at_campaign=rss
+https://www.aljazeera.com/features/2026/7/25/born-too-soon-premature-babies-fighting-for-survival-in-gaza?traffic_source=rss
+https://www.theguardian.com/world/2026/jul/25/uk-largest-muslim-event-jalsa-salana-security-anti-muslim-hate-crime
+https://www.theverge.com/report/970901/instagram-meta-glasses-prank-harassment-ban
+
+Armed Conflict & Security
+• The U.S.-Iran confrontation intensified with continued U.S. strikes and retaliatory attacks; Yemen’s Iran-aligned Houthis claimed a missile strike on Saudi Arabia, and India reported an attack on an LPG tanker in Iranian waters.
+• Ballistic missiles hit a drone exhibition near Kyiv, killing 10, as Russia-Ukraine fighting targets defense industry events.
+• A deadly West Bank shooting killed four Palestinians and two Israelis amid competing accounts; overnight funerals underscored rising tensions.
+• Irish and UK authorities intercepted an “extremely significant” car bomb near the Northern Ireland border, with two suspects detained.
+Why it matters: Escalation in and around Iran risks broader regional conflict and global trade disruptions while violence in Ukraine and the West Bank and domestic terror threats strain security and diplomacy.
+https://www.npr.org/2026/07/24/g-s1-135417/us-iran-war-updates
+https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss
+https://www.bloomberg.com/news/articles/2026-07-25/india-flags-attack-on-lpg-tanker-in-iran-waters-says-crew-safe
+https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss
+https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss
+https://apnews.com/article/car-bomb-northern-ireland-dissident-republican-troubles-18e8045f2230bb652e639e896ea2a8c1
+
+Climate & Environment
+• “Unprecedented” wildfires forced 200,000+ evacuations in France and Spain, with suburbs of Bordeaux clearing and NASA’s Deep Space Network site in Spain evacuated as a blaze approached.
+• A rapidly building El Niño raises the chance 2026 will be record-warm; scientists reject claims that Europe’s heatwaves are caused by declining air pollution.
+• Finland deployed the world’s largest sand battery to store renewable energy and tackle intermittency.
+• Brazil is fingerprinting gold to curb illegal Amazon mining; Australia will halt sales of paraquat, a herbicide linked to Parkinson’s disease.
+Why it matters: Intensifying climate impacts are disrupting communities and critical infrastructure while accelerating clean-energy innovation and enforcement against environmental harm.
+https://www.bbc.co.uk/news/articles/czjlenp0xk8o?at_medium=RSS&at_campaign=rss
+https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/
+https://www.carbonbrief.org/state-of-the-climate-rapidly-developing-el-nino-raises-chance-of-record-warm-2026
+https://www.carbonbrief.org/factcheck-no-europes-heatwaves-are-not-being-caused-by-declining-air-pollution
+https://www.cnbc.com/2026/07/25/finland-sand-battery-renewable-energy-storage.html
+https://apnews.com/article/amazon-brazil-gold-fingerprinting-illegal-mining-6ebdacb95279ec7de0161072c7b14a68
+https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta
+
+Artificial Intelligence
+• A security incident tied to OpenAI drew attention after Hugging Face said an AI operated at “superhuman speed” with little human guidance, raising alarm over autonomous exploit risks.
+• Anthropic launched Claude Opus 5 emphasizing token efficiency; Meta upgraded its assistant with calendar, briefing, and research tools; OpenAI expanded voice mode on desktop and introduced an AI keypad.
+• Nvidia moved to lock in high-bandwidth memory supply as AI capex soars, while bond and credit markets scrutinize Big Tech spending.
+• Major firms urged Washington not to impose broad restrictions on open‑weight models amid intensifying U.S.-China AI competition.
+• Midjourney acquired astrology app Co‑Star; Waymo explored a split with Uber as robotaxi politics heat up.
+Why it matters: AI’s rapid diffusion is testing cybersecurity, supply chains, financing, and policy frameworks in parallel.
+https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss
+https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release
+https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update
+https://www.cnbc.com/2026/07/25/nvidia-locks-down-memory-from-sk-hynix-as-part-of-500-billion-ai-deal.html
+https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html
+https://www.ft.com/content/9dcb5d72-13aa-4f9c-ac6d-e022860df5ea?syn-25a6b1a6=1
+
+Entertainment
+• Blade Runner 2099 will debut all eight episodes on Prime Video Nov. 25; DC’s Lanterns got a new trailer at Comic-Con.
+• Guillermo del Toro vowed “absolutely no AI” in Pan’s Labyrinth’s 3D rerelease, underscoring creative and ethical debates over AI in film.
+• Karol G launched her global stadium tour in Chicago; hardcore pioneer Lou Koller of Sick of It All died at 59.
+• Roku raised prices on streaming hardware amid component costs.
+Why it matters: Streaming strategies, creator choices about AI, and live music milestones are reshaping audience habits and industry economics.
+https://www.theverge.com/entertainment/970524/blade-runner-2099-date-trailer-amazon-prime-video
+https://variety.com/2026/film/news/guillermo-del-toro-no-ai-pans-labyrinth-rerelease-1236815109/
+https://www.billboard.com/lists/karol-g-viajando-por-el-mundo-tropitour-full-setlist/
+https://www.billboard.com/music/music-news/lou-koller-sick-of-it-all-dies-1236302948/
+https://variety.com/2026/tv/news/lanterns-trailer-sinestro-guy-gardner-manhunter-1236818889/
+https://www.theverge.com/streaming/970814/roku-streaming-price-increase
+
+Geopolitics & Diplomacy
+• UN chief António Guterres made the first official visit to Syria by a UN secretary-general in 17 years, including talks with President Ahmed al‑Sharaa.
+• ICC member states voted to remove chief prosecutor Karim Khan, deepening controversy around the court’s direction and legitimacy.
+• Bangladesh’s president Mohammed Shahabuddin resigned mid-term amid years of political turmoil.
+• UK Prime Minister Andy Burnham capped a frenetic first week by opening a part-time office in Manchester to signal regional shift.
+• The EU agreed to delay releasing some Copernicus satellite imagery over the Iran war region at U.S. request.
+Why it matters: Multilateral institutions and national leaders are recalibrating amid conflict, accountability debates, and domestic realignments.
+https://www.aljazeera.com/news/2026/7/25/guterres-arrives-in-syria-in-first-official-visit-by-a-un-chief-in-17-years?traffic_source=rss
+https://www.npr.org/2026/07/24/g-s1-135498/icc-court-prosecutor-karim-khan-vote
+https://apnews.com/article/bangladesh-president-shahabuddin-resign-hasina-tarique-cc9c70910427166e7fe237d5d10254d1
+https://apnews.com/article/andy-burnham-manchester-number-10-north-dfda559e92872cafec56217897d49c49
+https://arstechnica.com/space/2026/07/european-union-grants-us-request-to-restrict-satellite-images-of-iran-war-region/
+
+Sports
+• At the Commonwealth Games, gymnast Gabriel Langton suffered a concussion in a fall, while South Africa’s Chad le Clos claimed a record 19th medal.
+• Noah Lyles ran a world‑leading 9.79 to win the 100m at the U.S. championships.
+• LeBron James signed a two‑year deal with the Philadelphia 76ers, marking the final leg of his NBA career.
+• Brittany “Britt” Apgar, born without a right hand, joins the Women’s Professional Baseball League, breaking barriers.
+• Tonga’s netball team reached its first Commonwealth Games, a remarkable path built through adversity.
+Why it matters: Elite results and inclusive milestones highlight sport’s competitive peak and social impact.
+https://www.aljazeera.com/sports/2026/7/25/commonwealth-games-gymnast-langtons-headfirst-crash-leads-to-concussion?traffic_source=rss
+https://www.aljazeera.com/sports/2026/7/25/south-africas-le-clos-breaks-commonwealth-games-record-with-19th-medal?traffic_source=rss
+https://www.bbc.co.uk/sport/athletics/articles/c3d38zkx59jo?at_medium=RSS&at_campaign=rss
+https://hypebeast.com/2026/7/nba-lebron-james-philadelphia-76ers-signing-announcement-final-24th-season-news
+https://apnews.com/article/wpbl-britt-apgar-cd5a4127e8fa2d7dc46143143532df36
+https://www.bbc.co.uk/sport/netball/articles/ce8kyjgzzz0o?at_medium=RSS&at_campaign=rss
+
+Economy & Markets
+• Oil surged past $100/barrel amid widening Middle East conflict and Red Sea disruptions; developing countries like India and South Africa plan larger fuel stockpiles as El Niño threatens Asia’s rice output.
+• The U.S. unveiled new tariffs; allies objected, and President Trump threatened “substantial” EU tariffs in response to tech fines, raising trade war risks.
+• AI capex is straining credit and debt markets as Moody’s warns about pressure on cash‑rich giants; U.S. tech has cut 140,000 jobs despite the AI boom.
+• Qualcomm and Roku raised prices amid component costs and shortages.
+• Paramount’s proposed merger with Warner Bros. Discovery was delayed months amid state AG antitrust suits.
+Why it matters: Energy shocks, trade tensions, and capital‑intensive AI investment are amplifying inflation and market volatility while reshaping corporate strategies.
+https://www.npr.org/2026/07/24/g-s1-135418/up-first-newsletter-iran-war-oil-prices-tariffs-wisconsin-corey-ruiz
+https://www.npr.org/2026/07/24/nx-s1-5906301/us-global-trump-tariffs-reaction
+https://www.ft.com/content/42847a3b-f4b6-4a16-88e0-f06fdfabbdc6?syn-25a6b1a6=1
+https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html
+https://www.theverge.com/gadgets/970910/qualcomm-raising-prices-bloomberg
+https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/
+
+Art & Culture
+• Pompeii unveiled a partially reconstructed frescoed banquet hall ceiling, reviving vivid mythological scenes from antiquity.
+• Greece formally advanced its bid to add Mount Olympus to UNESCO’s World Heritage list.
+• Cultural institutions are testing greener, smarter methods to preserve fragile collections; Berlin’s Pace Gallery explores the emotions of nightlife in a group show.
+Why it matters: Preservation, designation, and contemporary curation shape how societies safeguard and reinterpret heritage.
+https://apnews.com/article/italy-pompeii-frescoes-archaology-f06756444ba1ca7727d17c9868ffcfb9
+https://www.theguardian.com/world/2026/jul/25/no-time-to-waste-greece-bids-for-mount-olympus-to-be-included-on-unesco-list-of-world-heritage-sites
+https://phys.org/news/2026-07-smarter-greener-ways-fragile-cultural.html
+https://hypebeast.com/2026/7/pace-gallery-berlin-goodbye-sadness-hello-sadness-group-exhibition-info
+
+Health & Pandemic
+• Scientists are extending organ viability outside the body, inching toward “organ banks” that could transform transplants.
+• Advances include gold‑catalyzed reactions for targeted anticancer prodrugs and new methods to remove harmful nitrates from drinking water.
+• A committee appointed by RFK Jr. approved manufacturing peptides he uses despite a lack of human safety/efficacy data, raising regulatory and patient safety concerns.
+Why it matters: Medical breakthroughs and evidence‑based oversight are critical to expanding access and protecting patients.
+https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/
+https://phys.org/news/2026-07-gold-catalyzed-chemical-reaction-advances.html
+https://phys.org/news/2026-07-methods-nitrates.html
+https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/
+
+Science & Technology
+• SpaceX’s Starship achieved a notably soft splashdown on Flight 13 after deploying next‑gen Starlink satellites; NASA moved to support Blue Origin’s New Glenn second‑stage hot‑fire tests as it advances Artemis.
+• AI tools like AlphaFold are helping redesign gene‑editing proteins to reduce mistakes; separately, supercooled kidneys were transplanted into pigs, a step toward longer organ storage.
+• Researchers created living, biodegradable textiles from fungi that can self‑clean and repair.
+• A leading robotic servicing satellite demonstrates the growing maturity of on‑orbit repair technology.
+• Waymo and Uber will end robotaxi exclusivity in Atlanta and Austin in 2028, reshaping autonomous ride‑hailing dynamics.
+Why it matters: Rapid advances in spaceflight, bioengineering, and autonomy are converging with industrial partnerships to redefine capabilities and markets.
+https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-makes-the-softest-splashdown-ever-after-launching-next-gen-starlink-satellites-in-flight-13-test-video
+https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/
+https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/
+https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/
+https://www.newscientist.com/article/2581227-clothes-made-from-living-fungi-can-clean-and-repair-themselves/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS
+https://www.cnbc.com/2026/07/24/uber-and-waymo-to-end-exclusivity-arrangement-in-atlanta-and-austin.html
+
+Longevity & Anti-Aging
+• A small study found people with a younger biological age lost more weight on calorie restriction than peers of the same chronological age.
+• In mice, GPR40 agonists restored thymic activity, while raising SORLA may help counter tauopathies; senescent cells in aging brains accumulate lipid droplets.
+• A New York woman died following an IV NAD+ “longevity infusion,” highlighting risks from unproven anti‑aging treatments.
+Why it matters: Translational aging science is advancing, but consumer offerings must be grounded in safety and evidence.
+https://www.newscientist.com/article/2581243-having-a-young-biological-age-could-help-with-weight-loss/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS
+https://www.fightaging.org/archives/2026/07/small-molecule-gpr40-agonism-restores-thymic-activity-in-aged-mice/
+https://www.fightaging.org/archives/2026/07/sorla-upregulation-as-a-possible-means-to-treat-tauopathies/
+https://www.fightaging.org/archives/2026/07/senescent-cells-accumulate-lipid-droplets-in-the-aging-brain/
+https://lifespan.io/nyc-woman-dead-after-receiving-a-longevity-infusion/
+
+Other
+• Picks for earbuds that best handle phone calls; a 3‑in‑1 leave‑in conditioner reviewed for sun, salt, and detangling on beach days.
+Why it matters: Small, practical product choices can improve daily communication and personal care.
+https://www.rollingstone.com/product-recommendations/tech/best-earbuds-for-phone-calls-1235268715/
+https://www.vogue.com/article/sun-bum-leave-in-conditioner
