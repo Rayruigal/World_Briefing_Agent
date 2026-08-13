@@ -1,0 +1,134 @@
+Artificial Intelligence
+• Twitch acknowledged Amazon has used creator content to train AI for years; after backlash, streamers can now opt out, though training remains the default.
+• Agentic AI pushes ahead: SpaceXAI launched Grok Bot “AI teammates” that execute multi‑step tasks; industry voices urge openness as the White House weighs expanding AI policy to cover open models.
+• Funding and infrastructure boom continues: OpenAI‑backed Thrive raised $2B at a $12B valuation; reports say Cognition may seek a $40B valuation; CoreWeave’s revenue doubled on surging AI demand.
+• Publishers and users fight data scraping: a “ShieldFont” aims to poison training data; Anthropic’s new watermarks drew criticism from users worried about detection at work or school.
+Why it matters: The AI economy is accelerating from models to always‑on agents, but consent over training data, transparency, and the capital and infrastructure needed to scale remain flashpoints.
+https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss
+https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai
+https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/
+https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html
+https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/
+https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/
+
+Climate & Environment
+• Europe’s severe drought is devastating crops from the Netherlands to Bosnia, while Swiss ski resorts consider using snowmaking gear to help fight summer wildfires.
+• Marine heat off Southern California is drawing stingrays to shore, increasing injuries; Germany confronts dried‑up rivers with a split over engineering fixes versus restoration.
+• The US canceled a key Arctic climate report chapter and other guidance, even as the EU enacted curbs on PFAS “forever chemicals” in food packaging.
+• Australia’s largest aluminum smelter will run on renewables by 2033 after a multibillion‑dollar deal, as Manila begins a massive cleanup after typhoon floods.
+Why it matters: Escalating climate impacts are forcing rapid adaptation, infrastructure decisions, and regulatory shifts that carry economic, health, and environmental trade‑offs.
+https://apnews.com/article/netherlands-drought-farmers-harvest-climate-b44ab4a0d37c1ef7c4f66de8effe567b
+https://apnews.com/article/switzerland-ski-resorts-water-cannon-wildfires-bae0e36ccf19df173e1ec6c2ff9d1a1e
+https://phys.org/news/2026-08-imposing-climate-science-siege.html
+https://phys.org/news/2026-08-eu-curbs-chemicals-food-packaging.html
+https://www.theguardian.com/business/2026/aug/13/rio-tinto-australia-tomago-aluminium-2bn-bailout-deal-renewable-energy
+https://www.theguardian.com/world/gallery/2026/aug/13/manila-river-rubbish-clogged-typhoon-dolphin-flood-in-pictures
+
+Geopolitics & Diplomacy
+• Japan protested Vladimir Putin’s first‑ever visit to the disputed Kuril Islands, underscoring enduring tensions with Russia.
+• Zambians vote in a presidential election testing Hakainde Hichilema’s reforms amid economic strain, while US “terrorist” designations of Brazilian gangs stoke election interference accusations.
+• The DNC is set to finalize the 2028 primary calendar; AP spotlighted Andrew Tate’s US custody hearing as he fights UK extradition; the FT examined the high‑stakes race to lead the United Nations.
+Why it matters: Strategic disputes, democratic timelines, and leadership transitions shape the global order and how major powers project influence.
+https://www.bbc.co.uk/news/articles/cqx7ple0nxxo?at_medium=RSS&at_campaign=rss
+https://www.aljazeera.com/news/2026/8/13/polls-open-in-zambia-presidential-election-as-economic-reforms?traffic_source=rss
+https://www.aljazeera.com/opinions/2026/8/13/the-us-is-now-using-the-terrorist-label-to-interfere-in-brazils-election?traffic_source=rss
+https://apnews.com/article/tate-brothers-uk-extradition-b0d65a577a1f84949fb81b0abf041022
+https://www.ft.com/content/8349e039-a02c-4586-92d8-7f95d3fcd15a?syn-25a6b1a6=1
+
+Armed Conflict & Security
+• Russian strikes ignited fires at a Ukrainian Black Sea port as both sides hit grain terminals; Kyiv appealed for more Patriot interceptors amid shortages.
+• A Nobel Peace Prize winner said Putin can no longer claim victory in Ukraine; sanctioned Russian “ghost fleet” tankers are mounting nets to thwart maritime drones.
+• Yemen’s Houthis threatened a new naval blockade of Saudi shipping, risking a wider escalation; a compromised AI package led to a massive supply‑chain data breach leaking terabytes of credentials.
+• Reports documented Israeli settlers besieging Palestinian families in Qusra with soldiers’ support, cutting utilities and access.
+Why it matters: Intensifying kinetic and cyber operations, plus maritime threats and settler violence, deepen regional instability and imperil global food and energy flows.
+https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss
+https://www.aljazeera.com/news/2026/8/13/russian-strike-sparks-fire-at-ukraine-port-zelenskyy-seeks-interceptors?traffic_source=rss
+https://www.ft.com/content/f2f2a881-1d4d-47db-a7d9-c6c50ee29a6a?syn-25a6b1a6=1
+https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/
+https://www.theguardian.com/world/2026/aug/12/israeli-militants-besiege-two-palestinian-families-in-their-west-bank-homes
+
+Health & Pandemic
+• WHO warned the current Ebola outbreak could become the deadliest on record, with over 2,000 deaths since mid‑May.
+• US authorities redeployed drones as flesh‑eating screwworms spread in Texas; doctors reviewed a toddler’s fatal amoebic infection to improve early detection.
+• BTS’s V revealed a two‑year battle with hearing loss; researchers shrank venous malformations by 70% in mice using drug‑carrying nanoparticles.
+Why it matters: Emerging and re‑emerging health threats demand surveillance and rapid response while research advances offer new therapeutic avenues.
+https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss
+https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/
+https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/
+
+Entertainment
+• Ritchie Blackmore performed with Deep Purple for the first time since the early ’90s estrangement, delighting fans with a rare reunion.
+• Busan’s Asian Contents & Film Market named Japan the 2026 Focus Country, expanding co‑production ties; industry unions urged California to settle the Paramount–Warner Bros. antitrust case.
+• StubHub spent heavily to fight a California bill capping ticket resale markups, as Taylor Swift and Travis Kelce’s wedding continued to dominate pop culture headlines.
+Why it matters: Behind the spectacle, industry consolidation, labor leverage, and platform policies are reshaping how content is financed, produced, and accessed.
+https://variety.com/2026/music/news/ritchie-blackmore-deep-purple-performs-smoke-on-the-water-1236833509/
+https://variety.com/2026/film/markets-festivals/busan-acfm-japan-2026-focus-country-producer-hub-1236833558/
+https://www.hollywoodreporter.com/music/music-industry-news/stubhub-lobbying-spending-concert-ticket-bill-1236664212/
+https://www.bbc.co.uk/news/articles/cx2r179e232o?at_medium=RSS&at_campaign=rss
+
+Society & Human Rights
+• Palestinian women in Gaza are forgoing rights to obtain faster divorces amid legal hurdles; settlers reportedly besieged families in Qusra, cutting water and power.
+• Nepal saw maternal and infant deaths rise after USAID cuts gutted clinics and outreach, AP found; ICE floated buying $20M in electric shock gloves for agents.
+• Studies and creators highlighted persistent inclusion gaps in top films, while Lilly Wachowski said Hollywood won’t finance her new film with a trans cast.
+Why it matters: Policy and funding decisions, policing tools, and industry gatekeeping directly affect safety, dignity, and representation for vulnerable communities.
+https://www.aljazeera.com/features/2026/8/13/palestinian-women-in-gaza-face-legal-hurdles-in-divorce-struggles?traffic_source=rss
+https://apnews.com/article/usaid-nepal-maternal-child-death-trump-aid-cuts-43fb5e8aff8a4f65b7f18781455c3f91
+https://www.theverge.com/policy/979010/ice-agents-electric-shock-gloves
+https://variety.com/2026/film/news/hollywood-diversity-study-annenberg-inclusion-initiative-1236833079/
+https://www.hollywoodreporter.com/movies/movie-news/matrix-lilly-wachowski-hollywood-wont-finance-film-trans-cast-1236672782/
+
+Economy & Markets
+• Millions of US online shoppers may see surprise tariff refunds as FedEx/UPS pass along government repayments; analysts warned UK growth is slowing as the Iran war pushes up energy prices.
+• South Korea’s Kospi snapped back into a bull market on AI‑chip optimism; investors bet Nvidia hardware will retain value unusually long.
+• FT reported Anthropic investors are eyeing a record IPO near a $2T valuation; meanwhile, critiques argue Trump’s tariff regime taxes America’s “dark matter” of knowledge income.
+• Nigeria widened access to open market operations to deepen liquidity and participation.
+Why it matters: Geopolitics, AI investment, and tariff policy are reshaping capital flows, inflation dynamics, and which markets and industries lead the next cycle.
+https://apnews.com/article/tariff-refund-shipping-retail-d4162f466eb83aa97e430a86221ad226
+https://www.theguardian.com/business/2026/aug/13/uk-economic-growth-slows-iran-war-energy-prices-gdp-ons
+https://www.cnbc.com/2026/08/13/south-korea-kospi-bull-market-sk-hynix-samsung-ai-trade.html
+https://www.ft.com/content/3b522281-0119-47c9-a95a-f2c8d04e6212?syn-25a6b1a6=1
+https://www.ft.com/content/7ff4321e-3f96-4f7b-8f2d-4fefa4773a5d
+https://www.ft.com/content/840ac156-af1c-4a82-b260-ae791072fcfa?syn-25a6b1a6=1
+https://www.bloomberg.com/news/articles/2026-08-13/nigerian-central-bank-widens-access-to-open-market-operations
+
+Science & Technology
+• Millions witnessed Spain’s first total solar eclipse in over a century, with spectacular images across Europe; NASA highlighted the event’s science and imagery.
+• Google unveiled the Pixel 11 lineup with a new Tensor G6 and camera features, while reports suggest the base iPhone 18 may slip past fall.
+• Particle physicists reported the strongest evidence yet for glueballs, and JCB set a 406 mph hydrogen‑powered car speed record.
+• A Petlibro outage left smart feeders and litter boxes offline, showing IoT fragility in pet care.
+Why it matters: Breakthrough observations and devices excite, but progress also depends on robust consumer tech and foundational physics that can enable future applications.
+https://www.npr.org/2026/08/13/g-s1-138556/spain-solar-eclipse
+https://www.theverge.com/gadgets/975237/google-pixel-11-pro-comparison-specs-price-features
+https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/
+https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/
+
+Art & Culture
+• EJ Swift won the 2026 Arthur C. Clarke Award for When There Are Wolves Again, a near‑future eco‑fiction novel on rewilding and climate activism.
+• At Locarno, Meritxell Colell’s Far From the Trees explores endangered languages and exile through sound; Phylicia Rashad reflected on legacy and the current TV landscape.
+Why it matters: Contemporary art and festivals are interrogating climate, identity, and representation, influencing how cultural narratives evolve.
+https://www.theguardian.com/books/2026/aug/12/ej-swift-wins-the-2026-arthur-c-clarke-award-for-science-fiction
+https://variety.com/2026/global/global/far-from-the-trees-director-meritxell-colell-1236827380/
+https://variety.com/2026/scene/news/phylicia-rashad-on-legacy-and-humanity-1236831743/
+
+Other
+• A playful “out‑of‑office translator” deciphers summer email auto‑replies; a quirky study suggests compressive shapewear may reduce risk‑taking in card games.
+Why it matters: Even lighthearted analyses can reveal how work norms and subtle physical cues shape behavior.
+https://www.ft.com/content/46caeb96-13a3-4231-ae9a-7230225d09b7?syn-25a6b1a6=1
+https://www.newscientist.com/article/2583967-does-shapewear-make-us-less-prone-to-taking-risks-weirdly-maybe-yes/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS
+
+Sports
+• NBA MVP and all‑time triple‑double leader Russell Westbrook retired after 18 seasons; only wins, not curfews, will now repair England cricket’s reputation after scrapping a midnight rule.
+• Cameroon stunned hosts Morocco to reach the Wafcon final after goalkeeper Michaely Bihina saved four penalties; the FedEx St. Jude Championship opens the PGA playoffs with 70 players chasing 50 spots.
+Why it matters: High‑profile exits, policy reversals, and clutch performances are reshaping narratives across global sport as postseason stakes rise.
+https://hypebeast.com/2026/8/russell-westbrook-nba-retirement-official-announcement
+https://www.bbc.co.uk/sport/cricket/articles/czjl2pelp1go?at_medium=RSS&at_campaign=rss
+https://www.bbc.co.uk/sport/football/articles/ckg3pzne52xo?at_medium=RSS&at_campaign=rss
+https://www.hollywoodreporter.com/tv/tv-news/watch-fedex-st-jude-championship-2026-golf-live-stream-free-1236672494/
+
+Longevity & Anti-Aging
+• Researchers reviewed “hyperfunction” theories versus damage‑accumulation models, urging better, reliable measures of biological age to guide true rejuvenation therapies.
+• In mice, the thymus hormone thymulin reduced age‑related inflammation and improved responses to cancer treatment; reviews probed iron metabolism and ferroptosis in atherosclerosis.
+Why it matters: Clearer biomarkers and targeted mechanisms could accelerate interventions that slow or reverse aspects of aging and age‑linked disease.
+https://www.fightaging.org/archives/2026/08/summarizing-the-state-of-hyperfunction-theories-of-aging/
+https://www.fightaging.org/archives/2026/08/towards-reliability-and-accuracy-in-the-measurement-of-biological-age/
+https://lifespan.io/the-thymus-hormone-thymulin-reduces-inflammaging-in-mice/
