@@ -1,0 +1,130 @@
+Society & Human Rights
+• Kenya’s Paul Mackenzie received an effective life/200-year sentence for ordering followers to starve 191 people, mostly children, in a “doomsday” cult.  
+• Tanzania’s detained opposition figure was convicted of inciting unrest but acquitted of treason; he says the case is political.  
+• Russell Brand was convicted of rape and sexual assault in London; industry fallout includes a producer stepping back and public reactions from Bear Grylls.  
+• UK debates over historical slavery intensified after Tory leader Kemi Badenoch’s remarks opposing an apology; separate scrutiny grows over extending Palantir’s NHS contract while pursuing a domestic alternative.  
+• Protests hit Microsoft’s Amsterdam data-center site; Afghan refugee women cricketers criticized foreign players for joining Afghanistan’s league; reports allege K-pop group NewJeans’ contracts removed key child protections.  
+Why it matters: Rights, justice and accountability debates are surfacing across politics, culture and tech infrastructure, with implications for public trust and corporate conduct.  
+https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss
+https://www.aljazeera.com/news/2026/11/6/kenyan-court-sentences-starvation-cult-leader-to-200-years?traffic_source=rss
+https://www.theguardian.com/politics/2026/nov/06/kemi-badenoch-slavery-comments-anger-black-voters-operation-black-vote
+
+Armed Conflict & Security
+• A fresh wave of bomb threats disrupted at least 18 European flights and media outlets; no explosives were found, and officials call it likely a coordinated disruption campaign.  
+• Ukraine raised the death toll to at least 50 from a strike on a Zaporizhia aid site; dozens remain trapped as DNA tests identify victims.  
+• Analysis warns Houthi child recruitment is shaping a generation in Yemen; separately, a Linux “aSSHole” flaw may allow passwordless SSH logins on some devices.  
+Why it matters: Security threats—from hoaxes to warfare and cyber vulnerabilities—strain institutions and civilians while demanding coordinated responses.  
+https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe
+https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50?traffic_source=rss
+https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/
+
+Art & Culture
+• Diwali celebrations lit up India as families marked the festival with lamps, fireworks and sweets amid air-quality concerns in Delhi.  
+• Hundreds of 26,000-year-old cave engravings were identified in a popular site, including indications of “animated” sequences.  
+• Torino Film Festival highlights female directors and unveils a Marilyn Monroe centenary retrospective framing her as a “female Marlon Brando.”  
+Why it matters: Cultural heritage and festivals shape identity, while festivals influence industry trends and narratives around iconic figures.  
+https://www.bbc.co.uk/news/articles/cm70pdwz122ro?at_medium=RSS&at_campaign=rss
+https://www.nature.com/articles/d41586-026-03585-z
+https://variety.com/2026/film/festivals/marilyn-monroe-torino-film-festival-1236940964/
+
+Geopolitics & Diplomacy
+• Indonesia is roiled by a presidential wiretapping scandal implicating senior officials, exposing rifts among elites.  
+• Somalia’s top court rejected the president’s term extension, casting doubt on the country’s first nationwide elections since 1969.  
+• Melania Trump hosted Russian and Ukrainian officials urging a lasting Ukraine truce, while Iran intensified diplomacy amid US threats to resume war.  
+• Pope Leo XIV began a three-nation Latin America trip three weeks after lung cancer surgery, with personal stops in Uruguay and Peru.  
+• Paraguay’s president was impeached minutes after resigning amid a digital-bank collapse; US midterm outcomes reverberate globally, rattling tech-aligned political strategies.  
+Why it matters: Political shocks and diplomatic maneuvers are reshaping alignments, ceasefire prospects and economic stability across regions.  
+https://www.bbc.co.uk/news/articles/cwkg55155mrro?at_medium=RSS&at_campaign=rss
+https://www.bbc.co.uk/news/articles/c977ppnezep6o?at_medium=RSS&at_campaign=rss
+https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know?traffic_source=rss
+
+Artificial Intelligence
+• Tesla will wind down Cybertruck production in 2026 to free capacity for its driverless Cybercab, underscoring an AI-first shift.  
+• AI “agents” accelerated: Airbnb plans an AI travel agent by 2027; Perplexity launched workplace agents; Meta’s Muse adds real-time voice and avatar calls.  
+• OpenAI released a new cybersecurity model (GPT-6 Cyber), signaled openness to communities by stepping back from NDAs on data centers, and said it could be IPO-ready in 2027.  
+• Google drew criticism for bundling AI into school search; Anthropic’s Claude can analyze personal finances via Plaid; reports detail chatbots’ growing ad experiments.  
+• Chip access and geopolitics collide as China’s Moonshot AI seeks European routes to Nvidia hardware amid US export curbs.  
+Why it matters: AI is moving from pilots to consumer and enterprise infrastructure, triggering policy, security and supply-chain debates.  
+https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai
+https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda
+https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html
+
+Sports
+• Portugal’s FA plans to honor Cristiano Ronaldo after his international retirement announcement, closing a polarizing era for the national icon.  
+• Olympic boxing champion Imane Khelif will make her professional debut in December; Kurdish club Amedspor’s surge is shaking up Turkey’s Super Lig.  
+• Rugby: England’s wheelchair side topped Pool A; WRU approached joining an Anglo-Welsh league; Ollie Chessum relishes leadership talk.  
+• F1: Red Bull extended Racing Bulls boss Alan Permane to 2031; golf’s Lee Westwood fears for Europe’s tour after LIV’s collapse.  
+Why it matters: Transitions of star athletes and shifting league structures can redefine fan engagement, revenues and competitive balance.  
+https://www.aljazeera.com/sports/2026/11/6/portugal-fa-pledges-to-honour-cristiano-ronaldo-as-jorge-jesus-names-squad?traffic_source=rss
+https://www.aljazeera.com/sports/2026/11/6/olympic-champion-imane-khelif-to-make-professional-boxing-debut-in-december?traffic_source=rss
+https://www.bbc.co.uk/sport/rugby-union/articles/c9p8ggzzerz5o?at_medium=RSS&at_campaign=rss
+
+Climate & Environment
+• Delhi’s air turned “hazardous” days before Diwali, spotlighting chronic winter smog and health risks.  
+• 2026 is likely to be the second-hottest year on record as a rapidly developing “super El Niño” boosts human-driven warming.  
+• China’s Q3 CO2 emissions fell 3.1%, the biggest drop since Covid, amid energy and geopolitical shocks.  
+• COP31 approaches with debates on fossil-fuel roadmaps and just transition; Europe signals support for a structured phase-down approach.  
+• Studies highlight outsize methane from low-producing US wells and possible microplastics altering Pacific Ocean color.  
+Why it matters: Escalating climate signals and policy choices will shape near-term health, energy prices and long-term transition pathways.  
+https://phys.org/news/2026-11-hottest-year-eu.html
+https://www.carbonbrief.org/simply-staggering-rapidly-developing-super-el-nino-on-track-to-peak-in-december
+https://www.carbonbrief.org/analysis-chinas-quarterly-co2-falls-3-in-largest-drop-since-covid
+
+Economy & Markets
+• The US added 165,000 jobs in October, beating forecasts and signaling a resilient labor market despite turbulence.  
+• Tech-led market routs erased trillions in value, with AI stocks hit by political backlash over data centers, higher rates and return concerns.  
+• UK house prices fell 0.6% in October, the sharpest drop in over three years, as high mortgage rates bite.  
+• Brookfield raised $25bn, positioning to fund AI infrastructure; European credit has been cushioned by big-tech deal windfalls.  
+• Musk-linked firms lost over $420bn in combined market cap post-midterms; oil slipped below $100 as traders recalibrated geopolitical risk.  
+Why it matters: Jobs resilience contrasts with tech volatility and housing softness, shaping central-bank paths, investor sentiment and capex.  
+https://www.theguardian.com/business/2026/nov/06/us-job-growth-october
+https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1
+https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html
+
+Science & Technology
+• Blue Origin unveiled a higher-performing, lower-cost engine and a third stage for New Glenn but pushed its next launch to January 2027 after a pad explosion.  
+• NASA introduced the X-70 “Fractal” experimental aircraft and is soliciting ideas to extend Hubble’s life as its orbit decays.  
+• Humanoid robots moved from demo to service as a startup cleaned homes in San Francisco; consumer tech buzz included a standout $649 3D printer and a minimalist “Enough Phone.”  
+• The ISS completed next-gen roll-out solar arrays, while a large coronal hole could push northern lights as far south as New York and Idaho this weekend.  
+• Research highlights: earliest direct evidence of cannabis use (2,800 years ago) and fresh signs of active volcanism on Mars.  
+Why it matters: Spaceflight and aerospace advances continue amid delays, while robotics and new findings reshape consumer tech and planetary science.  
+https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/
+https://www.theverge.com/tech/1027426/nasa-experimental-x-70-fractal-aircraft
+https://www.space.com/space-exploration/international-space-station/we-got-it-done-spacewalking-astronauts-finish-installing-next-gen-iss-solar-arrays
+
+Entertainment
+• Grimes will star in “Gods Don’t Give Gifts,” billed as the first AI-generated film headed to theaters; SoundCloud added direct posting from ElevenLabs as AI music integrations expand.  
+• The New York Times is in exclusive talks to buy Letterboxd for about $330m, signaling the value of cinephile communities.  
+• Festivals and markets: Torino’s starry lineup and retrospective plans; South International Series Festival will launch an investors week in 2027; Taiwan eyeing horror to crack Indonesia’s market.  
+• Music highlights: new releases from Lil Baby and JENNIE; Rush announces a Sphere residency; Latin awards crowned Carlos Rivera.  
+• EA released 25 classic PC games on Steam and GOG, including restored “Anniversary Editions” of Road Rash and Wing Commander.  
+Why it matters: AI is reshaping creation and distribution as platforms consolidate fandoms and catalogs, while festivals and catalogs drive cross-border growth.  
+https://www.theverge.com/entertainment/1026282/grimes-ai-movie
+https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report
+https://hypebeast.com/2026/11/ea-releases-25-classic-pc-games-on-steam
+
+Other
+• Salon, one of the first online-only news magazines, is shutting down after 31 years, citing unsustainable economics for independent digital journalism.  
+• From orbit, the ISS captured a striking pre-dawn image of Midwestern and East Coast city lights.  
+Why it matters: Media business pressures continue to reshape the news ecosystem and local information access.  
+https://www.theverge.com/news/1028281/salon-dot-com-shuts-down
+https://www.nasa.gov/image-article/midwestern-city-lights/
+
+Health & Pandemic
+• “Make America Healthy Again” suffered major midterm losses, raising questions about the movement’s future.  
+• Rising grocery prices are linked to higher food insufficiency and worse mental health; studies suggest social media could improve disaster-aid coordination and that better-designed flood warnings speed decisions.  
+• Digital supports showed promise: online literacy instruction benefited autistic children, and a seven-week program improved dementia caregivers’ outlook and competence.  
+Why it matters: Economic stressors and smarter communication tools are directly affecting public health and disaster resilience, while digital care models expand access.  
+https://phys.org/news/2026-11-higher-grocery-prices-linked-worse.html
+https://phys.org/news/2026-11-social-media-disaster-aid.html
+https://phys.org/news/2026-11-autistic-children-benefited-online-literacy.html
+
+Longevity & Anti-Aging
+• A Nature Aging study identified vanadyl sulfate as a senolytic targeting altered cysteine reactivity, improving age-related conditions and extending lifespan in mice.  
+• An NAD+ precursor failed in a Parkinson’s trial, underscoring the gap between mechanistic promise and clinical outcomes.  
+• In mice, inhibiting the H3K9me3 epigenetic mark reduced Alzheimer’s pathology; a small trial of NOVOS Core was associated with improved arterial function and systolic blood pressure.  
+• Analysts argue for better evaluation of lactoferrin’s geroprotective potential; Sweden’s Göteborg Film Festival will probe society’s fixation on youth in its “Forever Young” focus.  
+Why it matters: Translating aging biology into safe, effective human therapies is progressing unevenly, spotlighting the need for rigorous trials and realistic expectations.  
+https://www.nature.com/articles/s43587-026-01253-5
+https://www.nature.com/articles/s43587-026-01277-x
+https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/
