@@ -1,0 +1,101 @@
+Economy & Markets
+• Anthropic set an IPO price range of $70–$78, implying up to a $1.4 trillion valuation and positioning one of the largest tech listings in history later this month. 
+• US CPI rose 0.4% in October, a bit hotter than hoped; Treasuries fell and markets firmed bets on a December Fed hike, even as some warn against a 50 bps move. 
+• Nvidia shares wobbled as the board probes CEO Jensen Huang’s affair with an alleged Chinese spy, stoking legal, governance, and succession questions amid a broader tech rally. 
+• SoftBank swung to a ~$7bn quarterly loss on a US data center writedown; investors rotated toward defensive sectors as AI-earnings enthusiasm shows signs of fatigue. 
+Why it matters: Markets are navigating a pivotal AI IPO, sticky inflation, and fresh governance risk at a key chipmaker—all with rate policy and risk appetite in flux. 
+https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/ https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1 https://www.bloomberg.com/news/articles/2026-11-10/treasuries-slide-as-hot-us-inflation-cements-december-rate-bets https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html
+
+Geopolitics & Diplomacy
+• US-mediated Russia–Ukraine talks resumed in Abu Dhabi, described as “productive,” with sessions expected to continue as Washington seeks a pathway to ending the war. 
+• France blamed Iran for supermarket fridge cyberattacks and floated EU sanctions; Tehran denied involvement, escalating a trans-Atlantic cybersecurity dispute. 
+• Israel’s new Knesset was sworn in as rival blocs race to form a government that could unseat Prime Minister Netanyahu. 
+• Defense Secretary Pete Hegseth denounced an impeachment push as a “farce,” even as a House vote looms; Nvidia’s CEO scandal drew scrutiny from China hawks in Congress. 
+Why it matters: Fragile diplomacy and domestic political fights are colliding with tech-security controversies, shaping power balances from the Middle East to Washington. 
+https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html
+
+Armed Conflict & Security
+• Saudi-led forces and Yemen’s Houthi fighters escalated attacks, with Saudi Arabia intercepting missiles, underscoring persistent regional volatility. 
+• Iran lifted its self-imposed 2,000 km ballistic missile range limit, raising questions about targets beyond the Middle East. 
+• Gulf states agreed to establish an advanced military command headquarters in Kuwait to bolster defense coordination. 
+• A critical Linux SSH flaw is under active exploitation, and UK government code exposures raised “god-tier” data concerns. 
+• The US removed aircraft from a second UK base after an Iran-linked security threat. 
+Why it matters: Regional military posturing and cyber threats are intensifying in tandem, complicating deterrence and allied defense planning. 
+https://www.aljazeera.com/news/2026/11/10/attacks-escalate-between-saudi-led-forces-and-yemens-iran-backed-houthis?traffic_source=rss https://www.aljazeera.com/news/2026/11/10/iran-lifts-2000km-limit-on-its-ballistic-missiles-what-that-means?traffic_source=rss https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/ https://www.ft.com/content/c2992864-c0ab-4e38-b47a-5c2c1e3cb056?syn-25a6b1a6=1
+
+Health & Pandemic
+• California authorities are probing why 27 runners fell ill with unusual symptoms during a hot half-marathon. 
+• Experts warn pharma’s pivot to GLP-1 weight-loss drugs risks sidelining insulin access, particularly in low-income countries. 
+• New research suggests cold therapy (ice baths/showers) may impair rather than speed post-exercise recovery. 
+Why it matters: Health systems face both acute event risks and longer-term access challenges as blockbuster therapies shift industry priorities. 
+https://www.bbc.co.uk/news/articles/cq0ldlyd556go?at_medium=RSS&at_campaign=rss https://www.theguardian.com/business/2026/nov/10/pharma-firms-weight-loss-drugs-insulin-glp-1-ozempic-mounjaro https://www.newscientist.com/article/2598085-cold-therapy-may-be-worse-than-doing-nothing-for-post-exercise-recovery/
+
+Society & Human Rights
+• The US deported Jean Leonard Teganya over alleged Rwanda genocide crimes, highlighting accountability disputes decades on. 
+• Spain may suspend TikTok after finding tens of thousands of suspected pedophile profiles, triggering urgent talks with the platform. 
+• Russell Brand received a sentence of more than 10 years for rape and sexual assault, capping a high-profile case. 
+• An investigation found overlap between Israeli soldiers and settlers, fueling West Bank violence and displacement. 
+Why it matters: Justice, platform safety, and conflict-linked abuses remain at the center of human rights debates. 
+https://www.aljazeera.com/news/2026/11/10/who-is-jean-leonard-teganya-deported-by-us-over-rwanda-genocide-claims?traffic_source=rss https://www.aljazeera.com/news/2026/11/10/spanish-probe-finds-over-20000-suspected-paedophile-profiles-on-tiktok https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced https://www.aljazeera.com/news/2026/11/10/israeli-soldiers-are-also-settlers-in-west-bank-al-jazeera-investigation
+
+Climate & Environment
+• COP31’s Energy Day opened slowly amid calls to prioritize a transition away from fossil fuels; John Kerry lauded China’s green acceleration. 
+• Scientists project fossil CO2 emissions to dip or flatline in 2026, partly due to Iran-related oil disruptions and a renewables push. 
+• Diwali fireworks compounded New Delhi’s severe seasonal smog, highlighting urban air-quality crises. 
+• The US Senate advanced a permitting bill speeding both pipelines and clean energy, splitting environmental advocates. 
+• The SS United States is being sunk to create the world’s largest artificial reef off Florida. 
+Why it matters: Climate diplomacy, policy shifts, and pollution converge as countries grapple with near-term energy shocks and long-term transitions. 
+https://www.theguardian.com/environment/live/2026/nov/10/cop31-live-fossil-fuel-carbon-emissions-climate-crisis-latest-news-updates https://www.theguardian.com/environment/2026/nov/10/slight-fall-in-carbon-emissions-from-fossil-fuels-as-iran-war-drives-renewables-push https://www.npr.org/2026/11/09/g-s1-152634/thick-smog-shrouds-new-delhi-after-diwali-firecrackers-add-to-seasonal-pollution https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote https://www.theguardian.com/us-news/2026/nov/10/ocean-liner-ship-sunk-artificial-reef
+
+Artificial Intelligence
+• Adobe unveiled agentic AI features across Creative Cloud and a new MCP, and deepened collaboration with Disney on “artist-led” generative models. 
+• DeepMind’s AlphaProof Code used automated formal methods to verify the Signal encryption protocol, a milestone for software assurance. 
+• OpenAI launched free caregiver ChatGPT workshops and expanded enterprise access via AWS Marketplace; Spotify’s AI DJ added voices and less chatter. 
+• Otter AI broadened multilingual support; Hugging Face warned cyberattacks could force tighter security on open AI platforms. 
+• US Rep.-elect Scott Wiener signaled federal AI regulation ambitions after shaping California’s model-targeted legislation. 
+Why it matters: As AI diffuses into creative tools and enterprise workflows, security, trust, and governance are becoming as critical as capability. 
+https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/ https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/ https://openai.com/index/chatgpt-enterprise-aws-marketplace https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/ https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/
+
+Science & Technology
+• Amazon’s Ring introduced a flying indoor Drone Cam and a 4K Rover Cam for proactive home and business patrols. 
+• Ukraine’s fiber-optic drone production is squeezed by global demand for optical fiber from AI data centers and Russia’s military needs. 
+• NASA’s ESCAPADE twin probes executed a unique double Earth gravity assist en route to Mars; new Chandra data identified a hidden stellar companion behind repeated outbursts. 
+• Seagate’s FireCuda Forge blends SSD speed with HDD capacity using intelligent tiering; Aura launched a sharper, more colorful 10-inch E Ink photo frame. 
+Why it matters: Advances in robotics, storage, and space science reflect rapid innovation amid supply-chain and infrastructure constraints. 
+https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/ https://www.space.com/astronomy/mars/nasas-escapade-twin-mars-probes-execute-a-1st-of-its-kind-gravity-slingshot-around-earth https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/ https://www.theverge.com/tech/1029665/seagate-firecuda-forge-hybrid-ssd-hard-drive-storage-alkemi-technology
+
+Entertainment
+• Post-merger, James Gunn and Peter Safran are exiting DC Studios leadership, with Jeremy Latcham set to take over as the division restructures. 
+• Skydance’s David Ellison called AI “the biggest creative unlock,” even as Wall Street questions the Warner Bros. integration and earnings path. 
+• Billy Joel booked his first official appearance since his diagnosis, promising “a little music.” 
+• Oasis appears unlikely to attend its Rock Hall of Fame induction due to scheduling and travel concerns. 
+Why it matters: Leadership shifts, AI’s role in production, and heritage acts’ plans signal an evolving entertainment business model. 
+https://arstechnica.com/culture/2026/11/dcu-shake-up-james-gunn-and-peter-safran-out-post-merger/ https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai https://www.billboard.com/music/pop/billy-joel-official-appearance-fau-qa-a-little-music-1236378581/ https://www.billboard.com/music/rock/oasis-likely-skip-2026-rock-and-roll-hall-of-fame-induction-1236378600/
+
+Other
+• Reports indicate Nvidia CEO Jensen Huang engaged a PR firm known for sex-scandal crisis work in 2025, months before the current investigation. 
+• The Team (formerly Wasserman) formed an 11-member board after Providence’s purchase closed. 
+Why it matters: Crisis communications and governance moves shape corporate resilience in volatile news cycles. 
+https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/ https://www.billboard.com/pro/the-team-forms-board-of-directors-after-sale/
+
+Longevity & Anti-Aging
+• Researchers study people resistant to dementia to uncover protective genetics that might inform future therapies. 
+• Cepharanthine emerged as a potential senolytic; mining toxicology datasets identified hormetic compounds that modestly extend lifespan in mice. 
+• A review links inflammaging and poor sleep in a reinforcing cycle that degrades health with age. 
+Why it matters: Targeting aging processes and resilience factors could delay disease onset and extend healthy years. 
+https://www.nature.com/articles/d41586-026-03625-8 https://www.fightaging.org/archives/2026/11/cepharanthine-identified-as-a-novel-senolytic/ https://lifespan.io/inflammaging-and-poor-sleep-contribute-to-one-another/
+
+Art & Culture
+• A science fiction novel won the Booker Prize for the first time, signaling greater literary recognition for the genre. 
+• Analysis of votive Egyptian cats suggests they endured harsh lives; Tallinn’s industry market marks 25 years as a regional film hub. 
+• Jennifer Hudson will headline the Vatican’s “Concert With the Poor,” with Pope Leo scheduled to attend. 
+Why it matters: Cultural institutions are re-evaluating genre boundaries, historical practices, and the role of art in public life. 
+https://www.newscientist.com/article/2598314-a-science-fiction-novel-has-finally-won-the-booker-prize-its-about-time/ https://phys.org/news/2026-11-egyptian-cats-meant-gods-harsh.html https://variety.com/2026/music/global/jennifer-hudson-vatican-concert-poor-pope-leo-1236943899/
+
+Sports
+• Bayern Munich’s Vincent Kompany returned to training after a recent collapse, with the club saying he’s on the road to recovery. 
+• England thrashed Australia to reach the Wheelchair Rugby League World Cup final but say they haven’t peaked yet. 
+• Wales face a rugby injury worry over Aaron Wainwright; in football, Aaron Collins was called up after Kieffer Moore withdrew. 
+• NFL: Bills vs. Vikings headline Monday Night Football with both at 6–1. 
+Why it matters: Fitness, form, and depth are shaping squads ahead of marquee fixtures and finals in multiple codes. 
+https://www.bbc.co.uk/sport/football/articles/c674p4el33wno?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/rugby-league/articles/ckzd6dmm5z19o?at_medium=RSS&at_campaign=rss https://www.bbc.co.uk/sport/rugby-union/articles/crvg6gzg59d1o?at_medium=RSS&at_campaign=rss https://www.rollingstone.com/tv-movies/tv-movie-news/watch-bills-vikings-football-game-online-free-2026-1235654945/
