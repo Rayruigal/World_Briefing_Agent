@@ -1,0 +1,131 @@
+Armed Conflict & Security
+• Israeli strikes hit Nasser hospital in Khan Younis, killing at least six including a surgeon, as Israel says it targeted Hamas militants; health groups warn Gaza’s medical system is collapsing under attacks and detentions.
+• Russia’s continued attacks on Ukraine’s power grid have left communities facing prolonged blackouts; a major Ukrainian power plant remains under constant drone and missile threat while Kyiv says it struck Russia’s largest Siberian oil refinery again.
+• At least five people were shot in Washington, DC’s Logan Circle area, prompting a shelter-in-place order amid an active police response.
+• Italy reported over 1,800 hoax bomb alerts targeting schools, underscoring Europe’s concern over hybrid threats; UK military partners with astronomers to track foreign spy satellites via ground telescopes.
+Why it matters: Civilian infrastructure and healthcare are increasingly in the crosshairs of modern conflicts, raising humanitarian stakes and regional risks even as hybrid and domestic security threats test resilience at home.
+https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss
+https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital
+https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss
+https://www.bloomberg.com/news/articles/2026-11-12/ukraine-says-it-hit-russia-s-biggest-oil-refinery-in-siberia
+https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle
+https://www.aljazeera.com/news/2026/11/12/more-than-1800-italian-schools-targeted-by-new-hoax-bomb-alerts?traffic_source=rss
+
+Health & Pandemic
+• MSF warns millions in Ebola funds are unaccounted for as the virus spreads, with staff unpaid and shortages in training and supplies.
+• UK health officials urge 18–19-year-olds to get meningitis B jabs after low uptake; new data show RSV vaccines and monoclonals sharply cut hospitalizations.
+• Experimental research suggests a blood thinner may slow osteoarthritis progression in animals, highlighting prospects for disease-modifying treatments.
+Why it matters: Strengthening vaccination campaigns and ensuring transparent, accountable funding are critical as infectious threats persist and new therapies emerge.
+https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss
+https://www.theguardian.com/society/2026/nov/12/time-running-out-young-people-meningitis-b-vaccines-uk
+https://www.nature.com/articles/d41586-026-03573-3
+https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS
+
+Artificial Intelligence
+• Nvidia CEO Jensen Huang resigned amid scandals; CFO Colette Kress is interim chief as analysts debate succession and the industry gauges ripple effects.
+• TSMC plans a $1B investment in Anthropic and OpenAI, while British startup Fractile raised $720M for AI chips and CoreWeave leans on prepayments and short-term deals to finance growth.
+• United Airlines won’t allow third‑party AI agents to book tickets, citing privacy/regulatory concerns; Google debuted Tabletop and AlphaGenome 2, and Ring confirmed its home security drone will fly only via autonomous “AI Pilot.”
+• Semiconductor leaders dissect memory bottlenecks for AI inference and the RISC‑V role in acceleration as systems scale to longer contexts and multimodal workloads.
+Why it matters: Leadership turmoil and financing strategies in AI intersect with supply chain dynamics and policy, while new tools and hardware architectures shape the next wave of AI deployment.
+https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/
+https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/
+https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability
+https://www.theverge.com/tech/1031817/ring-drone-cam-manual-flight-controls
+https://semiengineering.com/beyond-bandwidth-ai-inference-is-reshaping-the-memory-wall/
+
+Society & Human Rights
+• Democrat Scott Colom’s win makes him Mississippi’s first Black senator since Reconstruction, capping a string of Democratic gains.
+• Aid groups urge Israel to allow shelters in Gaza as winter storms devastate displaced families; Canada will bar Russian and Belarusian junior hockey participants regardless of visas.
+• Australia flags a surge in teen extremism, while a U.S. appeals ruling protected journalists’ LinkedIn DMs from government access.
+Why it matters: Landmark political representation, civil liberties rulings, and mounting youth radicalization highlight shifting social dynamics and the urgency of humanitarian protections.
+https://www.ft.com/content/ed93bd25-3ae4-4845-ac2e-ccb6e9c741e6?syn-25a6b1a6=1
+https://www.npr.org/2026/11/12/nx-s1-6035686/aid-groups-call-on-israel-to-allow-shelters-in-gaza-amid-a-humanitarian-emergency
+https://www.aljazeera.com/sports/2026/11/12/canada-wont-let-russian-players-enter-for-ice-hockey-junior-championship?traffic_source=rss
+https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/
+
+Economy & Markets
+• Nvidia shares fell nearly 10–13% after Jensen Huang’s resignation; markets fear broader AI supply chain fallout and potential tightening of China tech curbs.
+• Oil rose on U.S. signals it doesn’t need a deal with Iran; Citgo reported record profits on strong refining margins, while Benin shipped its first crude cargo in decades.
+• Data center expansion faces backlash, red tape, and power constraints; utilities propose models to ensure centers pay for grid connections.
+• Regulators accused a T‑Mobile low‑income plan of illegal throttling after 50GB; Rocket Lab raised its Neutron launch price amid tight capacity.
+Why it matters: AI market volatility, energy dynamics, and infrastructure bottlenecks are reshaping investment decisions and policy debates in critical sectors.
+https://www.ft.com/content/b4a0f3d9-f075-47ea-9a85-77cdade9a06f?syn-25a6b1a6=1
+https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html
+https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran
+https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/
+https://www.bloomberg.com/news/newsletters/2026-11-12/us-utilities-have-a-plan-to-win-over-the-ai-haters
+
+Geopolitics & Diplomacy
+• U.S.-mediated talks yielded a Russia‑Ukraine prisoner exchange; U.S. envoys are meeting Putin and Zelenskyy as Ukraine warns Starlink/Starshield restrictions are again hindering air defense.
+• Indonesia’s vice president resigned amid eligibility and academic scrutiny, signaling strain within the ruling alliance.
+• China warned Washington not to use Nvidia’s scandal to justify tech curbs; U.S. lawmakers urged adding Chinese memory maker CXMT to export control lists.
+Why it matters: Fragile diplomacy and tech-security tensions are tightly coupled, with battlefield communications and export controls influencing negotiations and alliances.
+https://www.cnbc.com/2026/11/12/starlink-starshield-ukraine-restrictions-spacex.html
+https://www.npr.org/2026/11/12/nx-s1-6037558/u-s-officials-set-to-meet-with-putin-zelenskyy-following-abu-dhabi-peace-talks
+https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss
+https://www.ft.com/content/66e7337e-3696-4259-84f4-57533bc185bd?syn-25a6b1a6=1
+https://www.cnbc.com/2026/11/12/lutnick-cxmt-china-cotton.html
+
+Sports
+• FIFA U‑17 World Cup kicks off in Qatar after U.S. withdrawal; organizers say security assessments are unchanged.
+• Senegal hosts the Youth Olympic Games, including breakdancing, marking the first Olympic event staged in Africa.
+Why it matters: Major youth tournaments are testing global sports governance amid geopolitical tensions and expanding representation.
+https://www.aljazeera.com/sports/2026/11/12/fifa-under-17-world-cup-to-kick-off-in-qatar-despite-us-withdrawal?traffic_source=rss
+https://www.npr.org/2026/11/11/g-s1-150228/senegal-youth-olympic-games-breakdancing
+
+Climate & Environment
+• COP31 debates intensified: leaders touted electrification pledges as island states warn against distraction from phasing out fossil fuels; Greta Thunberg criticized “detached” leadership.
+• Iraq’s southern marshes show fragile recovery after years of drought; studies found declines in some PFAS in English rivers, but replacement chemicals are rising, and U.S. agriculture remains heavily dependent on non‑recharging groundwater.
+• Oil spills tied to Gulf shipping attacks imperil marine ecosystems; China pushes battery‑swapping for e‑trucks to reduce charging downtime; early guidelines spotlight ocean geoengineering oversight.
+Why it matters: Balancing near‑term energy realities with long‑term decarbonization requires credible finance, governance, and rapid deployment of cleaner technologies and protections.
+https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/
+https://www.climatechangenews.com/2026/11/12/cop31s-electrification-pledge-wins-support-with-caveats-on-clean-power-and-finance/
+https://www.npr.org/2026/11/12/nx-s1-6026458/drought-threatens-iraqs-marshes-risking-one-of-the-oldest-ways-of-life
+https://www.newscientist.com/article/2598571-some-pfas-chemicals-are-declining-in-english-rivers-but-others-are-appearing/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS
+https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems
+
+Art & Culture
+• The Guardian’s Gaza documentary “NAZA” features testimony from Israeli officials on surveillance and remote strikes; it rolls out globally with free streaming in December.
+• Longtime Bond producer Barbara Broccoli was named president of the UK’s National Film and Television School, as debates over fanfiction platforms flare amid AO3 mirror controversies.
+Why it matters: Cultural institutions and investigative storytelling shape public understanding of conflict, ethics, and media ecosystems.
+https://www.theguardian.com/global/2026/nov/12/naza-how-to-watch-guardian-acclaimed-gaza-documentary
+https://www.hollywoodreporter.com/business/business-news/james-bond-barbara-broccoli-president-nfts-national-film-1236753762/
+https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/
+
+Science & Technology
+• Apple’s new HomeView smart display and M6 iMac drew praise for smart home control and clean design, while Lego’s BrickLink marketplace stayed offline due to “unusual activity.”
+• Anduril showcased a satellite sensor with night‑tracking of spacecraft; NASA emphasized procurement reforms in its moon return and highlighted new Hubble targets for the Roman telescope and Euclid’s deep‑space imagery.
+• DeepMind’s AlphaGenome 2 maps how DNA variation affects specific cells, advancing disease understanding.
+Why it matters: Consumer tech gains, resilient space capabilities, and AI‑driven biology are converging to accelerate innovation across home, orbit, and clinic.
+https://www.theverge.com/tech/1031726/apple-homeview-review-smart-display-homekit
+https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/
+https://www.theverge.com/tech/1031889/lego-bricklink-marketplace-offline-unusual-activity
+https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/
+https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/
+
+Entertainment
+• Disney and Cosm will debut “Star Wars: A New Hope” in shared‑reality dome theaters; Variety and THR highlighted festival awards, BAFTA Rising Star jurors, and premieres.
+• Mariska Hargitay marks 600 episodes of Law & Order: SVU; Rush added 2027 Sphere dates; Netflix announced “Russell Brand: Open Secret.”
+• The Verge praised the new Apple TV 4K as the best premium streamer amid growing viewer fatigue with fragmented platforms.
+Why it matters: Distribution formats and marquee franchises are evolving as platforms compete for attention and redefine immersive and live experiences.
+https://variety.com/2026/film/news/star-wars-a-new-hope-cosm-disney-1236945488/
+https://variety.com/2026/tv/news/mariska-hargitay-law-and-order-svu-600-episodes-1236945461/
+https://www.billboard.com/music/rock/rush-double-down-2027-sphere-residency-five-shows-dates-1236380150/
+https://www.rollingstone.com/tv-movies/tv-movie-news/russell-brand-open-secret-documentary-netflix-release-1235656419/
+https://www.theverge.com/tech/1031633/apple-tv-4k-4th-gen-review
+https://arstechnica.com/gadgets/2026/11/hundreds-of-streaming-services-and-nothing-to-watch/
+
+Other
+• Ars Technica reports Nvidia’s CEO resignation amid FBI scrutiny and board deliberations, underscoring the tech giant’s governance crisis.
+Why it matters: High‑profile corporate governance issues can cascade across strategic industries and national security debates.
+https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/
+
+Longevity & Anti-Aging
+• Studies link longer lifetime estrogen exposure with less neurodegeneration and show senescent cells using PD‑L1 to evade immunity, informing anti‑aging and cancer strategies.
+• In mice, inhibiting asparagine endopeptidase extended lifespan even when started late, while the peptide elamipretide improved oocyte quality; everyday habits like stair climbing support healthier aging.
+Why it matters: Translational geroscience—from molecular targets to lifestyle—offers pathways to extend healthspan while illuminating risks like immune evasion in aging tissues.
+https://www.fightaging.org/archives/2026/11/longer-estrogen-exposure-correlates-with-a-lesser-degree-of-neurodegeneration/
+https://www.fightaging.org/archives/2026/11/the-dna-damage-response-induces-pd-l1-expression-and-immune-evasion-in-senescent-cells/
+https://www.fightaging.org/archives/2026/11/late-life-asparagine-endopeptidase-inhibition-extends-lifespan-in-mice/
+https://lifespan.io/the-short-peptide-elamipretide-delays-ovarian-aging-in-mice/
+https://www.vogue.com/article/stair-climbing-benefits
