@@ -1,0 +1,125 @@
+Science & Technology
+• A widespread Microsoft outage continued to disrupt Outlook, Teams, Microsoft 365 and Copilot worldwide, with the company saying there’s no sign of a cyberattack and reporting uneven recovery across regions as governments and public services scrambled with contingencies.
+• Policy and space headlines: Nvidia privately told a US lawmaker chip-tracking to curb smuggling is technically feasible, while SpaceX targets a “double-catch” Starship test and ULA’s Vulcan returns to flight; ESA’s Euclid issued its first major data release; researchers reported an AI proof limiting certain quantum-computing advantages and a first robot-assembled structure in space.
+Why it matters: The outage underscores systemic dependence on a few cloud providers, while chip-tracking, space milestones, and fundamental research advances will shape technology governance, industry security, and future infrastructure.
+https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss
+https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage
+https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/
+https://www.space.com/space-exploration/launches-spacecraft/spacex-launching-historic-double-catch-starship-test-flight-today-watch-it-live
+https://phys.org/news/2026-11-euclid-stone-3d-sky.html
+
+Geopolitics & Diplomacy
+• The UN nuclear watchdog raised alarm that it still hasn’t inspected Iran’s announced Isfahan enrichment plant; separately, France condemned Israel’s ban on opposition leader Mélenchon after Paris barred an Israeli settler.
+• As US-brokered contacts continue, Finland said Ukraine struck a Russian warship in the Baltic; US envoys met Putin in Moscow, while the EU’s Kaja Kallas warned against walking into Russian “traps”; Ukraine alleged fresh Starshield limits amid the talks.
+• Nvidia’s leadership scandal widened into Washington, with Democrats launching a probe into China sales and Commerce Secretary Lutnick set to testify; Moscow told Europe to designate an envoy to join talks.
+Why it matters: Flashpoints from Iran to Ukraine intersect with great-power diplomacy and tech-security scandals, testing cohesion among allies and the credibility of emerging peace frameworks.
+https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss
+https://www.aljazeera.com/news/2026/11/13/why-is-ukraine-attacking-russian-warships-in-the-baltic-sea-amid-talks?traffic_source=rss
+https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks
+https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html
+https://www.ft.com/content/4c1f5051-94eb-4d20-b154-c45f4538a2a2?syn-25a6b1a6=1
+
+Society & Human Rights
+• The Nvidia saga is rippling into US politics, while Google DeepMind staff escalated a unionization push via the UK government; climate activists were arrested after a sit-in at Sen. Schumer’s office.
+• Tragedies and access issues: four Nigerian students died after a post-exam party, a Kenyan building collapse killed six, and a new database shows none of the top 99 US transit systems is easy to use for riders with disabilities.
+• Rights debates widened as the UK faced criticism for entry bans on pro-Palestine voices, and reports flagged misuse of reselling apps’ messaging targeting children.
+Why it matters: Corporate scandals, civic activism, safety failures, and accessibility gaps spotlight accountability and equity questions across institutions.
+https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss
+https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/
+https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people?traffic_source=rss
+https://phys.org/news/2026-11-riders-disabilities-roadblocks.html
+
+Sports
+• Manchester United appointed Mauricio Pochettino manager after Michael Carrick’s exit, with analysis suggesting a Ferguson-inspired pathway to fix tactical issues.
+• Australia’s “sandpapergate” cheating scandal resurfaced with fresh claims, while England became back-to-back wheelchair Rugby League world champions and Rory McIlroy moved into contention in Dubai.
+Why it matters: Leadership changes and integrity debates shape competitive trajectories and public trust across major sports.
+https://www.aljazeera.com/sports/2026/11/13/manchester-united-new-manager-mauricio-pochettino-usa-soccer?traffic_source=rss
+https://www.bbc.co.uk/news/articles/c6702z750zvyo?at_medium=RSS&at_campaign=rss
+https://www.bbc.co.uk/sport/rugby-league/videos/cqy4jdxven1go?at_medium=RSS&at_campaign=rss
+
+Entertainment
+• Rosalía won Album of the Year at the Latin Grammys amid star turns and tributes; Variety and THR highlighted a wave of renewals, tours, reviews, and new fellowships.
+• Xbox announced Wolfenstein 3 and began testing new console customizations, while Humble Bundle’s redesign drew criticism for dropping two-factor settings.
+• Netflix’s animated KPop Demon Hunters act HUNTR/X announced a 2027 arena tour as crossover “virtual-to-live” formats expand.
+Why it matters: Music, gaming, and streaming shifts show how franchises, platform design, and live IP extensions are competing for attention and revenues.
+https://www.rollingstone.com/music/music-latin/latin-grammys-2026-winners-complete-list-1235655791/
+https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3
+https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings
+https://variety.com/2026/music/news/kpop-demon-hunters-golden-world-tour-2027-arena-dates-1236946944/
+
+Economy & Markets
+• Nvidia shares steadied as investors assessed leadership fallout, with rotation toward rival chip stocks and questions over founder share sales; experts warned replacing a founder-CEO may be harder than past tech transitions.
+• US wholesale inflation (PPI) stayed elevated and Treasuries faced their worst week since “liberation day,” fueling a tilt toward value stocks; Big Oil’s profits revived calls for windfall taxes.
+• China warned against new US AI chip curbs; Germany signaled Microsoft’s outage could have significant economic impacts.
+Why it matters: Policy risk, leadership uncertainty, and inflation dynamics are driving sharp reallocations across tech and rates, with global supply chains and growth in the balance.
+https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html
+https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1
+https://www.bloomberg.com/news/videos/2026-11-13/us-wholesale-inflation-climbs-at-fastest-pace-since-2022-video
+https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss
+https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1
+
+Climate & Environment
+• Delhi overtook Lahore as the world’s most polluted city, highlighting severe air-quality and health risks.
+• At COP31, debates intensified over fossil-fuel phaseout, ocean roadmaps, and finance, with analysis showing heavy fossil-linked delegations and underwhelming new pledges.
+• Research emphasized cheaper nature-based adaptation (mangroves, forests) vs. concrete defenses; NASA mapped a global mangrove rebound, while Oʻahu faces compounding sea-level impacts and UK subsidence claims rose after extreme heat.
+Why it matters: Urban pollution, climate diplomacy, and cost-effective adaptation choices are converging as communities face mounting climate damages and constrained budgets.
+https://www.aljazeera.com/video/newsfeed/2026/11/13/delhi-overtakes-lahore-as-worlds-most-polluted-city?traffic_source=rss
+https://www.theguardian.com/environment/2026/nov/13/cop31-companies-and-groups-linked-to-fossil-fuels-delegations
+https://phys.org/news/2026-11-concrete-steel-mangroves-forests-climate.html
+https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/
+
+Armed Conflict & Security
+• Iran’s Revolutionary Guard said it struck a US early-warning radar in Bahrain in retaliation for a US strike, raising tensions near the Strait of Hormuz.
+• Pakistan’s military reported killing 74 suspected militants in raids amid rising attacks near the Afghan border.
+• The US seized $1.2 billion in crypto stolen from Binance tied to North Korea’s revenue schemes; separate data suggested massive Russian war losses in Ukraine.
+Why it matters: Escalations across the Gulf, South Asia, and cyberspace risk broader instability and complicate already fragile diplomatic tracks.
+https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz
+https://www.aljazeera.com/news/2026/11/13/pakistan-military-reports-it-killed-74-terrorists-during-raids?traffic_source=rss
+https://www.cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html
+
+Artificial Intelligence
+• Google rolled out Gemini 4 Hydrogen across Search, the Gemini app and more, promising better handling of complex queries and richer results.
+• Anthropic launched Claude Duet for consumers as a task agent, while the FAA expanded AI-aided traffic flow advice nationwide.
+• Studies and lawsuits fueled safety scrutiny: chatbots sometimes recommended risky shopping sites, and parents sought AI moratoriums in schools after a high-profile Gemini case.
+• Nvidia’s leadership shock is reverberating in AI: VCs see openings for challengers, questions arise on its open-source posture, and interim CEO Colette Kress steps into a pivotal role.
+Why it matters: Platform upgrades, agent adoption, and safety guardrails will shape user trust and regulation, while Nvidia’s uncertainty could reshape AI hardware competition.
+https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen
+https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/
+https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on
+https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations
+https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/
+
+Health & Pandemic
+• The American Cancer Society now recommends routine PSA screening every two years for men 50–69 at average risk, reversing prior guidance.
+• Pink noise during sleep showed early promise for improving memory in Alzheimer’s, and scientists identified HDAC7 as a potential target to reduce tau tangles.
+• Clinicians urged awareness that eosinophilic oesophagitis is often mistaken for food allergies; hospitals tracked the rise-and-fall of a multidrug-resistant Enterococcus clone; midwives warned El Niño will heighten childbirth risks in crisis zones.
+Why it matters: Evolving screening guidance, neurotherapeutic avenues, and evolving infectious and climate-linked risks influence prevention and care strategies.
+https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/
+https://www.newscientist.com/article/2598656-pink-noise-played-during-sleep-shows-promise-for-alzheimers-memory-loss/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS
+https://www.theguardian.com/global-development/2026/nov/13/el-nino-death-in-childbirth-millions-midwives-cop31-extreme-weather-maternal-newborn-death-rates
+
+Other
+• The Jensen Huang scandal deepened with reports of a third affair as cultural media looked ahead to 2027’s wellness trends and Nature published a terse editorial.
+Why it matters: Leadership crises can ripple into policy and public discourse, while shifting lifestyle trends foreshadow consumer and health behaviors.
+https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/
+https://www.vogue.com/article/the-5-wellness-trends-that-will-define-2027
+https://www.nature.com/articles/d41586-026-03516-y
+
+Art & Culture
+• Exhibitions spotlight Geoffrey Holder’s visual art and Theaster Gates’ material “surrogates,” reframing archives, craft, and cultural memory across continents.
+• New films explore Black joy in Brazil and online radicalization, while commentary dissected tech CEOs’ affinity for black leather jackets as status signaling.
+Why it matters: Cultural production is probing identity, power, and symbolism at a moment when technology and aesthetics increasingly intersect.
+https://www.vogue.com/article/geoffrey-holder-black-magic-mca-north-miami
+https://hypebeast.com/2026/11/gagosian-hong-kong-theaster-gates-surrogate-exhibit-announcement-info
+https://variety.com/2026/film/global/aly-muritiba-revolutionary-black-joy-brazilian-musical-funk-1236946876/
+https://www.hollywoodreporter.com/movies/movie-news/pop-pop-film-manosphere-trump-age-tallinn-2026-interview-1236752826/
+https://www.ft.com/content/186f48b8-6574-48be-b0f2-3dcbac5dc24d
+
+Longevity & Anti-Aging
+• Researchers proposed a senostatic approach by disrupting the USP25–SIRT1 interaction to slow cellular senescence, alongside evidence that aging reshapes the gut microbiome with potential systemic effects.
+• Nature Aging studies found reduced cerebrospinal fluid and hemodynamic waves during sleep in older adults; reviews catalogued preclinical stem cell and exosome therapies for healthspan.
+Why it matters: Identifying tractable mechanisms of aging and sleep-linked brain clearance could inform interventions to delay degeneration and extend healthy years.
+https://www.fightaging.org/archives/2026/11/interfering-in-the-usp25-sirt1-interaction-reduces-the-onset-of-cellular-senescence/
+https://www.nature.com/articles/s43587-026-01270-4
+https://www.fightaging.org/archives/2026/11/the-gut-microbiome-in-aging/
+https://www.fightaging.org/archives/2026/11/a-review-of-animal-study-evidence-for-stem-cell-and-exosome-therapies-to-improve-health-and-extend-life/
